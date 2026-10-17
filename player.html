@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="users.js"></script>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas - Players</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="team.css">
+
+    <link rel="stylesheet" href="platform.css">
+    <script src="platform.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">STATS SYSTEM</a>
+            <div class="nav-item dropdown">
+                <button class="nav-link dropdown-btn">TEAM ▾</button>
+                <div class="dropdown-content">
+                    <a href="#" class="legacy-coming-soon">PLAYER</a>
+                    <a href="#" class="legacy-coming-soon">COACH</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="teams-wrapper">
+        <h1 class="page-title">ESTATÍSTICAS - PLAYERS</h1>
+        
+        <div id="tabela-stats-team">
+            <div class="loading-status">A CARREGAR DADOS DOS JOGADORES...</div>
+        </div>
+    </div>
+
+    <script>
+        const CATEGORIA_PAGINA = 'player';
+    </script>
+    <script src="teams.js"></script>
+<script>
+document.querySelectorAll('.legacy-coming-soon').forEach(function(link){
+    link.addEventListener('click', function(e){
+        e.preventDefault();
+        alert('Coming Soon');
+    });
+});
+</script>
+
+</body>
+</html>
