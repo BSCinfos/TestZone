@@ -91,10 +91,9 @@ function normalizarRostersAutomaticos(dados) {
         dados = dados.ROSTERS_AUTOMATICOS;
     }
 
-    // Agrupa pelo ID DO TIME. Assim, se houver mais de um registro principal
-    // para o mesmo time, os jogadores continuam pertencendo ao mesmo time.
+    // A chave combina REGIÃO + ID. IDs como CR, ZETA ou TTM podem existir
+    // em mais de uma região e não devem misturar os respectivos elencos.
     const timesPorId = new Map();
-
     Object.entries(dados).forEach(([tagChave, registro]) => {
         if (!registro || typeof registro !== 'object') return;
 
@@ -107,9 +106,10 @@ function normalizarRostersAutomaticos(dados) {
         const idTime = String(registro.id_time || 'UNK').trim().toUpperCase();
         const nomeTime = String(registro.nome_time || 'TIME DESCONHECIDO').trim() || 'TIME DESCONHECIDO';
         const regiao = String(registro.regiao || 'SA').trim().toUpperCase();
+        const chaveTime = `${regiao}:${idTime}`;
 
-        if (!timesPorId.has(idTime)) {
-            timesPorId.set(idTime, {
+        if (!timesPorId.has(chaveTime)) {
+            timesPorId.set(chaveTime, {
                 id_time: idTime,
                 nome_time: nomeTime,
                 regiao,
@@ -117,23 +117,18 @@ function normalizarRostersAutomaticos(dados) {
             });
         }
 
-        const time = timesPorId.get(idTime);
+        const time = timesPorId.get(chaveTime);
         if (!time.nome_time || time.nome_time === 'TIME DESCONHECIDO') time.nome_time = nomeTime;
-        if (!time.regiao) time.regiao = regiao;
 
         // O IGL/principal sempre entra primeiro.
         adicionarJogadorUnico(time.jogadores, principal);
-
-        // Depois entram EXATAMENTE os companheiros calculados pelo gerador.py.
+        // Depois entram os companheiros calculados pelo gerador.py.
         if (Array.isArray(registro.jogadores)) {
             registro.jogadores.slice(0, 2).forEach(j => adicionarJogadorUnico(time.jogadores, j));
         }
-
-        // O roster oficial exibido pela tela TIMES é de no máximo 3 players.
         time.jogadores = time.jogadores.slice(0, 3);
     });
 
-    // Converte para a estrutura que o restante do app já utiliza.
     timesPorId.forEach(time => {
         const regiao = time.regiao || 'SA';
         if (!resultado[regiao]) resultado[regiao] = {};
@@ -145,12 +140,11 @@ function normalizarRostersAutomaticos(dados) {
             tier: 'TIMES AUTOMÁTICOS'
         });
     });
-
     return resultado;
 }
 
 async function carregarRostersAutomaticos() {
-    const fontes = [`rosters.json?v=${Date.now()}`];
+    const fontes = [`rosters.json?v=${Date.now()}`, 'https://raw.githubusercontent.com/BSCinfos/TestZone/main/rosters.json'];
 
     for (const fonte of fontes) {
         try {
@@ -208,8 +202,19 @@ function atualizarRostersAtuais() {
     carregarTimesSalvosLocal();
 }
 
+function obterTimesSalvosLocal() {
+    try {
+        const brutoSalvo = localStorage.getItem('customTeams_' + _REGIAO);
+        const parseado = brutoSalvo ? JSON.parse(brutoSalvo) : [];
+        return Array.isArray(parseado) ? parseado.filter(t => t && typeof t === 'object') : [];
+    } catch (erro) {
+        console.warn(`[TIMES] Dados locais inválidos para ${_REGIAO}; continuando sem times personalizados.`, erro);
+        return [];
+    }
+}
+
 function carregarTimesSalvosLocal() {
-    let salvos = JSON.parse(localStorage.getItem('customTeams_' + _REGIAO)) || [];
+    const salvos = obterTimesSalvosLocal();
     if (!CONFIGURACAO_MANUAL_TIMES[_REGIAO] && _REGIAO !== "ALL") CONFIGURACAO_MANUAL_TIMES[_REGIAO] = {};
     if (_REGIAO === "ALL" && !CONFIGURACAO_MANUAL_TIMES["ALL"]) CONFIGURACAO_MANUAL_TIMES["ALL"] = { "TIMES AUTOMÁTICOS": [], "TIER ?": [], "TIMES REGISTRADOS": [] };
 
@@ -233,7 +238,7 @@ function carregarTimesSalvosLocal() {
 function mesclarTimesSalvosEmRostersPorData() {
     if (_REGIAO === "ALL") return;
 
-    let salvos = JSON.parse(localStorage.getItem('customTeams_' + _REGIAO)) || [];
+    const salvos = obterTimesSalvosLocal();
     if (salvos.length === 0) return;
 
     const regAlvo = _REGIAO;
@@ -328,6 +333,32 @@ const isTimeDaRegiaoAtual = (id) => {
     return false;
 };
 
+// O CSV é o registro histórico da equipe em cada partida. Não devemos exigir
+// que o ID do histórico ainda tenha exatamente o mesmo roster atual.
+function existeTimeConfigurado(id) {
+    const idNormalizado = String(id || '').trim().toUpperCase();
+    if (!idNormalizado) return false;
+    for (const regiao of Object.keys(CONFIGURACAO_MANUAL_TIMES || {})) {
+        const tiers = CONFIGURACAO_MANUAL_TIMES[regiao] || {};
+        for (const tier of Object.keys(tiers)) {
+            const times = Array.isArray(tiers[tier]) ? tiers[tier] : [];
+            if (times.some(time => String(time && time.id_time || '').trim().toUpperCase() === idNormalizado)) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+function registroIncluiRegiao(valorOuLinha, regiao) {
+    const valor = valorOuLinha && typeof valorOuLinha === 'object'
+        ? valorOuLinha.regiao
+        : valorOuLinha;
+    const alvo = String(regiao || '').trim().toUpperCase();
+    if (!alvo || alvo === 'ALL') return true;
+    return String(valor || '').toUpperCase().split(/[\/;,|]/).map(x => x.trim()).includes(alvo);
+}
+
 function encontrarTimePorRoster(tagsArray) {
     for (let reg in CONFIGURACAO_MANUAL_TIMES) {
         for (let tier in CONFIGURACAO_MANUAL_TIMES[reg]) {
@@ -352,21 +383,10 @@ function encontrarTimePorRoster(tagsArray) {
 // sao aceitos diretamente.
 // ========================================================
 function timeRosterCompleto(tagsDaPartida, idTime) {
-    if (!idTime) return false;
-    if (idTime.toUpperCase().startsWith('UNK')) return true;
-    for (let reg in CONFIGURACAO_MANUAL_TIMES) {
-        for (let tier in CONFIGURACAO_MANUAL_TIMES[reg]) {
-            if (tier === "TIER ?") continue;
-            let time = CONFIGURACAO_MANUAL_TIMES[reg][tier].find(t => t.id_time === idTime);
-            if (time) {
-                let tagsRoster = time.jogadores.map(j => j.tag).filter(t => t && t !== '#');
-                if (tagsRoster.length < 3) return false;
-                let matchCount = tagsDaPartida.filter(t => tagsRoster.includes(t)).length;
-                return matchCount === 3;
-            }
-        }
-    }
-    return false;
+    // A validação aqui é estrutural, não de elenco: o histórico contém partidas
+    // antigas e adversários não cadastrados. Basta que o lado tenha um ID; exigir
+    // que os três tags coincidam com o roster atual apagava jogos históricos.
+    return Boolean(String(idTime || '').trim());
 }
 
 function parseDateBR(dataStr) {
@@ -387,32 +407,102 @@ document.addEventListener("DOMContentLoaded", async () => {
 // ==========================================
 // 3. CARREGAMENTO E PROCESSAMENTO
 // ==========================================
+function exibirAvisoFalhaHistorico(erro) {
+    const filtros = document.querySelector('.filter-container');
+    if (!filtros) return;
+
+    let aviso = document.getElementById('aviso-carregamento-historico');
+    if (!aviso) {
+        aviso = document.createElement('div');
+        aviso.id = 'aviso-carregamento-historico';
+        aviso.setAttribute('role', 'alert');
+        aviso.style.cssText = 'margin:12px auto;padding:12px 16px;max-width:900px;border:1px solid #b94a48;border-radius:8px;background:rgba(185,74,72,.12);color:#ffb5b5;font-weight:700;text-align:center;';
+        filtros.insertAdjacentElement('afterend', aviso);
+    }
+    const detalhe = erro && (erro.message || String(erro));
+    aviso.textContent = 'Não foi possível carregar historico_bruto.csv. Confira se o arquivo está publicado no GitHub Pages. ' + (detalhe ? `Detalhe: ${detalhe}` : '');
+}
+
+function ocultarAvisoFalhaHistorico() {
+    const aviso = document.getElementById('aviso-carregamento-historico');
+    if (aviso) aviso.remove();
+}
+
 function carregarCSV() {
-    Papa.parse("historico_bruto.csv", {
-        download: true, header: true, skipEmptyLines: true,
-        complete: function(results) {
-            if (results.data && results.data.length > 0 && results.data[0].pick !== undefined) {
-                dadosBrutos = results.data;
-            } else { dadosBrutos = []; }
-            
-            Papa.parse("bans_matcherino.csv", {
-                download: true, header: true, skipEmptyLines: true,
-                complete: function(banRes) {
-                    if (banRes.data && banRes.data.length > 0 && banRes.data[0].brawler_banido !== undefined) {
-                        dadosBans = banRes.data;
-                    } else { dadosBans = []; }
-                    
-                    popularFiltrosGlobais();
-                    processarDadosGlobais();
-                },
-                error: function() {
+    // O caminho local funciona no GitHub Pages normal. O endereço raw é fallback
+    // para casos em que a cópia do CSV não foi incluída na publicação do Pages.
+    const fontesHistorico = [
+        'historico_bruto.csv',
+        'https://raw.githubusercontent.com/BSCinfos/TestZone/main/historico_bruto.csv'
+    ];
+    let ultimaFalha = null;
+
+    const carregarBansEProcessar = () => {
+        Papa.parse('bans_matcherino.csv', {
+            download: true, header: true, skipEmptyLines: true,
+            complete: function(banRes) {
+                if (banRes.data && banRes.data.length > 0 && banRes.data[0].brawler_banido !== undefined) {
+                    dadosBans = banRes.data;
+                } else {
                     dadosBans = [];
-                    popularFiltrosGlobais();
-                    processarDadosGlobais();
                 }
-            });
+                popularFiltrosGlobais();
+                processarDadosGlobais();
+            },
+            error: function() {
+                // O CSV de bans é complementar; sua ausência não bloqueia o histórico.
+                dadosBans = [];
+                popularFiltrosGlobais();
+                processarDadosGlobais();
+            }
+        });
+    };
+
+    const tentarFonte = indice => {
+        if (indice >= fontesHistorico.length) {
+            dadosBrutos = [];
+            dadosBans = [];
+            popularFiltrosGlobais();
+            processarDadosGlobais();
+            exibirAvisoFalhaHistorico(ultimaFalha);
+            console.error('[DADOS] Todas as fontes de historico_bruto.csv falharam.', ultimaFalha);
+            return;
         }
-    });
+
+        const fonte = fontesHistorico[indice];
+        let finalizado = false;
+        const falhar = erro => {
+            if (finalizado) return;
+            finalizado = true;
+            ultimaFalha = erro || new Error(`Falha ao carregar ${fonte}`);
+            console.warn(`[DADOS] Falha ao carregar ${fonte}; tentando a próxima fonte.`, ultimaFalha);
+            tentarFonte(indice + 1);
+        };
+
+        Papa.parse(fonte, {
+            download: true, header: true, skipEmptyLines: true,
+            complete: function(results) {
+                if (finalizado) return;
+                const linhas = Array.isArray(results.data)
+                    ? results.data.filter(linha => linha && linha.pick !== undefined)
+                    : [];
+                if (!linhas.length) {
+                    falhar(new Error(`${fonte} não retornou linhas com a coluna pick`));
+                    return;
+                }
+                finalizado = true;
+                dadosBrutos = linhas;
+                ocultarAvisoFalhaHistorico();
+                console.info(`[DADOS] ${dadosBrutos.length} linhas carregadas de ${fonte}.`);
+                carregarBansEProcessar();
+            },
+            error: function(erro) {
+                falhar(erro || new Error(`Erro de rede ao carregar ${fonte}`));
+            }
+        });
+    };
+
+    tentarFonte(0);
 }
 
 function processarTimesDesconhecidos(dados) {
@@ -434,34 +524,58 @@ function processarTimesDesconhecidos(dados) {
     });
 
     dados.forEach(linha => {
-        let isKnown = encontrarTimePorRoster([linha.player_tag]);
-        if (!isKnown && linha.id_players && linha.name_players && linha.player_tag) {
-            const ids = linha.id_players.split(';'), names = linha.name_players.split(';');
-            const pIdx = ids.indexOf(linha.player_tag);
+        const idAtual = String(linha.id_time || '').trim().toUpperCase();
+        const idPlaceholder = !idAtual || idAtual.startsWith('OPONENTE_');
+        // Um ID de time já registrado no CSV é mais confiável do que o roster
+        // atual, que pode ter mudado por substituições ou atualizações históricas.
+        const idJaReconhecido = !idPlaceholder && existeTimeConfigurado(idAtual);
+        if (idJaReconhecido) return;
+
+        if (linha.id_players && linha.name_players && linha.player_tag) {
+            const ids = linha.id_players.split(';').map(x => x.trim());
+            const names = linha.name_players.split(';');
+            const pIdx = ids.indexOf(String(linha.player_tag).trim());
             if (pIdx !== -1) {
                 const sIdx = pIdx < 3 ? 0 : 3;
                 const tTags = ids.slice(sIdx, sIdx + 3), tNames = names.slice(sIdx, sIdx + 3);
-                if (tTags.length === 3 && !tTags.includes("None") && !tTags.includes("")) {
-                    let teamReg = encontrarTimePorRoster(tTags);
+                if (tTags.length === 3 && !tTags.includes('None') && !tTags.includes('')) {
+                    const teamReg = encontrarTimePorRoster(tTags);
                     if (teamReg) {
-                        linha.id_time = teamReg.id; linha.nome_time = teamReg.nome;
-                    } else {
-                        let opTags = (sIdx < 3) ? pMap[linha.id_partida].tagsB : pMap[linha.id_partida].tagsA;
-                        let opTeam = encontrarTimePorRoster(opTags);
-                        if (opTeam && (_REGIAO === "ALL" || opTeam.regiao === _REGIAO)) {
-                            const sig = tTags.slice().sort().join('_');
-                            if (!mapUNK.has(sig)) {
-                                const nId = `UNK${counter}`, nName = `Unknow ${counter}`;
-                                mapUNK.set(sig, { id: nId, nome: nName });
-                                CONFIGURACAO_MANUAL_TIMES[regAlvo]["TIER ?"].push({
-                                    id_time: nId, nome_time: nName,
-                                    jogadores: [ { nick: tNames[0], tag: tTags[0] }, { nick: tNames[1], tag: tTags[1] }, { nick: tNames[2], tag: tTags[2] } ]
-                                });
-                                counter++;
-                            }
-                            const gen = mapUNK.get(sig);
-                            linha.id_time = gen.id; linha.nome_time = gen.nome;
+                        linha.id_time = teamReg.id;
+                        linha.nome_time = teamReg.nome;
+                        return;
+                    }
+
+                    const dadosPartida = pMap[linha.id_partida] || { tagsA: [], tagsB: [], tA: null, tB: null };
+                    const opTags = sIdx < 3 ? dadosPartida.tagsB : dadosPartida.tagsA;
+                    const opTeam = encontrarTimePorRoster(opTags);
+                    const opId = String((sIdx < 3 ? dadosPartida.tB : dadosPartida.tA) || '').trim().toUpperCase();
+                    const opIdReconhecido = opId && !opId.startsWith('OPONENTE_') && existeTimeConfigurado(opId);
+                    const regiaoDaPartidaIncluiAlvo = registroIncluiRegiao(linha.regiao, _REGIAO);
+                    const alvoReconhecido = _REGIAO === 'ALL'
+                        ? Boolean(opTeam || opIdReconhecido)
+                        : Boolean((opTeam && opTeam.regiao === _REGIAO) || (opIdReconhecido && (isTimeDaRegiaoAtual(opId) || regiaoDaPartidaIncluiAlvo)));
+
+                    // Cria um ID estável para o adversário não cadastrado sempre
+                    // que o outro lado da partida puder ser associado a um time.
+                    if (alvoReconhecido) {
+                        const sig = tTags.slice().sort().join('_');
+                        if (!mapUNK.has(sig)) {
+                            const nId = `UNK${counter}`, nName = `Unknow ${counter}`;
+                            mapUNK.set(sig, { id: nId, nome: nName });
+                            CONFIGURACAO_MANUAL_TIMES[regAlvo]['TIER ?'].push({
+                                id_time: nId, nome_time: nName,
+                                jogadores: [
+                                    { nick: tNames[0] || 'Player', tag: tTags[0] },
+                                    { nick: tNames[1] || 'Player', tag: tTags[1] },
+                                    { nick: tNames[2] || 'Player', tag: tTags[2] }
+                                ]
+                            });
+                            counter++;
                         }
+                        const gen = mapUNK.get(sig);
+                        linha.id_time = gen.id;
+                        linha.nome_time = gen.nome;
                     }
                 }
             }
@@ -597,7 +711,10 @@ function estruturarMD3(dadosPeriodo) {
         if(linhas.length < 6) return;
         let t0 = linhas.slice(0,3), t1 = linhas.slice(3,6);
         let t0Id = t0[0].id_time, t1Id = t1[0].id_time;
-        if (_REGIAO !== "ALL" && !isTimeDaRegiaoAtual(t0Id) && !isTimeDaRegiaoAtual(t1Id)) return;
+        const partidaRelevanteParaRegiao = _REGIAO === 'ALL' ||
+            isTimeDaRegiaoAtual(t0Id) || isTimeDaRegiaoAtual(t1Id) ||
+            linhas.some(linha => registroIncluiRegiao(linha.regiao, _REGIAO));
+        if (!partidaRelevanteParaRegiao) return;
 
         // Ordem dos picks preservada EXATAMENTE como veio da biblioteca de dados (CSV),
         // pois t0/t1 sao fatias sequenciais das linhas originais (0-3 e 3-6), sem reordenar.
@@ -614,9 +731,8 @@ function estruturarMD3(dadosPeriodo) {
 
     let scrims = [];
     partidasEstruturadas.sort((a,b) => a.timestamp - b.timestamp).forEach(partida => {
-        // Só conta como scrim do time quando os 3 titulares cadastrados do roster
-        // realmente estiverem jogando dos dois lados (evita agrupar partidas com
-        // jogadores substitutos/errados como se fossem do time oficial).
+        // Preserva partidas históricas com substituições. A validação verifica se
+        // os IDs dos dois lados são utilizáveis, sem exigir o roster atual 3/3.
         if (!timeRosterCompleto(partida.tagsA, partida.tAId) || !timeRosterCompleto(partida.tagsB, partida.tBId)) return;
 
         let chaveTimes = [partida.tAId, partida.tBId].sort().join(' VS ');
@@ -700,20 +816,40 @@ function processarDadosGlobais() {
     const dia = document.getElementById('select-dia') ? document.getElementById('select-dia').value : 'todos';
     const tipo = document.getElementById('select-tipo') ? document.getElementById('select-tipo').value : 'todos';
 
-    let filterFn = row => {
+    const passaFiltrosTempoTipo = row => {
         let mA = true, mM = true, mD = true, mT = true;
-        if(row.data_adicao) {
-            let p = row.data_adicao.split(' ')[0].split('/');
-            if(ano !== 'todos') mA = p[2] === ano;
-            if(mes !== 'todos') mM = p[1] === mes;
-            if(dia !== 'todos') mD = p[0] === dia;
+        if (row.data_adicao) {
+            const p = row.data_adicao.split(' ')[0].split('/');
+            if (ano !== 'todos') mA = p[2] === ano;
+            if (mes !== 'todos') mM = p[1] === mes;
+            if (dia !== 'todos') mD = p[0] === dia;
         }
-        if(tipo !== 'todos') mT = (row.tipo === tipo);
-        return mA && mM && mD && mT && isTimeDaRegiaoAtual(row.id_time);
+        if (tipo !== 'todos') mT = row.tipo === tipo;
+        return mA && mM && mD && mT;
     };
 
-    let dadosRaw = dadosBrutos.filter(filterFn);
-    dadosBansFiltrados = dadosBans.filter(filterFn);
+    const dadosPeriodo = dadosBrutos.filter(passaFiltrosTempoTipo);
+    let dadosRaw;
+    if (_REGIAO === 'ALL') {
+        dadosRaw = dadosPeriodo;
+    } else {
+        // A partida tem seis linhas (uma por jogador). Filtrar por ID de time
+        // linha a linha remove as três linhas do adversário; estruturarMD3 então
+        // descarta a partida inteira. Primeiro selecionamos as partidas da região,
+        // e depois mantemos todas as linhas de cada uma delas.
+        const partidasDaRegiao = new Set();
+        dadosPeriodo.forEach(row => {
+            if (isTimeDaRegiaoAtual(row.id_time) || registroIncluiRegiao(row.regiao, _REGIAO)) {
+                if (row.id_partida) partidasDaRegiao.add(row.id_partida);
+            }
+        });
+        dadosRaw = dadosPeriodo.filter(row => partidasDaRegiao.has(row.id_partida));
+    }
+
+    // Bans são registros independentes, por isso continuam filtrados por time.
+    dadosBansFiltrados = dadosBans.filter(row => passaFiltrosTempoTipo(row) &&
+        (_REGIAO === 'ALL' || isTimeDaRegiaoAtual(row.id_time) || registroIncluiRegiao(row.regiao, _REGIAO)));
+
 
     let estruturado = estruturarMD3(dadosRaw);
     dadosFiltrados = estruturado.dadosCondensados; 
@@ -998,7 +1134,18 @@ function renderizarSidebarTimes() {
         }
     } else { timesRegiao = CONFIGURACAO_MANUAL_TIMES[_REGIAO]; }
 
-    if(!timesRegiao) return;
+    const temTimesCadastrados = !!timesRegiao && Object.keys(timesRegiao).some(tier =>
+        Array.isArray(timesRegiao[tier]) && timesRegiao[tier].length > 0
+    );
+    if (!temTimesCadastrados) {
+        if (_REGIAO === 'CN') {
+            sidebar.innerHTML = `<div style="margin:12px;padding:14px;border:1px solid var(--borda-destaque,#2a2a35);border-radius:8px;color:var(--texto-secundario,#aaa);font-size:12px;line-height:1.6;">
+                <strong style="color:var(--texto,#fff);display:block;margin-bottom:6px;">CN ainda não tem times cadastrados</strong>
+                Adicione as tags reais dos jogadores chineses na seção <code>CN</code> de <code>gerador.py</code>, com <code>"regiao": "CN"</code>. Depois execute o gerador e publique os arquivos <code>rosters.json</code> e <code>historico_bruto.csv</code>.
+            </div>`;
+        }
+        return;
+    }
     for(let tier in timesRegiao) {
         if(timesRegiao[tier].length === 0) continue;
         let tierHeader = document.createElement('div'); tierHeader.className = 'sidebar-header'; tierHeader.innerText = tier; sidebar.appendChild(tierHeader);
@@ -1095,7 +1242,7 @@ window.registrarTimeCustom = function(idAntigo) {
 
     let novoTime = { id_time: novoId, nome_time: novoNome, jogadores: jogadoresFinais, tier: tierEscolhido };
 
-    let salvos = JSON.parse(localStorage.getItem('customTeams_' + _REGIAO)) || [];
+    let salvos = obterTimesSalvosLocal();
     salvos = salvos.filter(t => t.id_time !== novoId && t.id_time !== idAntigo);
     salvos.push(novoTime);
     localStorage.setItem('customTeams_' + _REGIAO, JSON.stringify(salvos));
