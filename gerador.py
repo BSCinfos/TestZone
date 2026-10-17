@@ -92,7 +92,11 @@ MAPEAMENTO_PLAYERS = {
         "#8G982C80L": {"nome": "WWL|Gon", "id_time": "WWL", "nome_time": "WWL", "regiao": "EA"},
         "#9GGU9C9Y": {"nome": "Trashânt 🐯", "id_time": "SLG", "nome_time": "SLG", "regiao": "EA"},
 # CN (adicione abaixo os jogadores/time da China para o gerador montar rosters.json)
-        # "#TAGDOJOGADOR": {"nome": "TIME|Nick", "id_time": "ID_TIME", "nome_time": "NOME DO TIME", "regiao": "CN"},
+        "#2V9P902P99": {"nome": "AXR|Coldrink", "id_time": "AXR", "nome_time": "ACE XERO", "regiao": "CN"},
+        "#2V9PP02U98": {"nome": "TOC|X P R", "id_time": "TOC", "nome_time": "TOC", "regiao": "CN"},
+        "#2QR09U8UJQ": {"nome": "TL|Engine", "id_time": "TL", "nome_time": "TOXIC LOTUS", "regiao": "CN"},
+        "#8CQURRJJY": {"nome": "RNTX|Sergant", "id_time": "RNTX", "nome_time": "REVENANT", "regiao": "CN"},
+        "#9GGU9C9Y": {"nome": "SLG|Trashânt 🐯", "id_time": "SLG", "nome_time": "SLG", "regiao": "CN"}
 }
 
 def obter_fuso_brasilia():
