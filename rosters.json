@@ -11,7 +11,7 @@
       },
       {
         "tag": "#PLLRJC2V",
-        "nome": "BH|Wesley534"
+        "nome": "BH|Wesley"
       }
     ]
   },
@@ -240,7 +240,7 @@
     ]
   },
   "#JCGGGQUP": {
-    "nome": "Hatsumi Miku🩵",
+    "nome": ")",
     "id_time": "NX",
     "nome_time": "NOXIUM E-SPORTS",
     "regiao": "SA",
@@ -799,22 +799,6 @@
       }
     ]
   },
-  "#8CQURRJJY": {
-    "nome": "RNTX | Sergeant",
-    "id_time": "RNTX",
-    "nome_time": "REVENANT",
-    "regiao": "EA",
-    "jogadores": [
-      {
-        "tag": "#2U9P2YJRYP",
-        "nome": "RNTX | Walkthru"
-      },
-      {
-        "tag": "#2JYRU9QVUP",
-        "nome": "Kx"
-      }
-    ]
-  },
   "#8G982C80L": {
     "nome": "WWL | Gon",
     "id_time": "WWL",
@@ -826,8 +810,72 @@
         "nome": "채현스타즈"
       },
       {
-        "tag": "#9GYP90VP",
-        "nome": "Ramen·͜‧ɞ✰"
+        "tag": "#9VV8PQRU",
+        "nome": "WWL | Jake"
+      }
+    ]
+  },
+  "#2V9P902P99": {
+    "nome": "AXR|Coldrink",
+    "id_time": "AXR",
+    "nome_time": "ACE XERO",
+    "regiao": "CN",
+    "jogadores": [
+      {
+        "tag": "#2V9P9Q82YJ",
+        "nome": "AXR|David"
+      },
+      {
+        "tag": "#2V9P982088",
+        "nome": "AXR|Galaxy"
+      }
+    ]
+  },
+  "#2V9PP02U98": {
+    "nome": "TOC|X P R",
+    "id_time": "TOC",
+    "nome_time": "TOC",
+    "regiao": "CN",
+    "jogadores": [
+      {
+        "tag": "#2V9PP2YQ2P",
+        "nome": "TOC|JiangzeLove"
+      },
+      {
+        "tag": "#2V2LUU99QY",
+        "nome": "TOC|DynaMike"
+      }
+    ]
+  },
+  "#2QR09U8UJQ": {
+    "nome": "Engine",
+    "id_time": "TL",
+    "nome_time": "TOXIC LOTUS",
+    "regiao": "CN",
+    "jogadores": [
+      {
+        "tag": "#LQJJC9UY8",
+        "nome": "TOC"
+      },
+      {
+        "tag": "#90R9Q2UP",
+        "nome": "Stardragon"
+      }
+    ]
+  },
+  "#8CQURRJJY": {
+    "nome": "RNTX | Sergeant",
+    "id_time": "RNTX",
+    "nome_time": "REVENANT",
+    "regiao": "CN",
+    "jogadores": [
+      {
+        "tag": "#2U9P2YJRYP",
+        "nome": "RNTX | Walkthru"
+      },
+      {
+        "tag": "#2JYRU9QVUP",
+        "nome": "Tsuki"
       }
     ]
   },
@@ -835,7 +883,7 @@
     "nome": "Trâshant 🦁",
     "id_time": "SLG",
     "nome_time": "SLG",
-    "regiao": "EA",
+    "regiao": "CN",
     "jogadores": [
       {
         "tag": "#PGUPVR0J",
