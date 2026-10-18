@@ -440,34 +440,56 @@
       venceu ? x.wins++ : x.losses++;
     };
 
-    // Cada GAME real entra uma única vez. SETS não são usados nas tabelas.
+
+    // Cada GAME real entra uma vez. Em partidas entre regiões diferentes,
+    // contabilizamos o lado pertencente à região atual.
     sets.forEach((set) => {
       const games = Array.isArray(set.games) ? set.games : [];
+
       games.forEach((game) => {
-        const a = registrarTime(game.teamA, game.nomeA),
-          b = registrarTime(game.teamB, game.nomeB);
-        if (!a || !b) return; // não mostra partidas com time não cadastrado
+        const a = registrarTime(game.teamA, game.nomeA);
+        const b = registrarTime(game.teamB, game.nomeB);
+
+        // Ignora apenas partidas sem nenhum time da região selecionada.
+        if (!a && !b) return;
+
         const venceuA = String(game.vencedor) === String(game.teamA);
         const venceuB = String(game.vencedor) === String(game.teamB);
-        a.games++;
-        b.games++;
-        if (venceuA) {
-          a.wins++;
-          b.losses++;
-        } else if (venceuB) {
-          b.wins++;
-          a.losses++;
+
+        const ca = Array.isArray(game.compA) ? game.compA : [];
+        const cb = Array.isArray(game.compB) ? game.compB : [];
+
+        // Estatísticas do time A, se ele pertencer à região atual.
+        if (a) {
+          a.games++;
+
+          if (venceuA) a.wins++;
+          else if (venceuB) a.losses++;
+
+          for (let i = 0; i < ca.length; i++) {
+            for (let j = i + 1; j < ca.length; j++) {
+              registrarSinergia(ca[i], ca[j], venceuA);
+            }
+          }
+
+          registrarComp(a, ca, venceuA);
         }
-        const ca = game.compA || [],
-          cb = game.compB || [];
-        for (let i = 0; i < ca.length; i++)
-          for (let j = i + 1; j < ca.length; j++)
-            registrarSinergia(ca[i], ca[j], venceuA);
-        for (let i = 0; i < cb.length; i++)
-          for (let j = i + 1; j < cb.length; j++)
-            registrarSinergia(cb[i], cb[j], venceuB);
-        registrarComp(a, ca, venceuA);
-        registrarComp(b, cb, venceuB);
+
+        // Estatísticas do time B, se ele pertencer à região atual.
+        if (b) {
+          b.games++;
+
+          if (venceuB) b.wins++;
+          else if (venceuA) b.losses++;
+
+          for (let i = 0; i < cb.length; i++) {
+            for (let j = i + 1; j < cb.length; j++) {
+              registrarSinergia(cb[i], cb[j], venceuB);
+            }
+          }
+
+          registrarComp(b, cb, venceuB);
+        }
       });
     });
 
