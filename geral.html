@@ -521,6 +521,35 @@
                     .querySelectorAll(".dropdown")
                     .forEach(d => d.classList.remove("active"));
 
+                // Carregar o conteúdo das abas somente quando forem abertas.
+                if (tela === "brawlers" &&
+                typeof renderizarSidebarBrawlers === "function") {
+
+                renderizarSidebarBrawlers();
+
+                if (typeof brawlerSelecionado !== "undefined" &&
+                    brawlerSelecionado) {
+                    renderizarDetalhesBrawler(brawlerSelecionado);
+                }
+            }
+
+if (tela === "times" &&
+    typeof renderizarSidebarTimes === "function") {
+
+    renderizarSidebarTimes();
+
+    if (typeof timeSelecionado !== "undefined" &&
+        timeSelecionado) {
+        renderizarDetalhesTime(timeSelecionado);
+    }
+}
+
+if (tela === "scrims" &&
+    typeof processarScrimesMD3 === "function") {
+
+    processarScrimesMD3(window.currentScrims || []);
+}
+                
                 if (tela === "mapas" &&
                     typeof window.selecionarMapaAnalise === "function") {
 
