@@ -851,16 +851,61 @@ function processarDadosGlobais() {
         (_REGIAO === 'ALL' || isTimeDaRegiaoAtual(row.id_time) || registroIncluiRegiao(row.regiao, _REGIAO)));
 
 
-    let estruturado = estruturarMD3(dadosRaw);
-    dadosFiltrados = estruturado.dadosCondensados; 
 
+    let estruturado = estruturarMD3(dadosRaw);
+    dadosFiltrados = estruturado.dadosCondensados || [];
+
+    // GERAL (ALL): guardar as scrims sem montar todas as listas
+    // ocultas durante o carregamento inicial.
+    if (_REGIAO === 'ALL') {
+        window.currentScrims = estruturado.scrimsMD3 || [];
+
+        // A aba Meta é a tela inicial.
+        renderizarMeta();
+
+        // Só montar Brawlers quando essa aba estiver visível.
+        const telaBrawlers = document.getElementById('tela-brawlers');
+        if (telaBrawlers && telaBrawlers.classList.contains('tela-ativa')) {
+            renderizarSidebarBrawlers();
+            if (brawlerSelecionado) {
+                renderizarDetalhesBrawler(brawlerSelecionado);
+            }
+        }
+
+        // Só montar Times quando essa aba estiver visível.
+        const telaTimes = document.getElementById('tela-times');
+        if (telaTimes && telaTimes.classList.contains('tela-ativa')) {
+            renderizarSidebarTimes();
+            if (timeSelecionado) {
+                renderizarDetalhesTime(timeSelecionado);
+            }
+        }
+
+        // Só criar os cards das scrims quando a aba estiver aberta.
+        const telaScrims = document.getElementById('tela-scrims');
+        if (telaScrims && telaScrims.classList.contains('tela-ativa')) {
+            processarScrimesMD3(window.currentScrims);
+        }
+
+        return;
+    }
+
+    // Preservar o comportamento das páginas regionais.
     renderizarMeta();
     renderizarSidebarBrawlers();
-    if(brawlerSelecionado) renderizarDetalhesBrawler(brawlerSelecionado);
+
+    if (brawlerSelecionado) {
+        renderizarDetalhesBrawler(brawlerSelecionado);
+    }
+
     renderizarSidebarTimes();
-    if(timeSelecionado) renderizarDetalhesTime(timeSelecionado);
-    
+
+    if (timeSelecionado) {
+        renderizarDetalhesTime(timeSelecionado);
+    }
+
     processarScrimesMD3(estruturado.scrimsMD3);
+
 }
 
 // ==========================================
