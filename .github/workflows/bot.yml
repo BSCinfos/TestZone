@@ -1,0 +1,68 @@
+name: Bot Minerador do Brawl Stars
+
+on:
+  schedule:
+    # Roda a cada 30 minutos
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+# Evita duas execuções simultâneas tentando alterar os mesmos arquivos.
+concurrency:
+  group: bscinfos-bot-minerador
+  cancel-in-progress: false
+
+jobs:
+  minerar_e_atualizar:
+    # Runner padrão do GitHub. O IP fixo é garantido pelo proxy da RoyaleAPI
+    # (45.79.218.79), usado dentro do gerador.py — não depende do IP do runner.
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'America/Sao_Paulo'
+      BRAWL_STARS_API_KEY: ${{ secrets.BRAWL_STARS_API_KEY }}
+    permissions:
+      contents: write
+
+    steps:
+      - name: Baixando os arquivos do repositório
+        uses: actions/checkout@v4
+
+      - name: Instalando o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Instalando as bibliotecas
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pandas requests
+
+      - name: Sincronizar e Configurar Git
+        shell: bash
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull --rebase origin main
+
+      - name: Validar chave da Brawl Stars API
+        shell: bash
+        run: |
+          if [ -z "$BRAWL_STARS_API_KEY" ]; then
+            echo "ERRO: configure o Secret BRAWL_STARS_API_KEY no repositório."
+            exit 1
+          fi
+          echo "Secret BRAWL_STARS_API_KEY configurado."
+
+      - name: Rodando o Gerador (Bot)
+        run: python -u gerador.py
+
+      - name: Salvando as alterações no GitHub
+        shell: bash
+        run: |
+          git add historico_bruto.csv estatisticas_finais.csv rosters.json api/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 Atualização Automática de Partidas e Rosters"
+            git push origin main
+          else
+            echo "Sem mudanças para atualizar"
+          fi
