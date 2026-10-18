@@ -1,0 +1,5350 @@
+{
+    "#2208QGGGL": [
+        {
+            "brawler": "BELLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BERRY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLETTE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 7,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GRIFF",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LOU",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MICO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PENNY",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "SHELLY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SIRIUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 6,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "TRUNK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "WILLOW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#220QRRLVV": [
+        {
+            "brawler": "GALE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#22CL00PG0": [
+        {
+            "brawler": "BIBI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BUSTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GRIFF",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LILY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MELODIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PENNY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "TRUNK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#280RJ29R9": [
+        {
+            "brawler": "JANET",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#28JLP02PR": [
+        {
+            "brawler": "BROCK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#28JYQY02C": [
+        {
+            "brawler": "BERRY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DYNAMIKE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MELODIE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MICO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MOE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#29VRJU08C": [
+        {
+            "brawler": "BUSTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BUZZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LOU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PENNY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "WILLOW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2GV90L8YP": [
+        {
+            "brawler": "ANGELO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DARRYL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "R-T",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2LLRJGPVV8": [
+        {
+            "brawler": "BARLEY",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BELLE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PENNY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2Q892QVU": [
+        {
+            "brawler": "AMBER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHUCK",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CLANCY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MOE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PEARL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2RR2RU8UL": [
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JANET",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "WILLOW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2RUJQ98U8": [
+        {
+            "brawler": "LEON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        }
+    ],
+    "#2UQ989C2PY": [
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CARL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2UUYVLP8C2": [
+        {
+            "brawler": "CHESTER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FRANK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RICO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2UVUU28L8": [
+        {
+            "brawler": "BEA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BIBI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MELODIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PEARL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2VG8U2900": [
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2VJCCCQGP": [
+        {
+            "brawler": "BELLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2VP08LCV20": [
+        {
+            "brawler": "BELLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BROCK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2VPL29LG0": [
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        }
+    ],
+    "#2Y20JR8CQ": [
+        {
+            "brawler": "ALLI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BELLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BUZZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHUCK",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DARRYL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FRANK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "HANK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PENNY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "ROSA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2Y822YJYJC": [
+        {
+            "brawler": "BYRON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LOU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#2YYJYPCL": [
+        {
+            "brawler": "ALLI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "ANGELO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BERRY",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BIBI",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BROCK",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BULL",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHUCK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DARRYL",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DOUG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "HANK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 6,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LILY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PENNY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "ROSA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "WILLOW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#809PYV2L0": [
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "TARA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "WILLOW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        }
+    ],
+    "#80PVPCC29": [
+        {
+            "brawler": "BUZZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#82GG2RLQG": [
+        {
+            "brawler": "COLT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LILY",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#82RGU8PR": [
+        {
+            "brawler": "BARLEY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BELLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BERRY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CORDELIUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GALE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PEARL",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#89VC2CGCJ": [
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 6,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DRACO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#8JUPQUC0L": [
+        {
+            "brawler": "BIBI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CORDELIUS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "HANK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JACKY",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JANET",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#8P89PVRQC": [
+        {
+            "brawler": "8-BIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        }
+    ],
+    "#8RCYUCCL0": [
+        {
+            "brawler": "ASH",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLETTE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PENNY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#8RVLRVYYP": [
+        {
+            "brawler": "BROCK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BUZZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 8,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CORDELIUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 7,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DOUG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GRIFF",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GUS",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 10,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PEARL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PENNY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#8V92UYCJ": [
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#90JCYPQU": [
+        {
+            "brawler": "AMBER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#92VJ9V29V": [
+        {
+            "brawler": "BUSTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "TRUNK",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#92YGVR8C": [
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLETTE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CORDELIUS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DARRYL",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JANET",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#92YR22QPL": [
+        {
+            "brawler": "ANGELO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BERRY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BULL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MAX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SQUEAK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#9GRJP99LY": [
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "GUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#9JCG0VY8U": [
+        {
+            "brawler": "BIBI",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BUZZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 8,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GALE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MELODIE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MOE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#9LVUC2PY": [
+        {
+            "brawler": "BELLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLETTE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LOU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 6,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "WILLOW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#9PQQ8GQQ": [
+        {
+            "brawler": "ANGELO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BEA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BOLT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MAX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MOE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#9RVPL0Q0P": [
+        {
+            "brawler": "BIBI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#CJ9YRGGC": [
+        {
+            "brawler": "BYRON",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#CJV2PJ0R": [
+        {
+            "brawler": "BERRY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CORDELIUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DOUG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JANET",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LOU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#CVUCP8U0C": [
+        {
+            "brawler": "ALLI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#G99CYGL": [
+        {
+            "brawler": "BEA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#GGC0L02R": [
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#GLPJRCLYL": [
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MICO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SIRIUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#GU28YC8PJ": [
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#J089RQ": [
+        {
+            "brawler": "BARLEY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 6,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "TRUNK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "WILLOW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#JJ92RGPL": [
+        {
+            "brawler": "BULL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GALE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GRIFF",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LILY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LOU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SURGE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#L82Y9V9V": [
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        }
+    ],
+    "#LCJC2VY8R": [
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GROM",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PEARL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#LG8PCJG8": [
+        {
+            "brawler": "BERRY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BIBI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GALE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PEARL",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIPER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#LLV82LQPU": [
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GENE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MELODIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 7,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#LPYU88QQ2": [
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        }
+    ],
+    "#PCPRPJV": [
+        {
+            "brawler": "AMBER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BEA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BERRY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CORDELIUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#PLV89CGP": [
+        {
+            "brawler": "COLT",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#PVRLUJU": [
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLETTE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CORDELIUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LILY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OLLIE",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "TRUNK",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#Q22ULY9JY": [
+        {
+            "brawler": "ALLI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLETTE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CORDELIUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MAX",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#Q808R2CV": [
+        {
+            "brawler": "BELLE",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BERRY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BROCK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BUZZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 7,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GALE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 7,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#Q9UG290YC": [
+        {
+            "brawler": "BYRON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#QGRURP9RR": [
+        {
+            "brawler": "EDGAR",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament"
+        }
+    ],
+    "#RYG88YJG9": [
+        {
+            "brawler": "BYRON",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 5,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#UVU8P8VQ": [
+        {
+            "brawler": "ANGELO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OLLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIPER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "TRUNK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#V888YPGU": [
+        {
+            "brawler": "BELLE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BIBI",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHESTER",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EDGAR",
+            "qtd": 6,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GALE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 6,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "HANK",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JANET",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KENJI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LILY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MEEPLE",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MELODIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MOE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#V89Y2GP0": [
+        {
+            "brawler": "AMBER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CORDELIUS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "JAE-YONG",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LOU",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PENNY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#VUJPG8YY": [
+        {
+            "brawler": "ANGELO",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BERRY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHARLIE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MICO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NAJIA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PEARL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "POCO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "STARR NOVA",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#YQUCCJ2": [
+        {
+            "brawler": "CHESTER",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CHUCK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CROW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "DAMIAN",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GLOWY",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "HANK",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "NITA",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "RUFFS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SURGE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#YU8C0C2PV": [
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MAX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "OTIS",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ],
+    "#YYUG20PQV": [
+        {
+            "brawler": "ANGELO",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "BYRON",
+            "qtd": 6,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "CARL",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "COLT",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "EMZ",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FANG",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "FINX",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "GALE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KAZE",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "KIT",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LEON",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "LUMI",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MINA",
+            "qtd": 7,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "MORTIS",
+            "qtd": 4,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "PIERCE",
+            "qtd": 3,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SANDY",
+            "qtd": 2,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "SHADE",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        },
+        {
+            "brawler": "WILLOW",
+            "qtd": 1,
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim"
+        }
+    ]
+}

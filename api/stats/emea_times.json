@@ -1,0 +1,6040 @@
+{
+    "#2208QGGGL": [
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "COLETTE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 7
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GRIFF",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LOU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MICO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "SHELLY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SIRIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 6
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "TRUNK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#220QRRLVV": [
+        {
+            "pick": "GALE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#22CL00PG0": [
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BUSTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GRIFF",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "LILY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MELODIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "TRUNK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#280RJ29R9": [
+        {
+            "pick": "JANET",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#28JLP02PR": [
+        {
+            "pick": "BROCK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#28JYQY02C": [
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DYNAMIKE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MELODIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MICO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MOE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#29VRJU08C": [
+        {
+            "pick": "BUSTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BUZZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GRIFF",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LOU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "R-T",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "RICO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2GV90L8YP": [
+        {
+            "pick": "ANGELO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DARRYL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "R-T",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2LLRJGPVV8": [
+        {
+            "pick": "BARLEY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2Q892QVU": [
+        {
+            "pick": "AMBER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHUCK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CLANCY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "MOE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PEARL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2RR2RU8UL": [
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JANET",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2RUJQ98U8": [
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        }
+    ],
+    "#2UQ989C2PY": [
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CARL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2UUYVLP8C2": [
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "FRANK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RICO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2UVUU28L8": [
+        {
+            "pick": "BEA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MELODIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PEARL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        }
+    ],
+    "#2VG8U2900": [
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2VJCCCQGP": [
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2VP08LCV20": [
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BROCK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#2VPL29LG0": [
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        }
+    ],
+    "#2Y20JR8CQ": [
+        {
+            "pick": "ALLI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BARLEY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BUZZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "BUZZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHUCK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DARRYL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FRANK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "HANK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "LOU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "ROSA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2Y822YJYJC": [
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LOU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#2YYJYPCL": [
+        {
+            "pick": "ALLI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "ANGELO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "BROCK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "BULL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CHUCK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "DARRYL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "DOUG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "HANK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 6
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        },
+        {
+            "pick": "LILY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 3
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MOE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        },
+        {
+            "pick": "ROSA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#809PYV2L0": [
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "TARA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        }
+    ],
+    "#80PVPCC29": [
+        {
+            "pick": "BUZZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MOE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#82GG2RLQG": [
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "LILY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#82RGU8PR": [
+        {
+            "pick": "BARLEY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CORDELIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GALE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "MAX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "PEARL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#89VC2CGCJ": [
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 6
+        },
+        {
+            "pick": "DRACO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#8JUPQUC0L": [
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CORDELIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "HANK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JACKY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "JANET",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        }
+    ],
+    "#8P89PVRQC": [
+        {
+            "pick": "8-BIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        }
+    ],
+    "#8RCYUCCL0": [
+        {
+            "pick": "ASH",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLETTE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#8RVLRVYYP": [
+        {
+            "pick": "BROCK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BUZZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 8
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CORDELIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 7
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DOUG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GRIFF",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 10
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "PEARL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        }
+    ],
+    "#8V92UYCJ": [
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#90JCYPQU": [
+        {
+            "pick": "AMBER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#92VJ9V29V": [
+        {
+            "pick": "BUSTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "TRUNK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#92YGVR8C": [
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLETTE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CORDELIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "DARRYL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "JANET",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#92YR22QPL": [
+        {
+            "pick": "ANGELO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BULL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MAX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SQUEAK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#9GRJP99LY": [
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "GUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#9JCG0VY8U": [
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "BUZZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 3
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 8
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "GALE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MEG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MELODIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MELODIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MICO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "MOE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#9LVUC2PY": [
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "COLETTE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "GUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "LOU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 6
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 3
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#9PQQ8GQQ": [
+        {
+            "pick": "ANGELO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BEA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BOLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MAX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MOE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#9RR9VQR0": [
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        }
+    ],
+    "#9RVPL0Q0P": [
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#9VJLPU28U": [
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        }
+    ],
+    "#CJ9YRGGC": [
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 3
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#CJV2PJ0R": [
+        {
+            "pick": "ANGELO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "CORDELIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "DOUG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JANET",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LOU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 3
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        }
+    ],
+    "#CVUCP8U0C": [
+        {
+            "pick": "ALLI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#G99CYGL": [
+        {
+            "pick": "BEA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#GGC0L02R": [
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#GLPJRCLYL": [
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MICO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "SIRIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#GU28YC8PJ": [
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#J089RQ": [
+        {
+            "pick": "BARLEY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 6
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "TRUNK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#JJ92RGPL": [
+        {
+            "pick": "BULL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GALE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GRIFF",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "LILY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LOU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SURGE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#L82Y9V9V": [
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        }
+    ],
+    "#LCJC2VY8R": [
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "GROM",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "PEARL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#LG8PCJG8": [
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GALE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PEARL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "PIPER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#LLV82LQPU": [
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "GENE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MELODIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 7
+        }
+    ],
+    "#LPYU88QQ2": [
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        }
+    ],
+    "#PCPRPJV": [
+        {
+            "pick": "AMBER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BEA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CORDELIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#PLV89CGP": [
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#PVRLUJU": [
+        {
+            "pick": "BULL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLETTE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CORDELIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LILY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OLLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "TRUNK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#Q22ULY9JY": [
+        {
+            "pick": "ALLI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLETTE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CORDELIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MAX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#Q808R2CV": [
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BROCK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BUZZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 7
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "GALE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 7
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        }
+    ],
+    "#Q9UG290YC": [
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#QGRURP9RR": [
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "tournament",
+            "qtd": 1
+        }
+    ],
+    "#RYG88YJG9": [
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 5
+        }
+    ],
+    "#UVU8P8VQ": [
+        {
+            "pick": "ANGELO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OLLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PIPER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "TRUNK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#V888YPGU": [
+        {
+            "pick": "BELLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BIBI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "EDGAR",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 6
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GALE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 6
+        },
+        {
+            "pick": "HANK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "JANET",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "LILY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "MEEPLE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "MELODIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "MOE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#V89Y2GP0": [
+        {
+            "pick": "AMBER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CORDELIUS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "JAE-YONG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LOU",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "PENNY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#VUJPG8YY": [
+        {
+            "pick": "ANGELO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "BERRY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHARLIE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MICO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NAJIA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PEARL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "POCO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "STARR NOVA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        }
+    ],
+    "#YQUCCJ2": [
+        {
+            "pick": "CHESTER",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CHUCK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "CROW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "DAMIAN",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "GLOWY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "HANK",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "NITA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "RUFFS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "SURGE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#YU8C0C2PV": [
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MAX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "OTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ],
+    "#YYUG20PQV": [
+        {
+            "pick": "ANGELO",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "BYRON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 6
+        },
+        {
+            "pick": "CARL",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "COLT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "EMZ",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "FANG",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "FINX",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "GALE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "KAZE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "KENJI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "KIT",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "LEON",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "LUMI",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 3
+        },
+        {
+            "pick": "MINA",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 7
+        },
+        {
+            "pick": "MORTIS",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 4
+        },
+        {
+            "pick": "PIERCE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 3
+        },
+        {
+            "pick": "SANDY",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 2
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 2
+        },
+        {
+            "pick": "SHADE",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "friendly",
+            "qtd": 1
+        },
+        {
+            "pick": "WILLOW",
+            "ano": "2026",
+            "mes": "JUNHO",
+            "tipo": "scrim",
+            "qtd": 1
+        }
+    ]
+}

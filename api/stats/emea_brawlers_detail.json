@@ -1,0 +1,6202 @@
+{
+    "PEARL": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 6,
+                "win_rate": "85.7%"
+            }
+        ],
+        "sinergias": []
+    },
+    "MINA": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 4,
+                "win_rate": "80.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 10,
+                "vitorias": 4,
+                "win_rate": "40.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 4,
+                "win_rate": "57.1%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BELLE": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 1,
+                "win_rate": "16.7%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "LEON": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 5,
+                "win_rate": "71.4%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 1,
+                "win_rate": "25.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            }
+        ],
+        "sinergias": []
+    },
+    "STARR NOVA": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 1,
+                "win_rate": "20.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "GUS": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 1,
+                "win_rate": "25.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BYRON": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 10,
+                "vitorias": 4,
+                "win_rate": "40.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 10,
+                "vitorias": 6,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 1,
+                "win_rate": "16.7%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "CORDELIUS": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "KAZE": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 5,
+                "win_rate": "71.4%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 14,
+                "vitorias": 9,
+                "win_rate": "64.3%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "KIT": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 8,
+                "vitorias": 1,
+                "win_rate": "12.5%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 9,
+                "vitorias": 3,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 4,
+                "win_rate": "80.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "GENE": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 3,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "NITA": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 2,
+                "win_rate": "28.6%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            }
+        ],
+        "sinergias": []
+    },
+    "KENJI": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 2,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            }
+        ],
+        "sinergias": []
+    },
+    "LUMI": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 4,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 4,
+                "win_rate": "80.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 1,
+                "win_rate": "16.7%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "STU": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 1,
+                "win_rate": "20.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "ASH": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "CROW": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 3,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 3,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 9,
+                "vitorias": 4,
+                "win_rate": "44.4%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 4,
+                "win_rate": "57.1%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 10,
+                "vitorias": 4,
+                "win_rate": "40.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 4,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "EMZ": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 4,
+                "win_rate": "57.1%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 3,
+                "win_rate": "42.9%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "SHADE": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "CHARLIE": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "MORTIS": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 9,
+                "vitorias": 5,
+                "win_rate": "55.6%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            }
+        ],
+        "sinergias": []
+    },
+    "RUFFS": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 1,
+                "win_rate": "16.7%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 1,
+                "win_rate": "25.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 4,
+                "win_rate": "57.1%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "TRUNK": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "PIERCE": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 8,
+                "vitorias": 6,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "DAMIAN": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 8,
+                "vitorias": 6,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 5,
+                "win_rate": "71.4%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "8-BIT": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "CHESTER": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 4,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 9,
+                "vitorias": 5,
+                "win_rate": "55.6%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 9,
+                "vitorias": 3,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 1,
+                "win_rate": "25.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "OTIS": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 3,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 1,
+                "win_rate": "25.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 4,
+                "win_rate": "57.1%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 1,
+                "win_rate": "25.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "WILLOW": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            }
+        ],
+        "sinergias": []
+    },
+    "SANDY": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 12,
+                "vitorias": 7,
+                "win_rate": "58.3%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "EDGAR": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 3,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "TARA": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "tournament",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "NAJIA": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "COLETTE": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "MAX": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "MEEPLE": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BUZZ": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "COLT": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 1,
+                "win_rate": "16.7%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 3,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 10,
+                "vitorias": 2,
+                "win_rate": "20.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BIBI": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 3,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "PENNY": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 6,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "GROM": {
+        "mapas": [
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "CHUCK": {
+        "mapas": [
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "HANK": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "SQUEAK": {
+        "mapas": [
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "DOUG": {
+        "mapas": [
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "GLOWY": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 1,
+                "win_rate": "20.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "New Horizons",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "JAE-YONG": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 4,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 5,
+                "win_rate": "83.3%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "FINX": {
+        "mapas": [
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 3,
+                "win_rate": "60.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 6,
+                "vitorias": 4,
+                "win_rate": "66.7%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BUSTER": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "LOU": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BERRY": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 2,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "FANG": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 1,
+                "win_rate": "25.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 1,
+                "win_rate": "25.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BOLT": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "JANET": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            }
+        ],
+        "sinergias": []
+    },
+    "MICO": {
+        "mapas": [
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "ALLI": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "MELODIE": {
+        "mapas": [
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 1,
+                "win_rate": "25.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "CARL": {
+        "mapas": [
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "DARRYL": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "SIRIUS": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BROCK": {
+        "mapas": [
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 1,
+                "win_rate": "20.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "POCO": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 3,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 5,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 7,
+                "vitorias": 5,
+                "win_rate": "71.4%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "GALE": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 3,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "AMBER": {
+        "mapas": [
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 3,
+                "win_rate": "75.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "GRIFF": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinhole Punt",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 2,
+                "win_rate": "66.7%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BEA": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "MEG": {
+        "mapas": [
+            {
+                "modo": "hotZone",
+                "mapa": "Ring of Fire",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "MOE": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Crystal Arcade",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 3,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "CLANCY": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Triple Dribble",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "ANGELO": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 4,
+                "vitorias": 4,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 3,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "JACKY": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "FRANK": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BULL": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Dry Season",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Pit Stop",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "OLLIE": {
+        "mapas": [
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 3,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "PIPER": {
+        "mapas": [
+            {
+                "modo": "knockout",
+                "mapa": "Out in the Open",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 3,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "DRACO": {
+        "mapas": [
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "ROSA": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "DYNAMIKE": {
+        "mapas": [
+            {
+                "modo": "knockout",
+                "mapa": "Goldarm Gulch",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "RICO": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "SHELLY": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "BARLEY": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Layer Cake",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Dueling Beetles",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 1,
+                "win_rate": "50.0%"
+            },
+            {
+                "modo": "hotZone",
+                "mapa": "Open Business",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 1,
+                "win_rate": "33.3%"
+            }
+        ],
+        "sinergias": []
+    },
+    "LILY": {
+        "mapas": [
+            {
+                "modo": "gemGrab",
+                "mapa": "Gem Fort",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 2,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "gemGrab",
+                "mapa": "Hard Rock Mine",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 1,
+                "win_rate": "100.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Kaboom Canyon",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "heist",
+                "mapa": "Safe Zone",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 3,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "SURGE": {
+        "mapas": [
+            {
+                "modo": "brawlBall",
+                "mapa": "Pinball Dreams",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    },
+    "R-T": {
+        "mapas": [
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "friendly",
+                "picks": 1,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            },
+            {
+                "modo": "bounty",
+                "mapa": "Hideout",
+                "ano": "2026",
+                "mes": "JUNHO",
+                "tipo": "scrim",
+                "picks": 2,
+                "vitorias": 0,
+                "win_rate": "0.0%"
+            }
+        ],
+        "sinergias": []
+    }
+}
