@@ -160,7 +160,7 @@
     ]
   },
   "#R2LR2QLG": {
-    "nome": "RED|R. Zacheu",
+    "nome": "RED|Mohtep えご",
     "id_time": "RED",
     "nome_time": "RED CANIDS",
     "regiao": "SA",
@@ -614,12 +614,12 @@
     "regiao": "EMEA",
     "jogadores": [
       {
-        "tag": "#8RVLRVYYP",
-        "nome": "Youtube: YeiYei"
-      },
-      {
         "tag": "#8L8G8QRJ0",
         "nome": "BC*|Helene🔥"
+      },
+      {
+        "tag": "#8RVLRVYYP",
+        "nome": "Youtube: YeiYei"
       }
     ]
   },
