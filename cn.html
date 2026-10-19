@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CHINA Infos</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" defer></script>
 
     <script>window.REGIAO_ATUAL = "CN";</script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
 
     <!-- NÃO REMOVER: app.js continua sendo o arquivo principal -->
+    <script src="data-cache.js" defer></script>
+
     <script src="app.js" defer></script>
 
     <!-- NOVO: somente adiciona a tela funcional de MAPAS -->
@@ -309,35 +311,35 @@
                 <a href="sa.html" style="display:flex;align-items:center;gap:8px;">
                     <img src="element/sa.png"
                          style="width:20px;height:20px;object-fit:contain;border-radius:2px;"
-                         onerror="this.style.display='none'">
+                         onerror="this.style.display='none'" loading="lazy" decoding="async">
                     SA
                 </a>
 
                 <a href="emea.html" style="display:flex;align-items:center;gap:8px;">
                     <img src="element/emea.png"
                          style="width:20px;height:20px;object-fit:contain;border-radius:2px;"
-                         onerror="this.style.display='none'">
+                         onerror="this.style.display='none'" loading="lazy" decoding="async">
                     EMEA
                 </a>
 
                 <a href="na.html" style="display:flex;align-items:center;gap:8px;">
                     <img src="element/na.png"
                          style="width:20px;height:20px;object-fit:contain;border-radius:2px;"
-                         onerror="this.style.display='none'">
+                         onerror="this.style.display='none'" loading="lazy" decoding="async">
                     NA
                 </a>
 
                 <a href="ea.html" style="display:flex;align-items:center;gap:8px;">
                     <img src="element/ea.png"
                          style="width:20px;height:20px;object-fit:contain;border-radius:2px;"
-                         onerror="this.style.display='none'">
+                         onerror="this.style.display='none'" loading="lazy" decoding="async">
                     EA
                 </a>
 
                 <a href="cn.html" style="display:flex;align-items:center;gap:8px;">
                     <img src="element/cn.png"
                          style="width:20px;height:20px;object-fit:contain;border-radius:2px;"
-                         onerror="this.style.display='none'">
+                         onerror="this.style.display='none'" loading="lazy" decoding="async">
                     CN
                 </a>
             </div>

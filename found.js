@@ -14,7 +14,7 @@ function meses(db){return Object.keys(db||{}).filter(x=>/^\d{4}-\d{2}$/.test(x))
 
 async function carregarBase(){
     try{
-        const r=await fetch(FOUND_DATA_URL+"?v="+Date.now(),{cache:"no-store"});
+        const r=await fetch(FOUND_DATA_URL,{cache:"no-cache"});
         if(!r.ok)throw new Error("HTTP "+r.status);
         foundDatabase=await r.json();
         status("Base carregada. Digite uma tag para pesquisar.");

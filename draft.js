@@ -294,6 +294,7 @@ let _draftConfiguracaoTimes = JSON.parse(JSON.stringify(_DRAFT_ROSTERS_POR_DATA[
 let _draftRostersGerados = null;
 let _draftRostersProntos = false;
 let _draftRostersPromise = null;
+let _draftIndiceParesRoster = null;
 
 function _draftNormalizarTag(tag) {
     let valor = String(tag || '').trim().toUpperCase();
@@ -305,10 +306,7 @@ function _draftNormalizarTag(tag) {
 
 async function _draftCarregarRostersGerados() {
     try {
-        const resposta = await fetch(`rosters.json?v=${Date.now()}`, {
-            cache: 'no-store',
-            headers: { 'Cache-Control': 'no-cache' }
-        });
+        const resposta = await fetch('rosters.json', { cache: 'no-cache' });
         if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
         const dados = await resposta.json();
         if (!dados || typeof dados !== 'object' || Array.isArray(dados)) {
@@ -399,18 +397,46 @@ function _draftParseDateBR(dataStr) {
     } catch(e) { return 0; }
 }
 
-function _draftEncontrarTimePorRoster(tagsArray) {
-    for (let reg in _draftConfiguracaoTimes) {
-        for (let tier in _draftConfiguracaoTimes[reg]) {
-            if (tier === "TIER ?") continue;
-            for (let team of _draftConfiguracaoTimes[reg][tier]) {
-                let matchCount = 0;
-                team.jogadores.forEach(j => { if (tagsArray.includes(j.tag)) matchCount++; });
-                if (matchCount >= 2) return { id: team.id_time, nome: team.nome_time, regiao: reg };
+function _draftConstruirIndiceParesRoster() {
+    const indice = new Map();
+    let ordem = 0;
+    const chavePar = (a, b) => [String(a || '').trim().toUpperCase(), String(b || '').trim().toUpperCase()].sort().join('|');
+    for (const reg of Object.keys(_draftConfiguracaoTimes || {})) {
+        const tiers = _draftConfiguracaoTimes[reg] || {};
+        for (const tier of Object.keys(tiers)) {
+            if (tier === 'TIER ?') continue;
+            const times = Array.isArray(tiers[tier]) ? tiers[tier] : [];
+            for (const team of times) {
+                const jogadores = Array.isArray(team && team.jogadores) ? team.jogadores : [];
+                const tags = [...new Set(jogadores.map(j => String(j && j.tag || '').trim().toUpperCase()).filter(Boolean))];
+                const registro = { id: team.id_time, nome: team.nome_time, regiao: reg, ordem: ordem++ };
+                for (let i = 0; i < tags.length; i++) {
+                    for (let j = i + 1; j < tags.length; j++) {
+                        const chave = chavePar(tags[i], tags[j]);
+                        if (!indice.has(chave)) indice.set(chave, registro);
+                    }
+                }
             }
         }
     }
-    return null;
+    return indice;
+}
+
+function _draftEncontrarTimePorRoster(tagsArray) {
+    const tags = [...new Set((Array.isArray(tagsArray) ? tagsArray : [])
+        .map(tag => String(tag || '').trim().toUpperCase()).filter(Boolean))];
+    if (tags.length < 2) return null;
+    if (!_draftIndiceParesRoster) _draftIndiceParesRoster = _draftConstruirIndiceParesRoster();
+
+    const chavePar = (a, b) => [a, b].sort().join('|');
+    let melhor = null;
+    for (let i = 0; i < tags.length; i++) {
+        for (let j = i + 1; j < tags.length; j++) {
+            const candidato = _draftIndiceParesRoster.get(chavePar(tags[i], tags[j]));
+            if (candidato && (!melhor || candidato.ordem < melhor.ordem)) melhor = candidato;
+        }
+    }
+    return melhor ? { id: melhor.id, nome: melhor.nome, regiao: melhor.regiao } : null;
 }
 
 function _draftIsTimeCadastrado(id) {
@@ -528,14 +554,20 @@ function _draftEstruturarMD3(dadosPeriodo) {
     });
 
     let scrims = [];
+    const scrimMaisRecentePorConfronto = new Map();
     partidasEstruturadas.sort((a,b) => a.timestamp - b.timestamp).forEach(partida => {
         if (!_draftTimeRosterCompleto(partida.tagsA, partida.tAId) || !_draftTimeRosterCompleto(partida.tagsB, partida.tBId)) return;
-        let chaveTimes = [partida.tAId, partida.tBId].sort().join(' VS ');
-        let scrimExistente = scrims.find(s => s.chave === chaveTimes && (partida.timestamp - s.ultimoUpdate) <= (2 * 60 * 60 * 1000));
-        if (scrimExistente) {
-            scrimExistente.sets.push(partida); scrimExistente.ultimoUpdate = partida.timestamp;
+        const chaveTimes = [partida.tAId, partida.tBId].sort().join(' VS ');
+        const scrimAnterior = scrimMaisRecentePorConfronto.get(chaveTimes);
+        const dentroDaJanela = scrimAnterior &&
+            (partida.timestamp - scrimAnterior.ultimoUpdate) <= (2 * 60 * 60 * 1000);
+        if (dentroDaJanela) {
+            scrimAnterior.sets.push(partida);
+            scrimAnterior.ultimoUpdate = partida.timestamp;
         } else {
-            scrims.push({ chave: chaveTimes, tAId: partida.tAId, tBId: partida.tBId, inicio: partida.timestamp, ultimoUpdate: partida.timestamp, sets: [partida] });
+            const novaScrim = { chave: chaveTimes, tAId: partida.tAId, tBId: partida.tBId, inicio: partida.timestamp, ultimoUpdate: partida.timestamp, sets: [partida] };
+            scrims.push(novaScrim);
+            scrimMaisRecentePorConfronto.set(chaveTimes, novaScrim);
         }
     });
 
@@ -579,10 +611,13 @@ let _cacheDadosBrawlers = {};
 let _cacheDataRef = null;
 
 const _CSV_PATHS = [
-    'https://raw.githubusercontent.com/BSCinfos/Lib/main/historico_bruto.csv',
     'historico_bruto.csv',
-    './historico_bruto.csv'
+    'https://raw.githubusercontent.com/BSCinfos/TestZone/main/historico_bruto.csv',
+    'https://raw.githubusercontent.com/BSCinfos/Lib/main/historico_bruto.csv'
 ];
+const _DRAFT_HISTORICO_CACHE_KEY = 'testzone:historico_bruto_csv:v1';
+const _DRAFT_HISTORICO_CACHE_TTL = 10 * 60 * 1000;
+let _draftCacheVerificado = false;
 
 // Prioriza window.dadosFiltrados (publicado pelo app.js na mesma página).
 // Quando o draft.html roda sem o app.js, usa os dados processados localmente.
@@ -596,6 +631,7 @@ function _processarECondensarCSV(rawData) {
     _draftDadosBrutos = rawData;
     // Inicializa rosters com PADRAO (equivalente a "Todos" no filtro do geral.html)
     _draftConfiguracaoTimes = JSON.parse(JSON.stringify(_draftRostersGerados || _DRAFT_ROSTERS_POR_DATA["PADRAO"]));
+    _draftIndiceParesRoster = null;
     // Processa times desconhecidos (cria UNK para adversários de times cadastrados)
     _draftProcessarTimesDesconhecidos(_draftDadosBrutos);
     // Réplica do filterFn do app.js com todos os filtros em "Todos":
@@ -607,51 +643,100 @@ function _processarECondensarCSV(rawData) {
     _cacheDadosBrawlers = {}; _cacheDataRef = null;
 }
 
-function _dispararCarregamentoCSV(idx) {
+function _dispararCarregamentoCSV(idx, ignorarCache) {
     idx = idx || 0;
     if (_csvCarregado || _csvCarregando) return;
     if (!_draftRostersProntos) {
         if (!_draftRostersPromise) _draftRostersPromise = _draftCarregarRostersGerados();
-        _draftRostersPromise.then(() => _dispararCarregamentoCSV(idx));
+        _draftRostersPromise.then(() => _dispararCarregamentoCSV(idx, ignorarCache));
         return;
     }
+
+    // Usa o mesmo histórico já analisado pelas páginas regionais/GERAL, se ainda estiver recente.
+    if (idx === 0 && !ignorarCache && !_draftCacheVerificado && window.BSCDataCache) {
+        _draftCacheVerificado = true;
+        _csvCarregando = true;
+        window.BSCDataCache.get(_DRAFT_HISTORICO_CACHE_KEY).then(cache => {
+            if (window.BSCDataCache.isFresh(cache, _DRAFT_HISTORICO_CACHE_TTL) &&
+                cache.data.length && cache.data[0].pick !== undefined) {
+                _processarECondensarCSV(cache.data);
+                _csvCarregado = true;
+                _csvCarregando = false;
+                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
+                _cbsAposCSV = [];
+                console.info(`[DRAFT CACHE] ${cache.data.length} linhas reutilizadas do histórico local.`);
+                return;
+            }
+            _csvCarregando = false;
+            _dispararCarregamentoCSV(0, true);
+        }).catch(() => {
+            _csvCarregando = false;
+            _dispararCarregamentoCSV(0, true);
+        });
+        return;
+    }
+
     if (typeof Papa === 'undefined') {
         if (!document.getElementById('_papaparse_draft')) {
             const s = document.createElement('script');
             s.id = '_papaparse_draft';
             s.src = 'https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js';
-            s.onload = () => _dispararCarregamentoCSV(idx);
+            s.onload = () => _dispararCarregamentoCSV(idx, true);
+            s.onerror = () => {
+                _csvCarregado = true; _csvCarregando = false;
+                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
+                _cbsAposCSV = [];
+            };
             (document.head || document.documentElement).appendChild(s);
         } else {
-            setTimeout(() => _dispararCarregamentoCSV(idx), 100);
+            setTimeout(() => _dispararCarregamentoCSV(idx, true), 100);
         }
         return;
     }
+
     _csvCarregando = true;
-    Papa.parse(_CSV_PATHS[idx] || _CSV_PATHS[0], {
-        download: true, header: true, skipEmptyLines: true,
-        complete: function(results) {
-            if (results.data && results.data.length > 0 && results.data[0].pick !== undefined) {
-                _processarECondensarCSV(results.data);
+    const linhasCarregadas = [];
+    const fonte = _CSV_PATHS[idx] || _CSV_PATHS[0];
+    Papa.parse(fonte, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        worker: true,
+        chunkSize: 1024 * 1024,
+        chunk: function (resultadoParcial) {
+            const bloco = Array.isArray(resultadoParcial.data) ? resultadoParcial.data : [];
+            for (let i = 0; i < bloco.length; i++) {
+                const linha = bloco[i];
+                if (linha && linha.pick !== undefined) linhasCarregadas.push(linha);
+            }
+        },
+        complete: function () {
+            if (linhasCarregadas.length) {
+                // O helper tira uma cópia síncrona para salvar o CSV sem mutações de processamento.
+                if (window.BSCDataCache) {
+                    window.BSCDataCache.set(_DRAFT_HISTORICO_CACHE_KEY, linhasCarregadas)
+                        .catch(erro => console.warn('[DRAFT CACHE] Não foi possível guardar o histórico local.', erro));
+                }
+                _processarECondensarCSV(linhasCarregadas);
                 _csvCarregado = true; _csvCarregando = false;
-                _cbsAposCSV.forEach(fn => { try { fn(); } catch(e) {} });
+                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
                 _cbsAposCSV = [];
             } else if (idx + 1 < _CSV_PATHS.length) {
                 _csvCarregando = false;
-                _dispararCarregamentoCSV(idx + 1);
+                _dispararCarregamentoCSV(idx + 1, true);
             } else {
                 _csvCarregado = true; _csvCarregando = false;
-                _cbsAposCSV.forEach(fn => { try { fn(); } catch(e) {} });
+                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
                 _cbsAposCSV = [];
             }
         },
-        error: function() {
+        error: function () {
             if (idx + 1 < _CSV_PATHS.length) {
                 _csvCarregando = false;
-                _dispararCarregamentoCSV(idx + 1);
+                _dispararCarregamentoCSV(idx + 1, true);
             } else {
                 _csvCarregado = true; _csvCarregando = false;
-                _cbsAposCSV.forEach(fn => { try { fn(); } catch(e) {} });
+                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
                 _cbsAposCSV = [];
             }
         }
@@ -859,7 +944,7 @@ let timerInterval = null;
 function limparNome(nome) { return !nome ? "" : nome.toLowerCase().replace(/[^a-z0-9]/g, ''); }
 
 function criarConteudoSlot(nome, id) {
-    return `<div class="slot-assets"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="slot-fallback-text">${nome}</div></div>`;
+    return `<div class="slot-assets"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" loading="lazy" decoding="async"><div class="slot-fallback-text">${nome}</div></div>`;
 }
 
 // Busca os dados do brawler: primeiro tenta dinâmico (dadosBrutos), depois cai no vazio
@@ -925,7 +1010,7 @@ function abrirModalSugestao(nomeBrawler, event) {
         return `
         <div style="display:flex; align-items:center; justify-content:space-between; padding:6px 4px; border-bottom:1px solid rgba(255,255,255,0.05);">
             <div style="display:flex; align-items:center; gap:8px;">
-                <img src="brawlers/${cId}.png" onerror="this.style.display='none'" style="width:32px; height:32px; border-radius:7px; object-fit:cover;">
+                <img src="brawlers/${cId}.png" onerror="this.style.display='none'" style="width:32px; height:32px; border-radius:7px; object-fit:cover;" loading="lazy" decoding="async">
                 <span style="font-weight:800; font-size:13px; color:#e2e8f0;">${c.nome}</span>
             </div>
             <div style="display:flex; gap:10px; font-size:11px; font-weight:700; text-align:right;">
@@ -946,7 +1031,7 @@ function abrirModalSugestao(nomeBrawler, event) {
         const cId = limparNome(c.nome);
         return `
         <div style="background:#0f172a; padding:12px 8px; border-radius:8px; text-align:center; border:1px solid #1e293b;">
-            <img src="brawlers/${cId}.png" onerror="this.style.display='none'" style="width:40px; height:40px; border-radius:7px; margin-bottom:6px; object-fit:cover;">
+            <img src="brawlers/${cId}.png" onerror="this.style.display='none'" style="width:40px; height:40px; border-radius:7px; margin-bottom:6px; object-fit:cover;" loading="lazy" decoding="async">
             <div style="font-weight:900; font-size:12px; margin-bottom:4px; color:#e2e8f0;">${c.nome}</div>
             <div style="font-size:11px; color:#64748b; font-weight:700;">P: ${c.matches} | PR: ${c.pr.toFixed(1)}%</div>
             <div style="font-size:11px; font-weight:700; margin-top:2px;">W: <span style="color:#fff">${c.wins}</span> | <span style="color:#4ade80">WR: ${c.wr.toFixed(1)}%</span></div>
@@ -960,7 +1045,7 @@ function abrirModalSugestao(nomeBrawler, event) {
         const corWR = parseFloat(mwr) >= 50 ? '#4ade80' : '#f87171';
         return `
         <div style="background:#0f172a; padding:10px; border-radius:8px; border:1px solid #1e293b; text-align:center;">
-            <img src="element/maps/${mId}.png" onerror="this.style.display='none'" style="width:100%; height:56px; object-fit:cover; border-radius:5px; margin-bottom:6px;">
+            <img src="element/maps/${mId}.png" onerror="this.style.display='none'" style="width:100%; height:56px; object-fit:cover; border-radius:5px; margin-bottom:6px;" loading="lazy" decoding="async">
             <div style="font-weight:900; font-size:11px; margin-bottom:5px; color:#e2e8f0;">${m}</div>
             <div style="font-size:10px; color:#64748b; font-weight:700;">P: ${s.picks} | PR: ${((s.picks / dados.totalPicks) * 100).toFixed(1)}%</div>
             <div style="font-size:10px; font-weight:700; margin-top:2px;">W: <span style="color:#fff">${s.wins}</span> | <span style="color:${corWR}">WR: ${mwr}%</span></div>
@@ -987,7 +1072,7 @@ function abrirModalSugestao(nomeBrawler, event) {
         return `<div style="display:flex;align-items:center;gap:5px;background:${corBg};border:1px solid ${corBrd};border-radius:6px;padding:4px 6px;cursor:pointer;margin-bottom:2px;"
             onclick="abrirModalSugestao('${b.nome}', event)">
             <span style="font-size:9px;font-weight:900;color:${numColor};width:14px;text-align:right;flex-shrink:0;">${i+1}</span>
-            <img src="brawlers/${tid}.png" onerror="this.style.display='none'" style="width:26px;height:26px;border-radius:5px;object-fit:cover;flex-shrink:0;">
+            <img src="brawlers/${tid}.png" onerror="this.style.display='none'" style="width:26px;height:26px;border-radius:5px;object-fit:cover;flex-shrink:0;" loading="lazy" decoding="async">
             <div style="min-width:0;flex:1;overflow:hidden;">
                 <div style="font-size:9px;font-weight:800;color:${isThis?'#fbbf24':'#e2e8f0'};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${b.nome}</div>
                 <div style="font-size:8px;color:#64748b;font-weight:600;">P:${b.picks} WR:${b.wr.toFixed(0)}%</div>
@@ -1001,7 +1086,7 @@ function abrirModalSugestao(nomeBrawler, event) {
 
         <!-- HEADER -->
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #334155;flex-shrink:0;">
-            <img src="brawlers/${id}.png" onerror="this.style.display='none'" style="width:50px;height:50px;border-radius:10px;object-fit:cover;border:2px solid #60a5fa;">
+            <img src="brawlers/${id}.png" onerror="this.style.display='none'" style="width:50px;height:50px;border-radius:10px;object-fit:cover;border:2px solid #60a5fa;" loading="lazy" decoding="async">
             <div>
                 <div style="font-size:18px;font-weight:900;color:#fff;">${nomeBrawler}</div>
                 ${dados
@@ -1070,7 +1155,7 @@ function _mostrarModalLoading(nomeBrawler, id) {
     modal.innerHTML = `
     <div style="background:#1a1d26; border:1px solid #334155; border-radius:14px; width:320px; max-width:96vw; padding:30px 20px; position:relative; text-align:center;">
         <button onclick="document.getElementById('modal-sugestao-draft').remove()" style="position:absolute;top:12px;right:14px;background:transparent;border:none;color:#64748b;font-size:20px;cursor:pointer;">✕</button>
-        <img src="brawlers/${id}.png" onerror="this.style.display='none'" style="width:56px; height:56px; border-radius:12px; object-fit:cover; border:2px solid #60a5fa; margin-bottom:12px;">
+        <img src="brawlers/${id}.png" onerror="this.style.display='none'" style="width:56px; height:56px; border-radius:12px; object-fit:cover; border:2px solid #60a5fa; margin-bottom:12px;" loading="lazy" decoding="async">
         <div style="font-size:17px; font-weight:900; color:#fff; margin-bottom:8px;">${nomeBrawler}</div>
         <div style="font-size:13px; color:#64748b;">⏳ Carregando dados do CSV...</div>
     </div>`;
@@ -1079,11 +1164,11 @@ function _mostrarModalLoading(nomeBrawler, id) {
 function criarConteudoSlotComSugestao(nome, id) {
     return `
         <div class="slot-assets" style="position:relative;">
-            <img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" loading="lazy" decoding="async">
             <div class="slot-fallback-text">${nome}</div>
             <div class="slot-sugestao-btn" onclick="abrirModalSugestao('${nome}', event)" title="Ver Bom Contra / Ruim Contra / Sinergias"
                 style="position:absolute; bottom:3px; right:3px; width:22px; height:22px; cursor:pointer; z-index:10; border-radius:50%; background:rgba(0,0,0,0.55); display:flex; align-items:center; justify-content:center; overflow:hidden;">
-                <img src="element/sugestion.png" onerror="this.style.display='none'; this.parentElement.innerHTML='💡';" style="width:16px; height:16px; object-fit:contain;">
+                <img src="element/sugestion.png" onerror="this.style.display='none'; this.parentElement.innerHTML='💡';" style="width:16px; height:16px; object-fit:contain;" loading="lazy" decoding="async">
             </div>
         </div>`;
 }
@@ -1109,7 +1194,7 @@ function popularGridModos() {
         const div = document.createElement('div');
         div.className = 'modo-card';
         div.title = modo;
-        div.innerHTML = `<img src="element/modes/${key}.png" onerror="this.src='element/modes/default.png'">`;
+        div.innerHTML = `<img src="element/modes/${key}.png" onerror="this.src='element/modes/default.png'" loading="lazy" decoding="async">`;
         div.onclick = () => window.escolherModo(modo);
         grid.appendChild(div);
     });
@@ -1130,7 +1215,7 @@ function popularGridMapas(modo) {
         const key = limparNome(mapa);
         const div = document.createElement('div');
         div.className = 'mapa-card';
-        div.innerHTML = `<img src="element/maps/${key}.png" onerror="this.src='element/maps/default.png'"><span>${mapa}</span>`;
+        div.innerHTML = `<img src="element/maps/${key}.png" onerror="this.src='element/maps/default.png'" loading="lazy" decoding="async"><span>${mapa}</span>`;
         div.onclick = () => window.escolherMapa(mapa);
         grid.appendChild(div);
     });
@@ -1185,7 +1270,7 @@ function gerarRoster() {
         const id = limparNome(nome);
         const div = document.createElement('div');
         div.className = 'brawler-icon'; div.id = `b-${id}`;
-        div.innerHTML = `<div class="brawler-img-container"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" title="${nome}"><div class="fallback-initials">${nome.substring(0,2).toUpperCase()}</div></div><span class="brawler-name">${nome}</span>`;
+        div.innerHTML = `<div class="brawler-img-container"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" title="${nome}" loading="lazy" decoding="async"><div class="fallback-initials">${nome.substring(0,2).toUpperCase()}</div></div><span class="brawler-name">${nome}</span>`;
         div.onclick = () => clicarBrawler(nome, id);
         grid.appendChild(div);
     });
@@ -1222,7 +1307,7 @@ window.atualizarMeta = function() {
     if (metaBrawlers && metaBrawlers.length > 0) {
         metaBrawlers.forEach(b => {
             const id = limparNome(b.nome);
-            container.innerHTML += `<div class="mini-brawler" title="Top Pick: ${b.nome}"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="fallback-initials">${b.nome.substring(0,2).toUpperCase()}</div></div>`;
+            container.innerHTML += `<div class="mini-brawler" title="Top Pick: ${b.nome}"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" loading="lazy" decoding="async"><div class="fallback-initials">${b.nome.substring(0,2).toUpperCase()}</div></div>`;
         });
     } else {
         container.innerHTML = '<p style="color:#555; font-size:11px; width: 100%; text-align:center;">Sem dados de meta para este mapa ainda.</p>';
@@ -1397,11 +1482,11 @@ window.clicarBrawler = function(nome, id) {
         const sugestaoBtn = step.type === 'pick'
             ? `<div class="slot-sugestao-btn" onclick="abrirModalSugestao('${nome}', event)" title="Ver análise"
                 style="position:absolute; bottom:3px; right:3px; width:22px; height:22px; cursor:pointer; z-index:10; border-radius:50%; background:rgba(0,0,0,0.55); display:flex; align-items:center; justify-content:center; overflow:hidden;">
-                <img src="element/sugestion.png" onerror="this.style.display='none'; this.parentElement.innerHTML='💡';" style="width:16px; height:16px; object-fit:contain;">
+                <img src="element/sugestion.png" onerror="this.style.display='none'; this.parentElement.innerHTML='💡';" style="width:16px; height:16px; object-fit:contain;" loading="lazy" decoding="async">
                </div>`
             : '';
         slot.innerHTML = `<div class="slot-assets pre-selecting" onclick="window.confirmarBlueSelection(event)" style="position:relative;">
-            <img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" loading="lazy" decoding="async">
             <div class="slot-fallback-text">${nome}</div>
             <div class="pre-select-badge">✓</div>
             ${sugestaoBtn}
@@ -1556,7 +1641,7 @@ function mostrarAnaliseFinal() {
                 ${picksEmRisco.length > 0 ? picksEmRisco.map(p => {
                     const sugestao = sugerirMelhorTroca(p);
                     const idAtual = limparNome(p), idSugestao = sugestao ? limparNome(sugestao) : null;
-                    return `<li><div class="troca-sugestao"><img src="brawlers/${idAtual}.png" onerror="this.src='brawlers/default.png'"><span class="troca-x">X</span>${sugestao ? `<img src="brawlers/${idSugestao}.png" onerror="this.src='brawlers/default.png'">` : ''}</div><span>Trocar <strong>${p}</strong> ${sugestao ? `por <strong>${sugestao}</strong>` : ''} reduziria a exposição aos counters do adversário.</span></li>`;
+                    return `<li><div class="troca-sugestao"><img src="brawlers/${idAtual}.png" onerror="this.src='brawlers/default.png'" loading="lazy" decoding="async"><span class="troca-x">X</span>${sugestao ? `<img src="brawlers/${idSugestao}.png" onerror="this.src='brawlers/default.png'" loading="lazy" decoding="async">` : ''}</div><span>Trocar <strong>${p}</strong> ${sugestao ? `por <strong>${sugestao}</strong>` : ''} reduziria a exposição aos counters do adversário.</span></li>`;
                 }).join('') : '<li>✅ Nenhuma troca crítica necessária — draft sólido.</li>'}
             </ul>
         </div>

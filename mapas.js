@@ -513,19 +513,19 @@
   function criarTabelaTimes(lista) {
     if (!lista.length)
       return `<div class="mapas-empty">Sem dados suficientes.</div>`;
-    return `<div class="mapas-table-wrap"><table class="excel-table mapas-table"><thead><tr><th>TIME</th><th>WINRATE%</th><th>WINS</th><th>LOSSES</th><th>GAMES</th></tr></thead><tbody> ${lista .map( (t) => `<tr><td style="text-align:left;"><div class="mapas-team-cell"><img src="${escapeHtml( teamLogoUrlSafe(t.id) )}" onerror="this.onerror=null;this.src='${escapeHtml( teamLogoFallbackSafe(t.id) )}'"><span>${escapeHtml( t.nome )}</span></div></td><td class="winrate-cell">${t.winRate.toFixed( 1 )}%</td><td>${t.wins}</td><td>${t.losses}</td><td>${ t.games }</td></tr>` ) .join("")} </tbody></table></div>`;
+    return `<div class="mapas-table-wrap"><table class="excel-table mapas-table"><thead><tr><th>TIME</th><th>WINRATE%</th><th>WINS</th><th>LOSSES</th><th>GAMES</th></tr></thead><tbody> ${lista .map( (t) => `<tr><td style="text-align:left;"><div class="mapas-team-cell"><img src="${escapeHtml( teamLogoUrlSafe(t.id) )}" onerror="this.onerror=null;this.src='${escapeHtml( teamLogoFallbackSafe(t.id) )}'" loading="lazy" decoding="async"><span>${escapeHtml( t.nome )}</span></div></td><td class="winrate-cell">${t.winRate.toFixed( 1 )}%</td><td>${t.wins}</td><td>${t.losses}</td><td>${ t.games }</td></tr>` ) .join("")} </tbody></table></div>`;
   }
 
   function criarTabelaSinergias(lista) {
     if (!lista.length)
       return `<div class="mapas-empty">Sem sinergias suficientes.</div>`;
-    return `<div class="mapas-table-wrap"><table class="excel-table mapas-table"><thead><tr><th>SINERGIA</th><th>WINRATE%</th><th>WINS</th><th>LOSSES</th><th>GAMES</th></tr></thead><tbody> ${lista .map( (s) => `<tr><td style="text-align:left;font-weight:900;"><div class="mapas-synergy-cell">${s.brawlers .map( (b) => `<span class="mapas-brawler-pill"><img src="brawlers/pins/${escapeHtml( formatImgSafe(b) )}.png" onerror="this.onerror=null;this.src='brawlers/${escapeHtml( formatImgSafe(b) )}.png'">${escapeHtml(b)}</span>` ) .join( "" )}</div></td><td class="winrate-cell">${s.winRate.toFixed( 1 )}%</td><td>${s.wins}</td><td>${s.losses}</td><td>${ s.games }</td></tr>` ) .join("")} </tbody></table></div>`;
+    return `<div class="mapas-table-wrap"><table class="excel-table mapas-table"><thead><tr><th>SINERGIA</th><th>WINRATE%</th><th>WINS</th><th>LOSSES</th><th>GAMES</th></tr></thead><tbody> ${lista .map( (s) => `<tr><td style="text-align:left;font-weight:900;"><div class="mapas-synergy-cell">${s.brawlers .map( (b) => `<span class="mapas-brawler-pill"><img src="brawlers/pins/${escapeHtml( formatImgSafe(b) )}.png" onerror="this.onerror=null;this.src='brawlers/${escapeHtml( formatImgSafe(b) )}.png'" loading="lazy" decoding="async">${escapeHtml(b)}</span>` ) .join( "" )}</div></td><td class="winrate-cell">${s.winRate.toFixed( 1 )}%</td><td>${s.wins}</td><td>${s.losses}</td><td>${ s.games }</td></tr>` ) .join("")} </tbody></table></div>`;
   }
 
   function criarTabelaComps(lista) {
     if (!lista.length)
       return `<div class="mapas-empty">Sem comps suficientes.</div>`;
-    return `<div class="mapas-table-wrap"><table class="excel-table mapas-table"><thead><tr><th>TIME</th><th>COMP</th><th>WINRATE%</th><th>WINS</th><th>LOSSES</th><th>GAMES</th></tr></thead><tbody> ${lista .map( (c) => `<tr><td style="text-align:left;font-weight:900;">${escapeHtml( c.teamName )}</td><td style="text-align:left;">${c.comp .map( (b) => `<span class="mapas-brawler-pill"><img src="brawlers/pins/${escapeHtml( formatImgSafe(b) )}.png" onerror="this.onerror=null;this.src='brawlers/${escapeHtml( formatImgSafe(b) )}.png'">${escapeHtml(b)}</span>` ) .join("")}</td><td class="winrate-cell">${c.winRate.toFixed( 1 )}%</td><td>${c.wins}</td><td>${c.losses}</td><td>${ c.games }</td></tr>` ) .join("")} </tbody></table></div>`;
+    return `<div class="mapas-table-wrap"><table class="excel-table mapas-table"><thead><tr><th>TIME</th><th>COMP</th><th>WINRATE%</th><th>WINS</th><th>LOSSES</th><th>GAMES</th></tr></thead><tbody> ${lista .map( (c) => `<tr><td style="text-align:left;font-weight:900;">${escapeHtml( c.teamName )}</td><td style="text-align:left;">${c.comp .map( (b) => `<span class="mapas-brawler-pill"><img src="brawlers/pins/${escapeHtml( formatImgSafe(b) )}.png" onerror="this.onerror=null;this.src='brawlers/${escapeHtml( formatImgSafe(b) )}.png'" loading="lazy" decoding="async">${escapeHtml(b)}</span>` ) .join("")}</td><td class="winrate-cell">${c.winRate.toFixed( 1 )}%</td><td>${c.wins}</td><td>${c.losses}</td><td>${ c.games }</td></tr>` ) .join("")} </tbody></table></div>`;
   }
 
   function teamLogoUrlSafe(id) {
@@ -566,12 +566,12 @@
     let html = "";
 
     modos.forEach((modo, modoIndex) => {
-      html += ` <div class="mapas-modo-title"> <img src="element/modes/${escapeHtml( formatImgSafe(modo) )}.png" onerror="this.style.display='none'"> <span>${escapeHtml(modo)}</span> </div> `;
+      html += ` <div class="mapas-modo-title"> <img src="element/modes/${escapeHtml( formatImgSafe(modo) )}.png" onerror="this.style.display='none'" loading="lazy" decoding="async"> <span>${escapeHtml(modo)}</span> </div> `;
 
       rotacao[modo].forEach((mapa, mapaIndex) => {
         const id = `mapa-${modoIndex}-${mapaIndex}`;
 
-        html += ` <button type="button" id="${id}" class="mapas-sidebar-item" data-modo="${escapeHtml(modo)}" data-mapa="${escapeHtml(mapa)}" > <img src="element/maps/${escapeHtml( formatImgSafe(mapa) )}.png" onerror="this.style.display='none'"> <span>${escapeHtml(mapa)}</span> </button> `;
+        html += ` <button type="button" id="${id}" class="mapas-sidebar-item" data-modo="${escapeHtml(modo)}" data-mapa="${escapeHtml(mapa)}" > <img src="element/maps/${escapeHtml( formatImgSafe(mapa) )}.png" onerror="this.style.display='none'" loading="lazy" decoding="async"> <span>${escapeHtml(mapa)}</span> </button> `;
       });
     });
 
@@ -641,7 +641,7 @@
       )
       .slice(0, 5);
 
-    painel.innerHTML = ` <div class="mapas-header"> <div> <div class="mapas-mode-label">${escapeHtml(modo)}</div> <h2>${escapeHtml(mapa)}</h2> <div class="mapas-subtitle"> ${dados.sets.reduce( (total, set) => total + (Array.isArray(set.games) ? set.games.length : 0), 0 )} GAMES analisados </div> </div> <img class="mapas-main-image" src="element/maps/${escapeHtml(formatImgSafe(mapa))}.png" onerror="this.style.display='none'" > </div> <section class="mapas-section"> <div class="mapas-section-title"> <span>🏆 MELHORES TIMES</span> <small>Contado por GAME</small> </div> ${criarTabelaTimes(melhoresTimes)} </section> <section class="mapas-section"> <div class="mapas-section-title"> <span>📉 PIORES TIMES</span> <small>Top 5 com menor WinRate</small> </div> ${criarTabelaTimes(pioresTimes)} </section> <section class="mapas-section"> <div class="mapas-section-title"> <span>🤝 MELHORES SINERGIAS</span> <small>Par de brawlers do mesmo time, contado por GAME</small> </div> ${criarTabelaSinergias(melhoresSinergias)} </section> <section class="mapas-section"> <div class="mapas-section-title"> <span>🔥 MELHORES COMPS</span> <small>Trio do mesmo time, contado por GAME</small> </div> ${criarTabelaComps(melhoresComps)} </section> `;
+    painel.innerHTML = ` <div class="mapas-header"> <div> <div class="mapas-mode-label">${escapeHtml(modo)}</div> <h2>${escapeHtml(mapa)}</h2> <div class="mapas-subtitle"> ${dados.sets.reduce( (total, set) => total + (Array.isArray(set.games) ? set.games.length : 0), 0 )} GAMES analisados </div> </div> <img class="mapas-main-image" src="element/maps/${escapeHtml(formatImgSafe(mapa))}.png" onerror="this.style.display='none'"  loading="lazy" decoding="async"> </div> <section class="mapas-section"> <div class="mapas-section-title"> <span>🏆 MELHORES TIMES</span> <small>Contado por GAME</small> </div> ${criarTabelaTimes(melhoresTimes)} </section> <section class="mapas-section"> <div class="mapas-section-title"> <span>📉 PIORES TIMES</span> <small>Top 5 com menor WinRate</small> </div> ${criarTabelaTimes(pioresTimes)} </section> <section class="mapas-section"> <div class="mapas-section-title"> <span>🤝 MELHORES SINERGIAS</span> <small>Par de brawlers do mesmo time, contado por GAME</small> </div> ${criarTabelaSinergias(melhoresSinergias)} </section> <section class="mapas-section"> <div class="mapas-section-title"> <span>🔥 MELHORES COMPS</span> <small>Trio do mesmo time, contado por GAME</small> </div> ${criarTabelaComps(melhoresComps)} </section> `;
   }
 
   function limparCacheEAtualizarMapas() {

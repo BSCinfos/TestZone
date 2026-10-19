@@ -180,10 +180,10 @@ function overlayDraft() {
             <div class="tx-map-banner"><span class="gem">💎</span><span>${esc(mapaDisplay)}</span></div>
             <div class="tx-draft-mid">
                 <div class="tx-team-col">
-                    <div class="tx-team-head"><img src="${esc(a.logo)}" alt=""><span class="tx-name">${esc(a.nome)}</span></div>
+                    <div class="tx-team-head"><img src="${esc(a.logo)}" alt="" loading="lazy" decoding="async"><span class="tx-name">${esc(a.nome)}</span></div>
                     <div class="tx-picks">${a.ids.map((id,i) => `
                         <div class="tx-pick">
-                            <img src="brawlers/${estadoDraft.picks.azul[i]||'unknow'}.png" onerror="this.style.visibility='hidden'">
+                            <img src="brawlers/${estadoDraft.picks.azul[i]||'unknow'}.png" onerror="this.style.visibility='hidden'" loading="lazy" decoding="async">
                             <div><div class="tx-pick-name">${id?'Jogador '+(i+1):'Jogador '+(i+1)}</div><div class="tx-pick-id">${esc(id||'ID não informado')}</div></div>
                         </div>`).join('')}</div>
                 </div>
@@ -191,18 +191,18 @@ function overlayDraft() {
                     <div>${imgMapa()}<div class="map-name">${esc(mapaSel||modoSel||'AGUARDANDO')}</div><div class="map-mode">${esc(modoSel||'')}</div></div>
                 </div>
                 <div class="tx-team-col">
-                    <div class="tx-team-head"><img src="${esc(r.logo)}" alt=""><span class="tx-name">${esc(r.nome)}</span></div>
+                    <div class="tx-team-head"><img src="${esc(r.logo)}" alt="" loading="lazy" decoding="async"><span class="tx-name">${esc(r.nome)}</span></div>
                     <div class="tx-picks">${r.ids.map((id,i) => `
                         <div class="tx-pick">
-                            <img src="brawlers/${estadoDraft.picks.vermelho[i]||'unknow'}.png" onerror="this.style.visibility='hidden'">
+                            <img src="brawlers/${estadoDraft.picks.vermelho[i]||'unknow'}.png" onerror="this.style.visibility='hidden'" loading="lazy" decoding="async">
                             <div><div class="tx-pick-name">${'Jogador '+(i+1)}</div><div class="tx-pick-id">${esc(id||'ID não informado')}</div></div>
                         </div>`).join('')}</div>
                 </div>
             </div>
             <div class="tx-scorebar">
-                <div class="sb-team"><img src="${esc(a.logo)}" alt=""><div><div class="sb-name">${esc(a.nome)}</div><div class="sb-score az">${sessao.pontos.azul}</div></div></div>
+                <div class="sb-team"><img src="${esc(a.logo)}" alt="" loading="lazy" decoding="async"><div><div class="sb-name">${esc(a.nome)}</div><div class="sb-score az">${sessao.pontos.azul}</div></div></div>
                 <div class="sb-vs">VS</div>
-                <div class="sb-team right"><div><div class="sb-name">${esc(r.nome)}</div><div class="sb-score vm">${sessao.pontos.vermelho}</div></div><img src="${esc(r.logo)}" alt=""></div>
+                <div class="sb-team right"><div><div class="sb-name">${esc(r.nome)}</div><div class="sb-score vm">${sessao.pontos.vermelho}</div></div><img src="${esc(r.logo)}" alt="" loading="lazy" decoding="async"></div>
             </div>
         </div>`;
 }
@@ -214,7 +214,7 @@ function overlayObs() {
             <div class="tx-obs-mapbar">${esc(mapaSel ? (modoSel?modoSel+' · ':'')+mapaSel : (modoSel||'Partida Ao Vivo'))}</div>
             <div class="tx-obs-halves">
                 <div class="tx-obs-half blue">
-                    <div class="tx-obs-team"><img src="${esc(a.logo)}" alt=""><span class="tx-name">${esc(a.nome)}</span></div>
+                    <div class="tx-obs-team"><img src="${esc(a.logo)}" alt="" loading="lazy" decoding="async"><span class="tx-name">${esc(a.nome)}</span></div>
                     <div class="tx-obs-slots">${[0,1,2].map(i => obsSlot('azul', i)).join('')}</div>
                 </div>
                 <div class="tx-obs-center">
@@ -225,7 +225,7 @@ function overlayObs() {
                     <div class="tx-obs-mode">${esc(modoSel||'')}</div>
                 </div>
                 <div class="tx-obs-half red">
-                    <div class="tx-obs-team"><img src="${esc(r.logo)}" alt=""><span class="tx-name">${esc(r.nome)}</span></div>
+                    <div class="tx-obs-team"><img src="${esc(r.logo)}" alt="" loading="lazy" decoding="async"><span class="tx-name">${esc(r.nome)}</span></div>
                     <div class="tx-obs-slots">${[0,1,2].map(i => obsSlot('vermelho', i)).join('')}</div>
                 </div>
             </div>
@@ -573,15 +573,15 @@ function renderHistItem(r) {
             <div>
                 <div class="mini-tag" style="margin-bottom:4px;">🔵 ${r.azul.nome} (${r.placarApos.azul})</div>
                 <div class="picks">
-                    ${r.azul.bans.map(p => p ? '<img src="brawlers/'+p+'.png" title="BAN: '+nomeBonito(p)+'" style="opacity:.5">' : '').join('')}
-                    ${r.azul.picks.map(p => p ? '<img src="brawlers/'+p+'.png" title="PICK: '+nomeBonito(p)+'">' : '').join('')}
+                    ${r.azul.bans.map(p => p ? '<img src="brawlers/'+p+'.png" title="BAN: '+nomeBonito(p)+'" style="opacity:.5" loading="lazy" decoding="async">' : '').join('')}
+                    ${r.azul.picks.map(p => p ? '<img src="brawlers/'+p+'.png" title="PICK: '+nomeBonito(p)+'" loading="lazy" decoding="async">' : '').join('')}
                 </div>
             </div>
             <div>
                 <div class="mini-tag" style="margin-bottom:4px;">🔴 ${r.vermelho.nome} (${r.placarApos.vermelho})</div>
                 <div class="picks">
-                    ${r.vermelho.bans.map(p => p ? '<img src="brawlers/'+p+'.png" title="BAN: '+nomeBonito(p)+'" style="opacity:.5">' : '').join('')}
-                    ${r.vermelho.picks.map(p => p ? '<img src="brawlers/'+p+'.png" title="PICK: '+nomeBonito(p)+'">' : '').join('')}
+                    ${r.vermelho.bans.map(p => p ? '<img src="brawlers/'+p+'.png" title="BAN: '+nomeBonito(p)+'" style="opacity:.5" loading="lazy" decoding="async">' : '').join('')}
+                    ${r.vermelho.picks.map(p => p ? '<img src="brawlers/'+p+'.png" title="PICK: '+nomeBonito(p)+'" loading="lazy" decoding="async">' : '').join('')}
                 </div>
             </div>
         </div>`;
