@@ -8,9 +8,268 @@
 // =====================================================================================
 
 // =====================================================================================
-// ROSTER AUTOMÁTICO — fonte única: rosters.json gerado a partir das partidas.
-// Não mantém cópias estáticas por data; isso evita dados desatualizados no Draft.
+// ROSTERS POR DATA — cópia exata do app.js
 // =====================================================================================
+const _DRAFT_ROSTERS_POR_DATA = {
+    "2026": {
+        "06": {
+           "SA": {
+        "TIER S": [
+            { id_time: "BH", nome_time: "Bounty Hunters", jogadores: [ { nick: "Wesley", tag: "#PLLRJC2V" }, { nick: "Prozy", tag: "#GYCYCLRJL" }, { nick: "Portox", tag: "#YGQYGCR" } ] },
+            { id_time: "PIZZA", nome_time: "Pizza Congelado F/A", jogadores: [ { nick: "Jubileubr", tag: "#GVYLVUGR" }, { nick: "CAUEBR", tag: "#JQ8L0YYL" }, { nick: "Mohtep", tag: "#R2LR2QLG" } ] }
+        ],
+        "TIER A": [
+            { id_time: "LOUD", nome_time: "LOUD", jogadores: [ { nick: "KaioDog", tag: "#GGUQCG0G" }, { nick: "FireCrow", tag: "#JQ8LLLY" }, { nick: "Edinho", tag: "#QJULVGU" } ] },
+            { id_time: "OS", nome_time: "OLIMPO SQUAD", jogadores: [ { nick: "Golden", tag: "#9QCJPL20" }, { nick: "Brabao", tag: "#L9PQUV0YC" }, { nick: "Pekka", tag: "#JVRCVJ9Q" } ] },
+            { id_time: "GLXY", nome_time: "GALAXY", jogadores: [ { nick: "Doritos🐉", tag: "#202GJJR28" }, { nick: "Derpp🐰ᩚ", tag: "#2QG9LQQC8Y" }, { nick: "IceCrow", tag: "#9CPYUCGQC" } ] },
+            { id_time: "SKC", nome_time: "SKCalalas SA", jogadores: [ { nick: "Kr ;)", tag: "#PR0P8QVQ" }, { nick: "Rhz", tag: "#89PVJG9R0" }, { nick: "Juan Carlos", tag: "#PR9U2JL" } ] },
+            { id_time: "ENO", nome_time: "ENOSIS", jogadores: [ { nick: "Magic🎩", tag: "#2QCCC29QV" }, { nick: "REI DO FUT", tag: "#RVL0RPR9" }, { nick: "Fantas🌖", tag: "#PU20LUCQG" } ] },
+            { id_time: "OCX", nome_time: "OCX Division", jogadores: [ { nick: "Tufa", tag: "#CQLR0Y80" }, { nick: "Enid", tag: "#2JGP0LYV2Q" }, { nick: "Red Eyes", tag: "#CUGVUYPG" } ] },
+            { id_time: "AL", nome_time: "ACRE LOVERS", jogadores: [ { nick: "FireMirillo", tag: "#2GV09VJJP" }, { nick: "Satisfiyer", tag: "#PLJ8VQY2C" }, { nick: "Star Lipi", tag: "#2UQCCG92VG" } ] }
+        ],
+        "TIER B": [
+            { id_time: "CB", nome_time: "CRECHE BRAWL", jogadores: [ { nick: "Tilo", tag: "#80VLPJCCC" }, { nick: "Bielz", tag: "#9Q22C88V8" }, { nick: "Yichy", tag: "#2LVGCJ2UQR" } ] },
+            { id_time: "ZRT", nome_time: "ZURITA GANG", jogadores: [ { nick: "Jxcccr", tag: "#820JCJJG" }, { nick: "Exic", tag: "#RCYQUJU0" }, { nick: "", tag: "#" } ] },
+            { id_time: "OCXA", nome_time: "OCX DIVISION ACADEMY", jogadores: [ { nick: "Sterixx", tag: "#2P8RVJVUY" }, { nick: "", tag: "#" }, { nick: "", tag: "#" } ] },
+            { id_time: "LVL", nome_time: "LEVEL ESPORTS", jogadores: [ { nick: "Deykonn", tag: "#GJPVYUQG" }, { nick: "B4st", tag: "#2CJ0RCJ" }, { nick: "Todd", tag: "#22PGQU98R" } ] }
+        ],
+        "TIER B-/C+": [
+            { id_time: "HAWK", nome_time: "RED HAWK", jogadores: [ { nick: "BeBaxo", tag: "#2YRRL8GG2" }, { nick: "Marcellus", tag: "#9J0R0GQL" }, { nick: "Migz Labubu", tag: "#82P9JCJV8" } ] },
+            { id_time: "LVLA", nome_time: "LEVEL ESPORTS ACADEMY", jogadores: [ { nick: "JoeFav", tag: "#VQ8YP9C0" }, { nick: "Levi", tag: "#YQVPY0J9" }, { nick: "xJnn", tag: "#GLQG9CU20" } ] },
+            { id_time: "AG", nome_time: "AG ESPORTS", jogadores: [ { nick: "Lion", tag: "#8OYUV29GR" }, { nick: "Bieel", tag: "#9JVUGR2JG" }, { nick: "Brennox🎩", tag: "#LLCURQVY2" }, { nick: "Puda", tag: "#829QUYGP0" } ] },
+            { id_time: "JPFC", nome_time: "JAPÃO FC ESPORTS", jogadores: [ { nick: "Azuri", tag: "#YCUGURU89" }, { nick: "Raze", tag: "#2GP98PQOG" }, { nick: "Esoteric", tag: "#8C8988222" } ] }
+        ]
+        },
+        "NA": {
+        "TIER S": [
+            { id_time: "RLM", nome_time: "ONLY REALM", jogadores: [ { nick: "Bobby", tag: "#LVRRYPV" }, { nick: "Patch", tag: "#RLLRJ2" }, { nick: "Sans", tag: "#QUYCVC2" } ] },
+            { id_time: "TRB", nome_time: "TRIBE GAMING", jogadores: [ { nick: "Lxffy", tag: "#82RCQCVG" }, { nick: "RBM", tag: "#U9GC8G02" }, { nick: "Diegogamer", tag: "#QLCJGQUP" } ] }
+        ],
+        "TIER A": [
+            { id_time: "TE", nome_time: "TEAM ELEKTROS", jogadores: [ { nick: "Snoiy", tag: "#YUJ8PJ0LR" }, { nick: "Memxn", tag: "#PJPPY9LRC" }, { nick: "Doin", tag: "#8CRU0PQRQ" } ] },
+            { id_time: "HML", nome_time: "F/A HOMELESS", jogadores: [ { nick: "Tyrant", tag: "#VPVLG2" }, { nick: "Xemp", tag: "#2P9CJVGJ8" }, { nick: "Ducky", tag: "#20P2GP99" } ] },
+            { id_time: "NOVA", nome_time: "NOVA", jogadores: [ { nick: "PaiN", tag: "#GVLRUG9Q" }, { nick: "Roledu", tag: "#LPQQLYL2" }, { nick: "Kiritom", tag: "#LU8C9YJU" } ] },
+            { id_time: "VTC", nome_time: "VATIC", jogadores: [ { nick: "Ezlivi", tag: "#QURVLPG" }, { nick: "Belal", tag: "#Q2VCLG9Y9" }, { nick: "Duckie", tag: "#22JR2JLYC" } ] },
+            { id_time: "LGCY", nome_time: "LEGACY", jogadores: [ { nick: "Rafiki", tag: "#R9CCLP8Q" }, { nick: "Zoulan", tag: "#LYR0Q9C" }, { nick: "Zeus", tag: "#2Q028GQQP" } ] },
+            { id_time: "VIC", nome_time: "VIC", jogadores: [ { nick: "OG", tag: "#28LUY98" }, { nick: "Juice", tag: "#RP0UL9QUG" }, { nick: "SecondBest", tag: "#PVQ9QUY" } ] },
+            { id_time: "VICD", nome_time: "VIC Day", jogadores: [ { nick: "Vegeta", tag: "#JJ09PC0P" }, { nick: "Tacos", tag: "#GCJCRVQ8" }, { nick: "Chino", tag: "#VJUQ0Y" } ] }
+        ],
+        "TIER B": [
+            { id_time: "RLMA", nome_time: "ONLY REALM Academy", jogadores: [ { nick: "Winq", tag: "#8UL0U08V" }, { nick: "Nerf", tag: "#9YYUPGJ2V" }, { nick: "Juni", tag: "#PL0GRVJRJ" } ] },
+            { id_time: "PFZ", nome_time: "PFZ", jogadores: [ { nick: "Squeezy", tag: "#R80QRP0G" }, { nick: "Diegofr", tag: "#8CC2CL8Q" }, { nick: "Alyanys", tag: "#2LQ0RGCRU" } ] },
+            { id_time: "ENONA", nome_time: "ENOSIS NA", jogadores: [ { nick: "David", tag: "#88PL8L2JC" }, { nick: "GN", tag: "#9GPQR8CGL" }, { nick: "Razuen", tag: "#8Q2QUV00J" } ] }
+        ]
+        },
+        "EMEA": {
+        "TIER S": [
+            { id_time: "FUT", nome_time: "FUT ESPORTS", jogadores: [ { nick: "AngelBoy", tag: "#9PCV9L982" }, { nick: "Guesti", tag: "#2R0JLJJ9PP" }, { nick: "Nob", tag: "#P2808PRC" } ] },
+            { id_time: "HMBLE", nome_time: "HMBLE", jogadores: [ { nick: "Symantec", tag: "#YQUCCJ2" }, { nick: "BosS", tag: "#V89Y2GP0" }, { nick: "Lukii", tag: "#8V92UYCJ" } ] }
+        ],
+        "TIER A": [
+            { id_time: "KUMA", nome_time: "KUMA", jogadores: [ { nick: "Dompe", tag: "#2208QGGGL" }, { nick: "Mine", tag: "#V888YPGU" }, { nick: "Nes", tag: "#Q808R2CV" } ] },
+            { id_time: "NAVI", nome_time: "NAVI", jogadores: [ { nick: "Enraged", tag: "#80PVPCC29" }, { nick: "GeRo", tag: "#2VJCCCQGP" }, { nick: "Drage", tag: "#J089RQ" } ] },
+            { id_time: "MZP", nome_time: "MZP", jogadores: [ { nick: "Decaii", tag: "#2Y822YJYJC" }, { nick: "Ćiro", tag: "#2RR2RU8UL" }, { nick: "LeNain", tag: "#20L88L2J" } ] },
+            { id_time: "SK", nome_time: "SK GAMING", jogadores: [ { nick: "Ope", tag: "#9LVUC2PY" }, { nick: "Yoshi825", tag: "#CJV2PJ0R" }, { nick: "Yoko", tag: "#29VRJU08C" } ] },
+            { id_time: "TH", nome_time: "TEAM HERETICS", jogadores: [ { nick: "IKaoss", tag: "#PCPRPJV" }, { nick: "Marco", tag: "#Q22ULY9JY" }, { nick: "Zimon", tag: "#22CL00PG0" } ] },
+            { id_time: "TTM", nome_time: "REPLY TOTEM", jogadores: [ { nick: "Maru", tag: "#2Q892QVU" }, { nick: "Joker", tag: "#9JCG0VY8U" }, { nick: "Maury", tag: "#82RGU8PR" } ] },
+            { id_time: "NOVO", nome_time: "NOVO ESPORTS", jogadores: [ { nick: "Filippo", tag: "#9PQQ8GQQ" }, { nick: "MeOw", tag: "#90JCYPQU" }, { nick: "Jus", tag: "#JJ92RGPL" } ] },
+            { id_time: "BIG", nome_time: "BIG", jogadores: [ { nick: "Salty", tag: "#PLV89CGP" }, { nick: "Arthur🥥", tag: "#9RVPL0Q0P" }, { nick: "Melih🥥", tag: "#GLPJRCLYL" } ] }
+        ],
+        "TIER B": [
+            { id_time: "REV", nome_time: "REVERSO HIVE", jogadores: [ { nick: "Fayelo", tag: "#LLV82LQPU" }, { nick: "Ethan", tag: "#2Y20JR8CQ" }, { nick: "Natrix", tag: "#CJ9YRGGC" } ] },
+            { id_time: "TLB", nome_time: "TALENTS LAB", jogadores: [ { nick: "Yei Yei", tag: "#8RVLRVYYP" }, { nick: "Agachi", tag: "#YYUG20PQV" }, { nick: "Stas", tag: "#9LYQR9QC" } ] }
+        ]
+        },
+        "EA": {
+        "TIER S": [
+            { id_time: "CR", nome_time: "CRAZY RACCOON", jogadores: [ { nick: "Tensai", tag: "#9ULYPV8" }, { nick: "Milkreo", tag: "#20C0LL00" }, { nick: "Moya", tag: "#UR2UL8YR" } ] },
+            { id_time: "ZETA", nome_time: "ZETA DIVISION", jogadores: [ { nick: "Battoman", tag: "#P0Y8JGL0U" }, { nick: "Sizuku", tag: "#P90RJQ8C" }, { nick: "Sitetampo", tag: "#8Y98Q8U" } ] }
+        ],
+        "TIER A": [
+            { id_time: "SKCEA", nome_time: "SKC EA", jogadores: [ { nick: "Kuru", tag: "#J99YU9QY" }, { nick: "Ghost T", tag: "#2CJJJGUJ20" }, { nick: "Naipishu", tag: "#2P0V0CQQ2" } ] },
+            { id_time: "IGM", nome_time: "IGNUM", jogadores: [ { nick: "Shigemyon", tag: "#2RQQ9PGC" }, { nick: "Drake", tag: "#2CJG2GGCGP" }, { nick: "Nyade", tag: "2UQVY2JL2V#" } ] },
+            { id_time: "AXIS", nome_time: "AXIS", jogadores: [ { nick: "Terry", tag: "#LJ0288PRG" }, { nick: "Yume", tag: "#PJ80QPVL2" }, { nick: "Menmi", tag: "#QCLV9CL" } ] },
+            { id_time: "RVL", nome_time: "RIVAL", jogadores: [ { nick: "Yutapin", tag: "#82CJYJPG2" }, { nick: "Ryohei", tag: "#82PQUPGU0" }, { nick: "Totoro", tag: "#2ULLCRYJ2Y" } ] },
+            { id_time: "RC", nome_time: "REJECT", jogadores: [ { nick: "Melty", tag: "#8J9GUJJVY" }, { nick: "Levi", tag: "#29UGLJV2G" }, { nick: "Shu", tag: "#2G0RRLU2R" } ] },
+            { id_time: "FL", nome_time: "FENNEL", jogadores: [ { nick: "Achapi", tag: "#28PU0P9L0" }, { nick: "Ken-G", tag: "#2282LR0YG" }, { nick: "I see", tag: "#8Y2Y0GYYG" } ] },
+            { id_time: "INS", nome_time: "INSOMNIA", jogadores: [ { nick: "Koga", tag: "#28VP0G808" }, { nick: "Wahochi", tag: "#80YVJGRY" }, { nick: "Jene", tag: "#8GUPLYY" } ] },
+            { id_time: "FZ", nome_time: "FRENZY", jogadores: [ { nick: "Toridesu", tag: "#89UUQLJCC" }, { nick: "Danshari", tag: "#99GGUPY2U" }, { nick: "Ferkel", tag: "#CV9Y9VPP" } ] },
+            { id_time: "F0", nome_time: "FAZE ZERO", jogadores: [ { nick: "Rennosuke", tag: "#8R0JY2UJ2" }, { nick: "Telpny", tag: "#9GJ8GYCY2" }, { nick: "Mira", tag: "#88LLQGP0Q" } ] }
+        ]
+        }
+        },
+        "07": {
+           "SA": {
+        "TIER S": [
+            { id_time: "BH", nome_time: "Bounty Hunters", jogadores: [ { nick: "Wesley", tag: "#PLLRJC2V" }, { nick: "Prozy", tag: "#GYCYCLRJL" }, { nick: "Portox", tag: "#YGQYGCR" } ] },
+            { id_time: "RED", nome_time: "RED CANIDS", jogadores: [ { nick: "Jubileubr", tag: "#GVYLVUGR" }, { nick: "CAUEBR", tag: "#JQ8L0YYL" }, { nick: "Mohtep", tag: "#R2LR2QLG" } ] }
+        ],
+        "TIER A": [
+            { id_time: "LOUD", nome_time: "LOUD", jogadores: [ { nick: "KaioDog", tag: "#GGUQCG0G" }, { nick: "FireCrow", tag: "#JQ8LLLY" }, { nick: "Edinho", tag: "#QJULVGU" } ] },
+            { id_time: "OS", nome_time: "OLIMPO SQUAD", jogadores: [ { nick: "Golden", tag: "#9QCJPL20" }, { nick: "Brabao", tag: "#L9PQUV0YC" }, { nick: "Pekka", tag: "#JVRCVJ9Q" } ] },
+            { id_time: "GLXY", nome_time: "GALAXY", jogadores: [ { nick: "Doritos🐉", tag: "#202GJJR28" }, { nick: "Derpp🐰ᩚ", tag: "#2QG9LQQC8Y" }, { nick: "IceCrow", tag: "#9CPYUCGQC" } ] },
+            { id_time: "SKC", nome_time: "SKCalalas SA", jogadores: [ { nick: "Kr ;)", tag: "#PR0P8QVQ" }, { nick: "Rhz", tag: "#89PVJG9R0" }, { nick: "Juan Carlos", tag: "#PR9U2JL" } ] },
+            { id_time: "ENO", nome_time: "ENOSIS", jogadores: [ { nick: "Magic🎩", tag: "#2QCCC29QV" }, { nick: "REI DO FUT", tag: "#RVL0RPR9" }, { nick: "Fantas🌖", tag: "#PU20LUCQG" } ] },
+            { id_time: "NS", nome_time: "NINGUEM SEGURA", jogadores: [ { nick: "Tufa", tag: "#CQLR0Y80" }, { nick: "Enid", tag: "#2JGP0LYV2Q" }, { nick: "Red Eyes", tag: "#CUGVUYPG" } ] },
+            { id_time: "OCX", nome_time: "OCX DIVISION", jogadores: [ { nick: "FireMirillo", tag: "#2GV09VJJP" }, { nick: "Satisfiyer", tag: "#PLJ8VQY2C" }, { nick: "Star Lipi", tag: "#2UQCCG92VG" } ] }
+        ],
+        "TIER B": [
+            { id_time: "CB", nome_time: "CRECHE BRAWL", jogadores: [ { nick: "Tilo", tag: "#80VLPJCCC" }, { nick: "Bielz", tag: "#9Q22C88V8" }, { nick: "Yichy", tag: "#2LVGCJ2UQR" } ] },
+            { id_time: "ZRT", nome_time: "ZURITA GANG", jogadores: [ { nick: "Jxcccr", tag: "#820JCJJG" }, { nick: "Exic", tag: "#RCYQUJU0" }, { nick: "", tag: "#" } ] },
+            { id_time: "OCXA", nome_time: "OCX DIVISION ACADEMY", jogadores: [ { nick: "Sterixx", tag: "#2P8RVJVUY" }, { nick: "", tag: "#" }, { nick: "", tag: "#" } ] },
+            { id_time: "QQQ", nome_time: "QUEROQUEQUE", jogadores: [ { nick: "Deykonn", tag: "#GJPVYUQG" }, { nick: "B4st", tag: "#2CJ0RCJ" }, { nick: "Todd", tag: "#22PGQU98R" } ] }
+        ],
+        "TIER B-/C+": [
+            { id_time: "HAWK", nome_time: "RED HAWK", jogadores: [ { nick: "BeBaxo", tag: "#2YRRL8GG2" }, { nick: "Marcellus", tag: "#9J0R0GQL" }, { nick: "Migz Labubu", tag: "#82P9JCJV8" } ] },
+            { id_time: "LVLA", nome_time: "LEVEL ESPORTS ACADEMY", jogadores: [ { nick: "JoeFav", tag: "#VQ8YP9C0" }, { nick: "Levi", tag: "#YQVPY0J9" }, { nick: "xJnn", tag: "#GLQG9CU20" } ] },
+            { id_time: "AG", nome_time: "AG ESPORTS", jogadores: [ { nick: "Lion", tag: "#8OYUV29GR" }, { nick: "Bieel", tag: "#9JVUGR2JG" }, { nick: "Brennox🎩", tag: "#LLCURQVY2" }, { nick: "Puda", tag: "#829QUYGP0" } ] },
+            { id_time: "JPFC", nome_time: "JAPÃO FC ESPORTS", jogadores: [ { nick: "Azuri", tag: "#YCUGURU89" }, { nick: "Raze", tag: "#2GP98PQOG" }, { nick: "Esoteric", tag: "#8C8988222" } ] }
+        ]
+        },
+        "NA": {
+        "TIER S": [
+            { id_time: "BOB", nome_time: "BOBBY F/A", jogadores: [ { nick: "Bobby", tag: "#LVRRYPV" }, { nick: "Patch", tag: "#RLLRJ2" }, { nick: "Sans", tag: "#QUYCVC2" } ] },
+            { id_time: "TRB", nome_time: "TRIBE GAMING", jogadores: [ { nick: "Lxffy", tag: "#82RCQCVG" }, { nick: "RBM", tag: "#U9GC8G02" }, { nick: "Diegogamer", tag: "#QLCJGQUP" } ] }
+        ],
+        "TIER A": [
+            { id_time: "TE", nome_time: "TEAM ELEKTROS", jogadores: [ { nick: "Snoiy", tag: "#YUJ8PJ0LR" }, { nick: "Memxn", tag: "#PJPPY9LRC" }, { nick: "Doin", tag: "#8CRU0PQRQ" } ] },
+            { id_time: "HML", nome_time: "F/A HOMELESS", jogadores: [ { nick: "Tyrant", tag: "#VPVLG2" }, { nick: "Xemp", tag: "#2P9CJVGJ8" }, { nick: "Ducky", tag: "#20P2GP99" } ] },
+            { id_time: "NOVA", nome_time: "NOVA", jogadores: [ { nick: "PaiN", tag: "#GVLRUG9Q" }, { nick: "Squeezy", tag: "#R80QRP0G" }, { nick: "Kiritom", tag: "#LU8C9YJU" } ] },
+            { id_time: "VTC", nome_time: "VATIC", jogadores: [ { nick: "Ezlivi", tag: "#QURVLPG" }, { nick: "Belal", tag: "#Q2VCLG9Y9" }, { nick: "Duckie", tag: "#22JR2JLYC" } ] },
+            { id_time: "LGCY", nome_time: "LEGACY", jogadores: [ { nick: "Rafiki", tag: "#R9CCLP8Q" }, { nick: "Zoulan", tag: "#LYR0Q9C" }, { nick: "Zeus", tag: "#2Q028GQQP" } ] },
+            { id_time: "VIC", nome_time: "VIC", jogadores: [ { nick: "OG", tag: "#28LUY98" }, { nick: "Juice", tag: "#RP0UL9QUG" }, { nick: "SecondBest", tag: "#PVQ9QUY" } ] },
+            { id_time: "VICD", nome_time: "VIC Day", jogadores: [ { nick: "Vegeta", tag: "#JJ09PC0P" }, { nick: "Tacos", tag: "#GCJCRVQ8" }, { nick: "Chino", tag: "#VJUQ0Y" } ] }
+        ],
+        "TIER B": [
+            { id_time: "RLMA", nome_time: "ONLY REALM Academy", jogadores: [ { nick: "Winq", tag: "#8UL0U08V" }, { nick: "Nerf", tag: "#9YYUPGJ2V" }, { nick: "Juni", tag: "#PL0GRVJRJ" } ] },
+            { id_time: "PFZ", nome_time: "PFZ", jogadores: [ { nick: "Squeezy", tag: "#R80QRP0G" }, { nick: "Diegofr", tag: "#8CC2CL8Q" }, { nick: "Alyanys", tag: "#2LQ0RGCRU" } ] },
+            { id_time: "ENONA", nome_time: "ENOSIS NA", jogadores: [ { nick: "David", tag: "#88PL8L2JC" }, { nick: "GN", tag: "#9GPQR8CGL" }, { nick: "Razuen", tag: "#8Q2QUV00J" } ] }
+        ]
+        },
+        "EMEA": {
+        "TIER S": [
+            { id_time: "FUT", nome_time: "FUT ESPORTS", jogadores: [ { nick: "AngelBoy", tag: "#9PCV9L982" }, { nick: "Guesti", tag: "#2R0JLJJ9PP" }, { nick: "Nob", tag: "#P2808PRC" } ] },
+            { id_time: "HMBLE", nome_time: "HMBLE", jogadores: [ { nick: "Symantec", tag: "#YQUCCJ2" }, { nick: "BosS", tag: "#V89Y2GP0" }, { nick: "Lukii", tag: "#8V92UYCJ" } ] }
+        ],
+        "TIER A": [
+            { id_time: "KUMA", nome_time: "KUMA", jogadores: [ { nick: "Dompe", tag: "#2208QGGGL" }, { nick: "Mine", tag: "#V888YPGU" }, { nick: "Nes", tag: "#Q808R2CV" } ] },
+            { id_time: "NAVI", nome_time: "NAVI", jogadores: [ { nick: "Enraged", tag: "#80PVPCC29" }, { nick: "GeRo", tag: "#2VJCCCQGP" }, { nick: "Drage", tag: "#J089RQ" } ] },
+            { id_time: "MZP", nome_time: "METIZPORT", jogadores: [ { nick: "Decaii", tag: "#2Y822YJYJC" }, { nick: "Ćiro", tag: "#2RR2RU8UL" }, { nick: "Remica", tag: "#Y8PLP8VY" } ] },
+            { id_time: "SK", nome_time: "SK GAMING", jogadores: [ { nick: "Ope", tag: "#9LVUC2PY" }, { nick: "Yoshi825", tag: "#CJV2PJ0R" }, { nick: "Yoko", tag: "#29VRJU08C" } ] },
+            { id_time: "TH", nome_time: "TEAM HERETICS", jogadores: [ { nick: "IKaoss", tag: "#PCPRPJV" }, { nick: "Marco", tag: "#Q22ULY9JY" }, { nick: "Subeme", tag: "#2JQU8JQ2G" } ] },
+            { id_time: "TTM", nome_time: "REPLY TOTEM", jogadores: [ { nick: "Maru", tag: "#2Q892QVU" }, { nick: "Joker", tag: "#9JCG0VY8U" }, { nick: "Maury", tag: "#82RGU8PR" } ] },
+            { id_time: "NOVO", nome_time: "NOVO ESPORTS", jogadores: [ { nick: "Filippo", tag: "#9PQQ8GQQ" }, { nick: "MeOw", tag: "#90JCYPQU" }, { nick: "Jus", tag: "#JJ92RGPL" } ] },
+            { id_time: "BIG", nome_time: "BIG", jogadores: [ { nick: "Salty", tag: "#PLV89CGP" }, { nick: "Arthur🥥", tag: "#9RVPL0Q0P" }, { nick: "Melih🥥", tag: "#GLPJRCLYL" } ] }
+        ],
+        "TIER B": [
+            { id_time: "REV", nome_time: "REVERSO HIVE", jogadores: [ { nick: "Fayelo", tag: "#LLV82LQPU" }, { nick: "Ethan", tag: "#2Y20JR8CQ" }, { nick: "Natrix", tag: "#CJ9YRGGC" } ] },
+            { id_time: "TLB", nome_time: "TALENTS LAB", jogadores: [ { nick: "Yei Yei", tag: "#8RVLRVYYP" }, { nick: "Agachi", tag: "#YYUG20PQV" }, { nick: "Stas", tag: "#9LYQR9QC" } ] }
+        ]
+        },
+        "EA": {
+        "TIER S": [
+            { id_time: "CR", nome_time: "CRAZY RACCOON", jogadores: [ { nick: "Tensai", tag: "#9ULYPV8" }, { nick: "Milkreo", tag: "#20C0LL00" }, { nick: "Moya", tag: "#UR2UL8YR" } ] },
+            { id_time: "ZETA", nome_time: "ZETA DIVISION", jogadores: [ { nick: "Battoman", tag: "#P0Y8JGL0U" }, { nick: "Sizuku", tag: "#P90RJQ8C" }, { nick: "Sitetampo", tag: "#8Y98Q8U" } ] }
+        ],
+        "TIER A": [
+            { id_time: "SKCEA", nome_time: "SKC EA", jogadores: [ { nick: "Kuru", tag: "#J99YU9QY" }, { nick: "Ghost T", tag: "#2CJJJGUJ20" }, { nick: "Naipishu", tag: "#2P0V0CQQ2" } ] },
+            { id_time: "IGM", nome_time: "IGNUM", jogadores: [ { nick: "Shigemyon", tag: "#2RQQ9PGC" }, { nick: "Drake", tag: "#2CJG2GGCGP" }, { nick: "Nyade", tag: "2UQVY2JL2V#" } ] },
+            { id_time: "AXIS", nome_time: "AXIS", jogadores: [ { nick: "Terry", tag: "#LJ0288PRG" }, { nick: "Yume", tag: "#PJ80QPVL2" }, { nick: "Menmi", tag: "#QCLV9CL" } ] },
+            { id_time: "RVL", nome_time: "RIVAL", jogadores: [ { nick: "Yutapin", tag: "#82CJYJPG2" }, { nick: "Ryohei", tag: "#82PQUPGU0" }, { nick: "Totoro", tag: "#2ULLCRYJ2Y" } ] },
+            { id_time: "RC", nome_time: "REJECT", jogadores: [ { nick: "Melty", tag: "#8J9GUJJVY" }, { nick: "Levi", tag: "#29UGLJV2G" }, { nick: "Shu", tag: "#2G0RRLU2R" } ] },
+            { id_time: "FL", nome_time: "FENNEL", jogadores: [ { nick: "Achapi", tag: "#28PU0P9L0" }, { nick: "Ken-G", tag: "#2282LR0YG" }, { nick: "I see", tag: "#8Y2Y0GYYG" } ] },
+            { id_time: "INS", nome_time: "INSOMNIA", jogadores: [ { nick: "Koga", tag: "#28VP0G808" }, { nick: "Wahochi", tag: "#80YVJGRY" }, { nick: "Jene", tag: "#8GUPLYY" } ] },
+            { id_time: "FZ", nome_time: "FRENZY", jogadores: [ { nick: "Toridesu", tag: "#89UUQLJCC" }, { nick: "Danshari", tag: "#99GGUPY2U" }, { nick: "Ferkel", tag: "#CV9Y9VPP" } ] },
+            { id_time: "F0", nome_time: "FAZE ZERO", jogadores: [ { nick: "Rennosuke", tag: "#8R0JY2UJ2" }, { nick: "Telpny", tag: "#9GJ8GYCY2" }, { nick: "Mira", tag: "#88LLQGP0Q" } ] }
+        ]
+        }
+        }
+    },
+    "PADRAO": {
+        "SA": {
+        "TIER S": [
+            { id_time: "BH", nome_time: "Bounty Hunters", jogadores: [ { nick: "Wesley", tag: "#PLLRJC2V" }, { nick: "Prozy", tag: "#GYCYCLRJL" }, { nick: "Portox", tag: "#YGQYGCR" } ] },
+            { id_time: "RED", nome_time: "RED CANIDS", jogadores: [ { nick: "Jubileubr", tag: "#GVYLVUGR" }, { nick: "CAUEBR", tag: "#JQ8L0YYL" }, { nick: "Mohtep", tag: "#R2LR2QLG" } ] }
+        ],
+        "TIER A": [
+            { id_time: "LOUD", nome_time: "LOUD", jogadores: [ { nick: "KaioDog", tag: "#GGUQCG0G" }, { nick: "FireCrow", tag: "#JQ8LLLY" }, { nick: "Edinho", tag: "#QJULVGU" } ] },
+            { id_time: "OS", nome_time: "OLIMPO SQUAD", jogadores: [ { nick: "Golden", tag: "#9QCJPL20" }, { nick: "Brabao", tag: "#L9PQUV0YC" }, { nick: "Pekka", tag: "#JVRCVJ9Q" } ] },
+            { id_time: "GLXY", nome_time: "GALAXY", jogadores: [ { nick: "Doritos🐉", tag: "#202GJJR28" }, { nick: "Derpp🐰ᩚ", tag: "#2QG9LQQC8Y" }, { nick: "IceCrow", tag: "#9CPYUCGQC" } ] },
+            { id_time: "SKC", nome_time: "SKCalalas SA", jogadores: [ { nick: "Kr ;)", tag: "#PR0P8QVQ" }, { nick: "Rhz", tag: "#89PVJG9R0" }, { nick: "Juan Carlos", tag: "#PR9U2JL" } ] },
+            { id_time: "ENO", nome_time: "ENOSIS", jogadores: [ { nick: "Magic🎩", tag: "#2QCCC29QV" }, { nick: "REI DO FUT", tag: "#RVL0RPR9" }, { nick: "Fantas🌖", tag: "#PU20LUCQG" } ] },
+            { id_time: "OCX", nome_time: "OCX DIVISION", jogadores: [ { nick: "FireMirillo", tag: "#2GV09VJJP" }, { nick: "Satisfiyer", tag: "#PLJ8VQY2C" }, { nick: "Star Lipi", tag: "#2UQCCG92VG" } ] }
+        ],
+        "TIER B": [
+            { id_time: "CB", nome_time: "CRECHE BRAWL", jogadores: [ { nick: "Tilo", tag: "#80VLPJCCC" }, { nick: "Bielz", tag: "#9Q22C88V8" }, { nick: "Yichy", tag: "#2LVGCJ2UQR" } ] },
+            { id_time: "ZRT", nome_time: "ZURITA GANG", jogadores: [ { nick: "Jxcccr", tag: "#820JCJJG" }, { nick: "Exic", tag: "#RCYQUJU0" }, { nick: "", tag: "#" } ] },
+            { id_time: "LVL", nome_time: "LEVEL ESPORTS", jogadores: [ { nick: "Deykonn", tag: "#GJPVYUQG" }, { nick: "B4st", tag: "#2CJ0RCJ" }, { nick: "Todd", tag: "#22PGQU98R" } ] }
+        ],
+        "TIER B-/C+": [
+            { id_time: "HAWK", nome_time: "RED HAWK", jogadores: [ { nick: "BeBaxo", tag: "#2YRRL8GG2" }, { nick: "Marcellus", tag: "#9J0R0GQL" }, { nick: "Migz Labubu", tag: "#82P9JCJV8" } ] },
+            { id_time: "LVLA", nome_time: "LEVEL ESPORTS ACADEMY", jogadores: [ { nick: "JoeFav", tag: "#VQ8YP9C0" }, { nick: "Levi", tag: "#YQVPY0J9" }, { nick: "xJnn", tag: "#GLQG9CU20" } ] },
+            { id_time: "AG", nome_time: "AG ESPORTS", jogadores: [ { nick: "Lion", tag: "#8OYUV29GR" }, { nick: "Bieel", tag: "#9JVUGR2JG" }, { nick: "Brennox🎩", tag: "#LLCURQVY2" }, { nick: "Puda", tag: "#829QUYGPO" } ] },
+            { id_time: "JPFC", nome_time: "JAPÃO FC ESPORTS", jogadores: [ { nick: "Azuri", tag: "#YCUGURU89" }, { nick: "Raze", tag: "#2GP98PQOG" }, { nick: "Esoteric", tag: "#8C8988222" } ] }
+        ]
+        },
+        "NA": {
+        "TIER S": [
+            { id_time: "RLM", nome_time: "ONLY REALM", jogadores: [ { nick: "Bobby", tag: "#LVRRYPV" }, { nick: "Patch", tag: "#RLLRJ2" }, { nick: "Sans", tag: "#QUYCVC2" } ] },
+            { id_time: "TRB", nome_time: "TRIBE GAMING", jogadores: [ { nick: "Lxffy", tag: "#82RCQCVG" }, { nick: "RBM", tag: "#U9GC8G02" }, { nick: "Diegogamer", tag: "#QLCJGQUP" } ] }
+        ],
+        "TIER A": [
+            { id_time: "TE", nome_time: "TEAM ELEKTROS", jogadores: [ { nick: "Snoiy", tag: "#YUJ8PJ0LR" }, { nick: "Memxn", tag: "#PJPPY9LRC" }, { nick: "Doin", tag: "#8CRU0PQRQ" } ] },
+            { id_time: "HML", nome_time: "F/A HOMELESS", jogadores: [ { nick: "Tyrant", tag: "#VPVLG2" }, { nick: "Xemp", tag: "#2P9CJVGJ8" }, { nick: "Ducky", tag: "#20P2GP99" } ] },
+            { id_time: "NOVA", nome_time: "NOVA", jogadores: [ { nick: "PaiN", tag: "#GVLRUG9Q" }, { nick: "Roledu", tag: "#LPQQLYL2" }, { nick: "Kiritom", tag: "#LU8C9YJU" } ] },
+            { id_time: "VTC", nome_time: "VATIC", jogadores: [ { nick: "Ezlivi", tag: "#QURVLPG" }, { nick: "Belal", tag: "#Q2VCLG9Y9" }, { nick: "Duckie", tag: "#22JR2JLYC" } ] },
+            { id_time: "LGCY", nome_time: "LEGACY", jogadores: [ { nick: "Rafiki", tag: "#R9CCLP8Q" }, { nick: "Zoulan", tag: "#LYR0Q9C" }, { nick: "Zeus", tag: "#2Q028GQQP" } ] },
+            { id_time: "VIC", nome_time: "VIC", jogadores: [ { nick: "OG", tag: "#28LUY98" }, { nick: "Juice", tag: "#RP0UL9QUG" }, { nick: "SecondBest", tag: "#PVQ9QUY" } ] },
+            { id_time: "VICD", nome_time: "VIC Day", jogadores: [ { nick: "Vegeta", tag: "#JJ09PC0P" }, { nick: "Tacos", tag: "#GCJCRVQ8" }, { nick: "Chino", tag: "#VJUQ0Y" } ] }
+        ],
+        "TIER B": [
+            { id_time: "RLMA", nome_time: "ONLY REALM Academy", jogadores: [ { nick: "Winq", tag: "#8UL0U08V" }, { nick: "Nerf", tag: "#9YYUPGJ2V" }, { nick: "Juni", tag: "#PL0GRVJRJ" } ] },
+            { id_time: "PFZ", nome_time: "PFZ", jogadores: [ { nick: "Squeezy", tag: "#R80QRP0G" }, { nick: "Diegofr", tag: "#8CC2CL8Q" }, { nick: "Alyanys", tag: "#2LQ0RGCRU" } ] },
+            { id_time: "ENONA", nome_time: "ENOSIS NA", jogadores: [ { nick: "David", tag: "#88PL8L2JC" }, { nick: "GN", tag: "#9GPQR8CGL" }, { nick: "Razuen", tag: "#8Q2QUV00J" } ] }
+        ]
+        },
+        "EMEA": {
+        "TIER S": [
+            { id_time: "FUT", nome_time: "FUT ESPORTS", jogadores: [ { nick: "AngelBoy", tag: "#9PCV9L982" }, { nick: "Guesti", tag: "#2R0JLJJ9PP" }, { nick: "Nob", tag: "#P2808PRC" } ] },
+            { id_time: "HMBLE", nome_time: "HMBLE", jogadores: [ { nick: "Symantec", tag: "#YQUCCJ2" }, { nick: "BosS", tag: "#V89Y2GP0" }, { nick: "Lukii", tag: "#8V92UYCJ" } ] }
+        ],
+        "TIER A": [
+            { id_time: "KUMA", nome_time: "KUMA", jogadores: [ { nick: "Dompe", tag: "#2208QGGGL" }, { nick: "Mine", tag: "#V888YPGU" }, { nick: "Nes", tag: "#Q808R2CV" } ] },
+            { id_time: "NAVI", nome_time: "NAVI", jogadores: [ { nick: "Enraged", tag: "#80PVPCC29" }, { nick: "GeRo", tag: "#2VJCCCQGP" }, { nick: "Drage", tag: "#J089RQ" } ] },
+            { id_time: "MZP", nome_time: "MZP", jogadores: [ { nick: "Decaii", tag: "#2Y822YJYJC" }, { nick: "Ćiro", tag: "#2RR2RU8UL" }, { nick: "LeNain", tag: "#20L88L2J" } ] },
+            { id_time: "SK", nome_time: "SK GAMING", jogadores: [ { nick: "Ope", tag: "#9LVUC2PY" }, { nick: "Yoshi825", tag: "#CJV2PJ0R" }, { nick: "Yoko", tag: "#29VRJU08C" } ] },
+            { id_time: "TH", nome_time: "TEAM HERETICS", jogadores: [ { nick: "IKaoss", tag: "#PCPRPJV" }, { nick: "Marco", tag: "#Q22ULY9JY" }, { nick: "Zimon", tag: "#22CL00PG0" } ] },
+            { id_time: "TTM", nome_time: "REPLY TOTEM", jogadores: [ { nick: "Maru", tag: "#2Q892QVU" }, { nick: "Joker", tag: "#9JCG0VY8U" }, { nick: "Maury", tag: "#82RGU8PR" } ] },
+            { id_time: "NOVO", nome_time: "NOVO ESPORTS", jogadores: [ { nick: "Filippo", tag: "#9PQQ8GQQ" }, { nick: "MeOw", tag: "#90JCYPQU" }, { nick: "Jus", tag: "#JJ92RGPL" } ] },
+            { id_time: "BIG", nome_time: "BIG", jogadores: [ { nick: "Salty", tag: "#PLV89CGP" }, { nick: "Arthur🥥", tag: "#9RVPL0Q0P" }, { nick: "Melih🥥", tag: "#GLPJRCLYL" } ] }
+        ],
+        "TIER B": [
+            { id_time: "REV", nome_time: "REVERSO HIVE", jogadores: [ { nick: "Fayelo", tag: "#LLV82LQPU" }, { nick: "Ethan", tag: "#2Y20JR8CQ" }, { nick: "Natrix", tag: "#CJ9YRGGC" } ] },
+            { id_time: "TLB", nome_time: "TALENTS LAB", jogadores: [ { nick: "Yei Yei", tag: "#8RVLRVYYP" }, { nick: "Agachi", tag: "#YYUG20PQV" }, { nick: "Stas", tag: "#9LYQR9QC" } ] }
+        ]
+        },
+        "EA": {
+        "TIER S": [
+            { id_time: "CR", nome_time: "CRAZY RACCOON", jogadores: [ { nick: "Tensai", tag: "#9ULYPV8" }, { nick: "Milkreo", tag: "#20C0LL00" }, { nick: "Moya", tag: "#UR2UL8YR" } ] },
+            { id_time: "ZETA", nome_time: "ZETA DIVISION", jogadores: [ { nick: "Battoman", tag: "#P0Y8JGL0U" }, { nick: "Sizuku", tag: "#P90RJQ8C" }, { nick: "Sitetampo", tag: "#8Y98Q8U" } ] }
+        ],
+        "TIER A": [
+            { id_time: "SKCEA", nome_time: "SKC EA", jogadores: [ { nick: "Kuru", tag: "#J99YU9QY" }, { nick: "Ghost T", tag: "#2CJJJGUJ20" }, { nick: "Naipishu", tag: "#2P0V0CQQ2" } ] },
+            { id_time: "IGM", nome_time: "IGNUM", jogadores: [ { nick: "Shigemyon", tag: "#2RQQ9PGC" }, { nick: "Drake", tag: "#2CJG2GGCGP" }, { nick: "Nyade", tag: "2UQVY2JL2V#" } ] },
+            { id_time: "AXIS", nome_time: "AXIS", jogadores: [ { nick: "Terry", tag: "#LJ0288PRG" }, { nick: "Yume", tag: "#PJ80QPVL2" }, { nick: "Menmi", tag: "#QCLV9CL" } ] },
+            { id_time: "RVL", nome_time: "RIVAL", jogadores: [ { nick: "Yutapin", tag: "#82CJYJPG2" }, { nick: "Ryohei", tag: "#82PQUPGU0" }, { nick: "Totoro", tag: "#2ULLCRYJ2Y" } ] },
+            { id_time: "RC", nome_time: "REJECT", jogadores: [ { nick: "Melty", tag: "#8J9GUJJVY" }, { nick: "Levi", tag: "#29UGLJV2G" }, { nick: "Shu", tag: "#2G0RRLU2R" } ] },
+            { id_time: "FL", nome_time: "FENNEL", jogadores: [ { nick: "Achapi", tag: "#28PU0P9L0" }, { nick: "Ken-G", tag: "#2282LR0YG" }, { nick: "I see", tag: "#8Y2Y0GYYG" } ] },
+            { id_time: "INS", nome_time: "INSOMNIA", jogadores: [ { nick: "Koga", tag: "#28VP0G808" }, { nick: "Wahochi", tag: "#80YVJGRY" }, { nick: "Jene", tag: "#8GUPLYY" } ] },
+            { id_time: "FZ", nome_time: "FRENZY", jogadores: [ { nick: "Toridesu", tag: "#89UUQLJCC" }, { nick: "Danshari", tag: "#99GGUPY2U" }, { nick: "Ferkel", tag: "#CV9Y9VPP" } ] },
+            { id_time: "F0", nome_time: "FAZE ZERO", jogadores: [ { nick: "Rennosuke", tag: "#8R0JY2UJ2" }, { nick: "Telpny", tag: "#9GJ8GYCY2" }, { nick: "Mira", tag: "#88LLQGP0Q" } ] }
+        ]
+        }
+    }
+};
 
 // =====================================================================================
 // HELPERS DE ROSTERS / MD3 — cópia exata do app.js
@@ -21,104 +280,7 @@
 const _DRAFT_REGIAO = (typeof window !== 'undefined' && window.REGIAO_ATUAL)
     ? window.REGIAO_ATUAL.toUpperCase() : "ALL";
 
-let _draftConfiguracaoTimes = {};
-
-
-// O mesmo arquivo gerado por gerador.py e consumido por app.js.
-// Assim novos times/regiões (incluindo CN) entram no Draft sem duplicar dados à mão.
-let _draftRostersGerados = null;
-let _draftRostersProntos = false;
-let _draftRostersPromise = null;
-let _draftIndiceParesRoster = null;
-
-function _draftNormalizarTag(tag) {
-    let valor = String(tag || '').trim().toUpperCase();
-    if (!valor || valor === '#') return '';
-    if (valor.endsWith('#') && !valor.startsWith('#')) valor = '#' + valor.slice(0, -1);
-    if (!valor.startsWith('#')) valor = '#' + valor;
-    return valor;
-}
-
-async function _draftCarregarRostersGerados() {
-    const fontes = [
-        `rosters.json?v=${Date.now()}`,
-        'https://raw.githubusercontent.com/BSCinfos/TestZone/main/rosters.json'
-    ];
-    let ultimoErro = null;
-
-    try {
-        for (const fonte of fontes) {
-            try {
-                const resposta = await fetch(fonte, { cache: 'no-store' });
-                if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
-                let dados = await resposta.json();
-                if (dados && dados.ROSTERS_AUTOMATICOS && typeof dados.ROSTERS_AUTOMATICOS === 'object') {
-                    dados = dados.ROSTERS_AUTOMATICOS;
-                }
-                if (!dados || typeof dados !== 'object' || Array.isArray(dados)) {
-                    throw new Error('formato inválido de rosters.json');
-                }
-
-                const timesPorChave = new Map();
-                Object.entries(dados).forEach(([tagPrincipal, registro]) => {
-                    if (!registro || typeof registro !== 'object') return;
-                    const idTime = String(registro.id_time || '').trim().toUpperCase();
-                    if (!idTime) return;
-                    const regiao = String(registro.regiao || 'SA').trim().toUpperCase();
-                    const chave = `${regiao}:${idTime}`;
-                    const nomeTime = String(registro.nome_time || idTime).trim() || idTime;
-                    if (!timesPorChave.has(chave)) {
-                        timesPorChave.set(chave, { regiao, id_time: idTime, nome_time: nomeTime, jogadores: [] });
-                    }
-                    const time = timesPorChave.get(chave);
-                    if ((!time.nome_time || time.nome_time === idTime) && nomeTime) time.nome_time = nomeTime;
-
-                    const adicionar = (tag, nick) => {
-                        const tagNormalizada = _draftNormalizarTag(tag);
-                        if (!tagNormalizada || time.jogadores.some(j => j.tag === tagNormalizada)) return;
-                        let nome = String(nick || 'Player').trim() || 'Player';
-                        if (nome.includes('|')) nome = nome.split('|').slice(-1)[0].trim() || 'Player';
-                        time.jogadores.push({ tag: tagNormalizada, nick: nome });
-                    };
-                    adicionar(tagPrincipal, registro.nome || registro.nick || registro.name);
-                    if (Array.isArray(registro.jogadores)) {
-                        registro.jogadores.forEach(j => {
-                            if (j && typeof j === 'object') {
-                                adicionar(j.tag || j.id || j.player_tag, j.nome || j.nick || j.name || j.player_name);
-                            }
-                        });
-                    }
-                });
-
-                const estrutura = {};
-                timesPorChave.forEach(time => {
-                    if (!estrutura[time.regiao]) estrutura[time.regiao] = { 'TIMES AUTOMÁTICOS': [] };
-                    estrutura[time.regiao]['TIMES AUTOMÁTICOS'].push({
-                        id_time: time.id_time,
-                        nome_time: time.nome_time,
-                        jogadores: time.jogadores.slice(0, 3),
-                        tier: 'TIMES AUTOMÁTICOS'
-                    });
-                });
-                if (!timesPorChave.size) throw new Error('nenhum time automático válido encontrado');
-                _draftRostersGerados = estrutura;
-                _draftConfiguracaoTimes = JSON.parse(JSON.stringify(estrutura));
-                console.info(`[DRAFT ROSTERS] ${timesPorChave.size} times carregados de ${fonte}.`);
-                return;
-            } catch (erroFonte) {
-                ultimoErro = erroFonte;
-                console.warn(`[DRAFT ROSTERS] Falha ao carregar ${fonte}:`, erroFonte);
-            }
-        }
-        // Não usa dados estáticos antigos: mantém o Draft sincronizado com a fonte oficial.
-        _draftRostersGerados = {};
-        _draftConfiguracaoTimes = {};
-        console.error('[DRAFT ROSTERS] Não foi possível carregar rosters.json.', ultimoErro);
-    } finally {
-        _draftRostersProntos = true;
-        _draftIndiceParesRoster = null;
-    }
-}
+let _draftConfiguracaoTimes = JSON.parse(JSON.stringify(_DRAFT_ROSTERS_POR_DATA["PADRAO"]));
 
 // Réplica exata de isTimeDaRegiaoAtual do app.js
 function _draftIsTimeDaRegiao(id) {
@@ -147,46 +309,18 @@ function _draftParseDateBR(dataStr) {
     } catch(e) { return 0; }
 }
 
-function _draftConstruirIndiceParesRoster() {
-    const indice = new Map();
-    let ordem = 0;
-    const chavePar = (a, b) => [String(a || '').trim().toUpperCase(), String(b || '').trim().toUpperCase()].sort().join('|');
-    for (const reg of Object.keys(_draftConfiguracaoTimes || {})) {
-        const tiers = _draftConfiguracaoTimes[reg] || {};
-        for (const tier of Object.keys(tiers)) {
-            if (tier === 'TIER ?') continue;
-            const times = Array.isArray(tiers[tier]) ? tiers[tier] : [];
-            for (const team of times) {
-                const jogadores = Array.isArray(team && team.jogadores) ? team.jogadores : [];
-                const tags = [...new Set(jogadores.map(j => String(j && j.tag || '').trim().toUpperCase()).filter(Boolean))];
-                const registro = { id: team.id_time, nome: team.nome_time, regiao: reg, ordem: ordem++ };
-                for (let i = 0; i < tags.length; i++) {
-                    for (let j = i + 1; j < tags.length; j++) {
-                        const chave = chavePar(tags[i], tags[j]);
-                        if (!indice.has(chave)) indice.set(chave, registro);
-                    }
-                }
+function _draftEncontrarTimePorRoster(tagsArray) {
+    for (let reg in _draftConfiguracaoTimes) {
+        for (let tier in _draftConfiguracaoTimes[reg]) {
+            if (tier === "TIER ?") continue;
+            for (let team of _draftConfiguracaoTimes[reg][tier]) {
+                let matchCount = 0;
+                team.jogadores.forEach(j => { if (tagsArray.includes(j.tag)) matchCount++; });
+                if (matchCount >= 2) return { id: team.id_time, nome: team.nome_time, regiao: reg };
             }
         }
     }
-    return indice;
-}
-
-function _draftEncontrarTimePorRoster(tagsArray) {
-    const tags = [...new Set((Array.isArray(tagsArray) ? tagsArray : [])
-        .map(tag => String(tag || '').trim().toUpperCase()).filter(Boolean))];
-    if (tags.length < 2) return null;
-    if (!_draftIndiceParesRoster) _draftIndiceParesRoster = _draftConstruirIndiceParesRoster();
-
-    const chavePar = (a, b) => [a, b].sort().join('|');
-    let melhor = null;
-    for (let i = 0; i < tags.length; i++) {
-        for (let j = i + 1; j < tags.length; j++) {
-            const candidato = _draftIndiceParesRoster.get(chavePar(tags[i], tags[j]));
-            if (candidato && (!melhor || candidato.ordem < melhor.ordem)) melhor = candidato;
-        }
-    }
-    return melhor ? { id: melhor.id, nome: melhor.nome, regiao: melhor.regiao } : null;
+    return null;
 }
 
 function _draftIsTimeCadastrado(id) {
@@ -304,20 +438,14 @@ function _draftEstruturarMD3(dadosPeriodo) {
     });
 
     let scrims = [];
-    const scrimMaisRecentePorConfronto = new Map();
     partidasEstruturadas.sort((a,b) => a.timestamp - b.timestamp).forEach(partida => {
         if (!_draftTimeRosterCompleto(partida.tagsA, partida.tAId) || !_draftTimeRosterCompleto(partida.tagsB, partida.tBId)) return;
-        const chaveTimes = [partida.tAId, partida.tBId].sort().join(' VS ');
-        const scrimAnterior = scrimMaisRecentePorConfronto.get(chaveTimes);
-        const dentroDaJanela = scrimAnterior &&
-            (partida.timestamp - scrimAnterior.ultimoUpdate) <= (2 * 60 * 60 * 1000);
-        if (dentroDaJanela) {
-            scrimAnterior.sets.push(partida);
-            scrimAnterior.ultimoUpdate = partida.timestamp;
+        let chaveTimes = [partida.tAId, partida.tBId].sort().join(' VS ');
+        let scrimExistente = scrims.find(s => s.chave === chaveTimes && (partida.timestamp - s.ultimoUpdate) <= (2 * 60 * 60 * 1000));
+        if (scrimExistente) {
+            scrimExistente.sets.push(partida); scrimExistente.ultimoUpdate = partida.timestamp;
         } else {
-            const novaScrim = { chave: chaveTimes, tAId: partida.tAId, tBId: partida.tBId, inicio: partida.timestamp, ultimoUpdate: partida.timestamp, sets: [partida] };
-            scrims.push(novaScrim);
-            scrimMaisRecentePorConfronto.set(chaveTimes, novaScrim);
+            scrims.push({ chave: chaveTimes, tAId: partida.tAId, tBId: partida.tBId, inicio: partida.timestamp, ultimoUpdate: partida.timestamp, sets: [partida] });
         }
     });
 
@@ -361,13 +489,10 @@ let _cacheDadosBrawlers = {};
 let _cacheDataRef = null;
 
 const _CSV_PATHS = [
+    'https://raw.githubusercontent.com/BSCinfos/Lib/main/historico_bruto.csv',
     'historico_bruto.csv',
-    'https://raw.githubusercontent.com/BSCinfos/TestZone/main/historico_bruto.csv',
-    'https://raw.githubusercontent.com/BSCinfos/Lib/main/historico_bruto.csv'
+    './historico_bruto.csv'
 ];
-const _DRAFT_HISTORICO_CACHE_KEY = 'testzone:historico_bruto_csv:v1';
-const _DRAFT_HISTORICO_CACHE_TTL = 10 * 60 * 1000;
-let _draftCacheVerificado = false;
 
 // Prioriza window.dadosFiltrados (publicado pelo app.js na mesma página).
 // Quando o draft.html roda sem o app.js, usa os dados processados localmente.
@@ -379,9 +504,8 @@ function _getDadosBrutos() {
 
 function _processarECondensarCSV(rawData) {
     _draftDadosBrutos = rawData;
-    // Usa exclusivamente os times automáticos atuais carregados de rosters.json.
-    _draftConfiguracaoTimes = JSON.parse(JSON.stringify(_draftRostersGerados || {}));
-    _draftIndiceParesRoster = null;
+    // Inicializa rosters com PADRAO (equivalente a "Todos" no filtro do geral.html)
+    _draftConfiguracaoTimes = JSON.parse(JSON.stringify(_DRAFT_ROSTERS_POR_DATA["PADRAO"]));
     // Processa times desconhecidos (cria UNK para adversários de times cadastrados)
     _draftProcessarTimesDesconhecidos(_draftDadosBrutos);
     // Réplica do filterFn do app.js com todos os filtros em "Todos":
@@ -393,100 +517,46 @@ function _processarECondensarCSV(rawData) {
     _cacheDadosBrawlers = {}; _cacheDataRef = null;
 }
 
-function _dispararCarregamentoCSV(idx, ignorarCache) {
+function _dispararCarregamentoCSV(idx) {
     idx = idx || 0;
     if (_csvCarregado || _csvCarregando) return;
-    if (!_draftRostersProntos) {
-        if (!_draftRostersPromise) _draftRostersPromise = _draftCarregarRostersGerados();
-        _draftRostersPromise.then(() => _dispararCarregamentoCSV(idx, ignorarCache));
-        return;
-    }
-
-    // Usa o mesmo histórico já analisado pelas páginas regionais/GERAL, se ainda estiver recente.
-    if (idx === 0 && !ignorarCache && !_draftCacheVerificado && window.BSCDataCache) {
-        _draftCacheVerificado = true;
-        _csvCarregando = true;
-        window.BSCDataCache.get(_DRAFT_HISTORICO_CACHE_KEY).then(cache => {
-            if (window.BSCDataCache.isFresh(cache, _DRAFT_HISTORICO_CACHE_TTL) &&
-                cache.data.length && cache.data[0].pick !== undefined) {
-                _processarECondensarCSV(cache.data);
-                _csvCarregado = true;
-                _csvCarregando = false;
-                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
-                _cbsAposCSV = [];
-                console.info(`[DRAFT CACHE] ${cache.data.length} linhas reutilizadas do histórico local.`);
-                return;
-            }
-            _csvCarregando = false;
-            _dispararCarregamentoCSV(0, true);
-        }).catch(() => {
-            _csvCarregando = false;
-            _dispararCarregamentoCSV(0, true);
-        });
-        return;
-    }
-
     if (typeof Papa === 'undefined') {
         if (!document.getElementById('_papaparse_draft')) {
             const s = document.createElement('script');
             s.id = '_papaparse_draft';
             s.src = 'https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js';
-            s.onload = () => _dispararCarregamentoCSV(idx, true);
-            s.onerror = () => {
-                _csvCarregado = true; _csvCarregando = false;
-                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
-                _cbsAposCSV = [];
-            };
+            s.onload = () => _dispararCarregamentoCSV(idx);
             (document.head || document.documentElement).appendChild(s);
         } else {
-            setTimeout(() => _dispararCarregamentoCSV(idx, true), 100);
+            setTimeout(() => _dispararCarregamentoCSV(idx), 100);
         }
         return;
     }
-
     _csvCarregando = true;
-    const linhasCarregadas = [];
-    const fonte = _CSV_PATHS[idx] || _CSV_PATHS[0];
-    Papa.parse(fonte, {
-        download: true,
-        header: true,
-        skipEmptyLines: true,
-        worker: true,
-        chunkSize: 1024 * 1024,
-        chunk: function (resultadoParcial) {
-            const bloco = Array.isArray(resultadoParcial.data) ? resultadoParcial.data : [];
-            for (let i = 0; i < bloco.length; i++) {
-                const linha = bloco[i];
-                if (linha && linha.pick !== undefined) linhasCarregadas.push(linha);
-            }
-        },
-        complete: function () {
-            if (linhasCarregadas.length) {
-                // O helper tira uma cópia síncrona para salvar o CSV sem mutações de processamento.
-                if (window.BSCDataCache) {
-                    window.BSCDataCache.set(_DRAFT_HISTORICO_CACHE_KEY, linhasCarregadas)
-                        .catch(erro => console.warn('[DRAFT CACHE] Não foi possível guardar o histórico local.', erro));
-                }
-                _processarECondensarCSV(linhasCarregadas);
+    Papa.parse(_CSV_PATHS[idx] || _CSV_PATHS[0], {
+        download: true, header: true, skipEmptyLines: true,
+        complete: function(results) {
+            if (results.data && results.data.length > 0 && results.data[0].pick !== undefined) {
+                _processarECondensarCSV(results.data);
                 _csvCarregado = true; _csvCarregando = false;
-                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
+                _cbsAposCSV.forEach(fn => { try { fn(); } catch(e) {} });
                 _cbsAposCSV = [];
             } else if (idx + 1 < _CSV_PATHS.length) {
                 _csvCarregando = false;
-                _dispararCarregamentoCSV(idx + 1, true);
+                _dispararCarregamentoCSV(idx + 1);
             } else {
                 _csvCarregado = true; _csvCarregando = false;
-                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
+                _cbsAposCSV.forEach(fn => { try { fn(); } catch(e) {} });
                 _cbsAposCSV = [];
             }
         },
-        error: function () {
+        error: function() {
             if (idx + 1 < _CSV_PATHS.length) {
                 _csvCarregando = false;
-                _dispararCarregamentoCSV(idx + 1, true);
+                _dispararCarregamentoCSV(idx + 1);
             } else {
                 _csvCarregado = true; _csvCarregando = false;
-                _cbsAposCSV.forEach(fn => { try { fn(); } catch (e) {} });
+                _cbsAposCSV.forEach(fn => { try { fn(); } catch(e) {} });
                 _cbsAposCSV = [];
             }
         }
@@ -694,7 +764,7 @@ let timerInterval = null;
 function limparNome(nome) { return !nome ? "" : nome.toLowerCase().replace(/[^a-z0-9]/g, ''); }
 
 function criarConteudoSlot(nome, id) {
-    return `<div class="slot-assets"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" loading="lazy" decoding="async"><div class="slot-fallback-text">${nome}</div></div>`;
+    return `<div class="slot-assets"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="slot-fallback-text">${nome}</div></div>`;
 }
 
 // Busca os dados do brawler: primeiro tenta dinâmico (dadosBrutos), depois cai no vazio
@@ -760,7 +830,7 @@ function abrirModalSugestao(nomeBrawler, event) {
         return `
         <div style="display:flex; align-items:center; justify-content:space-between; padding:6px 4px; border-bottom:1px solid rgba(255,255,255,0.05);">
             <div style="display:flex; align-items:center; gap:8px;">
-                <img src="brawlers/${cId}.png" onerror="this.style.display='none'" style="width:32px; height:32px; border-radius:7px; object-fit:cover;" loading="lazy" decoding="async">
+                <img src="brawlers/${cId}.png" onerror="this.style.display='none'" style="width:32px; height:32px; border-radius:7px; object-fit:cover;">
                 <span style="font-weight:800; font-size:13px; color:#e2e8f0;">${c.nome}</span>
             </div>
             <div style="display:flex; gap:10px; font-size:11px; font-weight:700; text-align:right;">
@@ -781,7 +851,7 @@ function abrirModalSugestao(nomeBrawler, event) {
         const cId = limparNome(c.nome);
         return `
         <div style="background:#0f172a; padding:12px 8px; border-radius:8px; text-align:center; border:1px solid #1e293b;">
-            <img src="brawlers/${cId}.png" onerror="this.style.display='none'" style="width:40px; height:40px; border-radius:7px; margin-bottom:6px; object-fit:cover;" loading="lazy" decoding="async">
+            <img src="brawlers/${cId}.png" onerror="this.style.display='none'" style="width:40px; height:40px; border-radius:7px; margin-bottom:6px; object-fit:cover;">
             <div style="font-weight:900; font-size:12px; margin-bottom:4px; color:#e2e8f0;">${c.nome}</div>
             <div style="font-size:11px; color:#64748b; font-weight:700;">P: ${c.matches} | PR: ${c.pr.toFixed(1)}%</div>
             <div style="font-size:11px; font-weight:700; margin-top:2px;">W: <span style="color:#fff">${c.wins}</span> | <span style="color:#4ade80">WR: ${c.wr.toFixed(1)}%</span></div>
@@ -795,7 +865,7 @@ function abrirModalSugestao(nomeBrawler, event) {
         const corWR = parseFloat(mwr) >= 50 ? '#4ade80' : '#f87171';
         return `
         <div style="background:#0f172a; padding:10px; border-radius:8px; border:1px solid #1e293b; text-align:center;">
-            <img src="element/maps/${mId}.png" onerror="this.style.display='none'" style="width:100%; height:56px; object-fit:cover; border-radius:5px; margin-bottom:6px;" loading="lazy" decoding="async">
+            <img src="element/maps/${mId}.png" onerror="this.style.display='none'" style="width:100%; height:56px; object-fit:cover; border-radius:5px; margin-bottom:6px;">
             <div style="font-weight:900; font-size:11px; margin-bottom:5px; color:#e2e8f0;">${m}</div>
             <div style="font-size:10px; color:#64748b; font-weight:700;">P: ${s.picks} | PR: ${((s.picks / dados.totalPicks) * 100).toFixed(1)}%</div>
             <div style="font-size:10px; font-weight:700; margin-top:2px;">W: <span style="color:#fff">${s.wins}</span> | <span style="color:${corWR}">WR: ${mwr}%</span></div>
@@ -822,7 +892,7 @@ function abrirModalSugestao(nomeBrawler, event) {
         return `<div style="display:flex;align-items:center;gap:5px;background:${corBg};border:1px solid ${corBrd};border-radius:6px;padding:4px 6px;cursor:pointer;margin-bottom:2px;"
             onclick="abrirModalSugestao('${b.nome}', event)">
             <span style="font-size:9px;font-weight:900;color:${numColor};width:14px;text-align:right;flex-shrink:0;">${i+1}</span>
-            <img src="brawlers/${tid}.png" onerror="this.style.display='none'" style="width:26px;height:26px;border-radius:5px;object-fit:cover;flex-shrink:0;" loading="lazy" decoding="async">
+            <img src="brawlers/${tid}.png" onerror="this.style.display='none'" style="width:26px;height:26px;border-radius:5px;object-fit:cover;flex-shrink:0;">
             <div style="min-width:0;flex:1;overflow:hidden;">
                 <div style="font-size:9px;font-weight:800;color:${isThis?'#fbbf24':'#e2e8f0'};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${b.nome}</div>
                 <div style="font-size:8px;color:#64748b;font-weight:600;">P:${b.picks} WR:${b.wr.toFixed(0)}%</div>
@@ -836,7 +906,7 @@ function abrirModalSugestao(nomeBrawler, event) {
 
         <!-- HEADER -->
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #334155;flex-shrink:0;">
-            <img src="brawlers/${id}.png" onerror="this.style.display='none'" style="width:50px;height:50px;border-radius:10px;object-fit:cover;border:2px solid #60a5fa;" loading="lazy" decoding="async">
+            <img src="brawlers/${id}.png" onerror="this.style.display='none'" style="width:50px;height:50px;border-radius:10px;object-fit:cover;border:2px solid #60a5fa;">
             <div>
                 <div style="font-size:18px;font-weight:900;color:#fff;">${nomeBrawler}</div>
                 ${dados
@@ -905,7 +975,7 @@ function _mostrarModalLoading(nomeBrawler, id) {
     modal.innerHTML = `
     <div style="background:#1a1d26; border:1px solid #334155; border-radius:14px; width:320px; max-width:96vw; padding:30px 20px; position:relative; text-align:center;">
         <button onclick="document.getElementById('modal-sugestao-draft').remove()" style="position:absolute;top:12px;right:14px;background:transparent;border:none;color:#64748b;font-size:20px;cursor:pointer;">✕</button>
-        <img src="brawlers/${id}.png" onerror="this.style.display='none'" style="width:56px; height:56px; border-radius:12px; object-fit:cover; border:2px solid #60a5fa; margin-bottom:12px;" loading="lazy" decoding="async">
+        <img src="brawlers/${id}.png" onerror="this.style.display='none'" style="width:56px; height:56px; border-radius:12px; object-fit:cover; border:2px solid #60a5fa; margin-bottom:12px;">
         <div style="font-size:17px; font-weight:900; color:#fff; margin-bottom:8px;">${nomeBrawler}</div>
         <div style="font-size:13px; color:#64748b;">⏳ Carregando dados do CSV...</div>
     </div>`;
@@ -914,11 +984,11 @@ function _mostrarModalLoading(nomeBrawler, id) {
 function criarConteudoSlotComSugestao(nome, id) {
     return `
         <div class="slot-assets" style="position:relative;">
-            <img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" loading="lazy" decoding="async">
+            <img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
             <div class="slot-fallback-text">${nome}</div>
             <div class="slot-sugestao-btn" onclick="abrirModalSugestao('${nome}', event)" title="Ver Bom Contra / Ruim Contra / Sinergias"
                 style="position:absolute; bottom:3px; right:3px; width:22px; height:22px; cursor:pointer; z-index:10; border-radius:50%; background:rgba(0,0,0,0.55); display:flex; align-items:center; justify-content:center; overflow:hidden;">
-                <img src="element/sugestion.png" onerror="this.style.display='none'; this.parentElement.innerHTML='💡';" style="width:16px; height:16px; object-fit:contain;" loading="lazy" decoding="async">
+                <img src="element/sugestion.png" onerror="this.style.display='none'; this.parentElement.innerHTML='💡';" style="width:16px; height:16px; object-fit:contain;">
             </div>
         </div>`;
 }
@@ -944,7 +1014,7 @@ function popularGridModos() {
         const div = document.createElement('div');
         div.className = 'modo-card';
         div.title = modo;
-        div.innerHTML = `<img src="element/modes/${key}.png" onerror="this.src='element/modes/default.png'" loading="lazy" decoding="async">`;
+        div.innerHTML = `<img src="element/modes/${key}.png" onerror="this.src='element/modes/default.png'">`;
         div.onclick = () => window.escolherModo(modo);
         grid.appendChild(div);
     });
@@ -965,7 +1035,7 @@ function popularGridMapas(modo) {
         const key = limparNome(mapa);
         const div = document.createElement('div');
         div.className = 'mapa-card';
-        div.innerHTML = `<img src="element/maps/${key}.png" onerror="this.src='element/maps/default.png'" loading="lazy" decoding="async"><span>${mapa}</span>`;
+        div.innerHTML = `<img src="element/maps/${key}.png" onerror="this.src='element/maps/default.png'"><span>${mapa}</span>`;
         div.onclick = () => window.escolherMapa(mapa);
         grid.appendChild(div);
     });
@@ -1020,7 +1090,7 @@ function gerarRoster() {
         const id = limparNome(nome);
         const div = document.createElement('div');
         div.className = 'brawler-icon'; div.id = `b-${id}`;
-        div.innerHTML = `<div class="brawler-img-container"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" title="${nome}" loading="lazy" decoding="async"><div class="fallback-initials">${nome.substring(0,2).toUpperCase()}</div></div><span class="brawler-name">${nome}</span>`;
+        div.innerHTML = `<div class="brawler-img-container"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" title="${nome}"><div class="fallback-initials">${nome.substring(0,2).toUpperCase()}</div></div><span class="brawler-name">${nome}</span>`;
         div.onclick = () => clicarBrawler(nome, id);
         grid.appendChild(div);
     });
@@ -1057,7 +1127,7 @@ window.atualizarMeta = function() {
     if (metaBrawlers && metaBrawlers.length > 0) {
         metaBrawlers.forEach(b => {
             const id = limparNome(b.nome);
-            container.innerHTML += `<div class="mini-brawler" title="Top Pick: ${b.nome}"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" loading="lazy" decoding="async"><div class="fallback-initials">${b.nome.substring(0,2).toUpperCase()}</div></div>`;
+            container.innerHTML += `<div class="mini-brawler" title="Top Pick: ${b.nome}"><img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="fallback-initials">${b.nome.substring(0,2).toUpperCase()}</div></div>`;
         });
     } else {
         container.innerHTML = '<p style="color:#555; font-size:11px; width: 100%; text-align:center;">Sem dados de meta para este mapa ainda.</p>';
@@ -1232,11 +1302,11 @@ window.clicarBrawler = function(nome, id) {
         const sugestaoBtn = step.type === 'pick'
             ? `<div class="slot-sugestao-btn" onclick="abrirModalSugestao('${nome}', event)" title="Ver análise"
                 style="position:absolute; bottom:3px; right:3px; width:22px; height:22px; cursor:pointer; z-index:10; border-radius:50%; background:rgba(0,0,0,0.55); display:flex; align-items:center; justify-content:center; overflow:hidden;">
-                <img src="element/sugestion.png" onerror="this.style.display='none'; this.parentElement.innerHTML='💡';" style="width:16px; height:16px; object-fit:contain;" loading="lazy" decoding="async">
+                <img src="element/sugestion.png" onerror="this.style.display='none'; this.parentElement.innerHTML='💡';" style="width:16px; height:16px; object-fit:contain;">
                </div>`
             : '';
         slot.innerHTML = `<div class="slot-assets pre-selecting" onclick="window.confirmarBlueSelection(event)" style="position:relative;">
-            <img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" loading="lazy" decoding="async">
+            <img src="brawlers/${id}.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
             <div class="slot-fallback-text">${nome}</div>
             <div class="pre-select-badge">✓</div>
             ${sugestaoBtn}
@@ -1391,7 +1461,7 @@ function mostrarAnaliseFinal() {
                 ${picksEmRisco.length > 0 ? picksEmRisco.map(p => {
                     const sugestao = sugerirMelhorTroca(p);
                     const idAtual = limparNome(p), idSugestao = sugestao ? limparNome(sugestao) : null;
-                    return `<li><div class="troca-sugestao"><img src="brawlers/${idAtual}.png" onerror="this.src='brawlers/default.png'" loading="lazy" decoding="async"><span class="troca-x">X</span>${sugestao ? `<img src="brawlers/${idSugestao}.png" onerror="this.src='brawlers/default.png'" loading="lazy" decoding="async">` : ''}</div><span>Trocar <strong>${p}</strong> ${sugestao ? `por <strong>${sugestao}</strong>` : ''} reduziria a exposição aos counters do adversário.</span></li>`;
+                    return `<li><div class="troca-sugestao"><img src="brawlers/${idAtual}.png" onerror="this.src='brawlers/default.png'"><span class="troca-x">X</span>${sugestao ? `<img src="brawlers/${idSugestao}.png" onerror="this.src='brawlers/default.png'">` : ''}</div><span>Trocar <strong>${p}</strong> ${sugestao ? `por <strong>${sugestao}</strong>` : ''} reduziria a exposição aos counters do adversário.</span></li>`;
                 }).join('') : '<li>✅ Nenhuma troca crítica necessária — draft sólido.</li>'}
             </ul>
         </div>
