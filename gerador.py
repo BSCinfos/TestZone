@@ -50,8 +50,8 @@ MAPEAMENTO_PLAYERS = {
         "#9JVUGR2JG": {"nome": "RZ0|Xablau🎩", "id_time": "RZ0", "nome_time": "RISING ZERO", "regiao": "SA"},
         "#JCGGGQUP": {"nome": "NX| Sagaz", "id_time": "NX", "nome_time": "NOXIUM E-SPORTS", "regiao": "SA"},
         "#8QUR8R2YR": {"nome": "YX| メCarlīNn🐦", "id_time": "YX", "nome_time": "YRONIX", "regiao": "SA"},
-        "#28022Y9PY": {"nome": "???| Matt", "id_time": "bfa1", "nome_time": "bugu team1", "regiao": "SA"},
-        "#GPRGCRVUQ": {"nome": "???| gian 158ms", "id_time": "bfa2", "nome_time": "bugu team2", "regiao": "SA"},
+        "#28022Y9PY": {"nome": "?1| Matt", "id_time": "bfa1", "nome_time": "bugu team1", "regiao": "SA"},
+        "#GPRGCRVUQ": {"nome": "?2| gian 158ms", "id_time": "bfa2", "nome_time": "bugu team2", "regiao": "SA"},
         
 # NA
         "#LVRRYPV": {"nome": "KDS|Bobby", "id_time": "KDS", "nome_time": "KDS", "regiao": "NA"},
