@@ -278,12 +278,12 @@
     "regiao": "SA",
     "jogadores": [
       {
-        "tag": "#2CRVU80L2Y",
-        "nome": "Lamine Yamal."
-      },
-      {
         "tag": "#JC22VJLP",
         "nome": "Pxnchoo"
+      },
+      {
+        "tag": "#2CRVU80L2Y",
+        "nome": "Lamine Yamal."
       }
     ]
   },
