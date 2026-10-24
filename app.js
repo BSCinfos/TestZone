@@ -5,6 +5,9 @@ let dadosBansFiltrados = [];
 let listaBrawlers = [];
 let brawlerSelecionado = null;
 let timeSelecionado = null;
+// Evita reconstruir os times desconhecidos em cada mudança de filtro.
+// A rotina só precisa rodar novamente quando o conjunto de dados brutos mudar.
+let _dadosProcessadosTimesDesconhecidos = null;
 
 const _REGIAO = window.REGIAO_ATUAL ? window.REGIAO_ATUAL.toUpperCase() : "SA";
 // ========================================================
@@ -508,6 +511,7 @@ function carregarCSV() {
 }
 
 function processarTimesDesconhecidos(dados) {
+    if (dados === _dadosProcessadosTimesDesconhecidos) return;
     let regAlvo = _REGIAO === "ALL" ? "ALL" : _REGIAO;
     if (!CONFIGURACAO_MANUAL_TIMES[regAlvo]) CONFIGURACAO_MANUAL_TIMES[regAlvo] = {};
     CONFIGURACAO_MANUAL_TIMES[regAlvo]["TIER ?"] = [];
@@ -583,6 +587,7 @@ function processarTimesDesconhecidos(dados) {
             }
         }
     });
+    _dadosProcessadosTimesDesconhecidos = dados;
 }
 
 function popularFiltrosGlobais() {
