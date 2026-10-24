@@ -43,16 +43,15 @@ MAPEAMENTO_PLAYERS = {
         "#9QCJPL20": {"nome": "OS|Golden", "id_time": "OS", "nome_time": "OLIMPO SQUAD", "regiao": "SA"},
         "#PR9U2JL": {"nome": "SKC|Juan Carlos", "id_time": "SKC", "nome_time": "SKCALALAS SA", "regiao": "SA"},
         "#CPPV2PQG": {"nome": "GDT| MeliodasGod🐐", "id_time": "GDT", "nome_time": "GORDITOS", "regiao": "SA"},
-        "#P8RQ90UY9": {"nome": "MVK| VitorKingBS👑", "id_time": "MVK", "nome_time": "MOCHILA DO VK", "regiao": "SA"},
+        "#P0UVQVUVG": {"nome": "igorr🏌️", "id_time": "ZRN", "nome_time": "ZYRON", "regiao": "SA"},
         "#R2LR2QLG": {"nome": "RED|Mohtep", "id_time": "RED", "nome_time": "RED CANIDS", "regiao": "SA"},
         "#80VLPJCCC": {"nome": "CB|Tilo", "id_time": "CB", "nome_time": "CRECHE BRAWL", "regiao": "SA"},
         "#GJPVYUQG": {"nome": "QQQ|Deykonn", "id_time": "QQQ", "nome_time": "QUIERO QUE QUE", "regiao": "SA"},
-        "#9JVUGR2JG": {"nome": "RZ0|Xablau🎩", "id_time": "RZ0", "nome_time": "RISING ZERO", "regiao": "SA"},
-        "#JCGGGQUP": {"nome": "NX| Sagaz", "id_time": "NX", "nome_time": "NOXIUM E-SPORTS", "regiao": "SA"},
-        "#8QUR8R2YR": {"nome": "YX| メCarlīNn🐦", "id_time": "YX", "nome_time": "YRONIX", "regiao": "SA"},
-        "#28022Y9PY": {"nome": "?1| Matt", "id_time": "bfa1", "nome_time": "bugu team1", "regiao": "SA"},
-        "#GPRGCRVUQ": {"nome": "?2| gian 158ms", "id_time": "bfa2", "nome_time": "bugu team2", "regiao": "SA"},
-        
+        "#JCGGGQUP": {"nome": "NX|Sagaz", "id_time": "NX", "nome_time": "NOXIUM E-SPORTS", "regiao": "SA"},
+        "#YY9RY0UGC": {"nome": "awk hate you", "id_time": "YX", "nome_time": "YRONIX", "regiao": "SA"},
+        "#G2G8VC02C": {"nome": "Dvzz🐐", "id_time": "RFA", "nome_time": "ROSTER F/A", "regiao": "SA"},
+        "#2QPU2LL9PO": {"nome": "Matsu", "id_time": "RDC", "nome_time": "RADICAL", "regiao": "SA"},
+        "#C0LCP8P2": {"nome": "Hiro ❥", "id_time": "FA", "nome_time": "F/A", "regiao": "SA"},
 # NA
         "#LVRRYPV": {"nome": "KDS|Bobby", "id_time": "KDS", "nome_time": "KDS", "regiao": "NA"},
         "#82RCQCVG": {"nome": "TRB|Lxffy", "id_time": "TRB", "nome_time": "TRIBE GAMING", "regiao": "NA"},
@@ -74,7 +73,7 @@ MAPEAMENTO_PLAYERS = {
         "#PCPRPJV": {"nome": "TH|IKaoss", "id_time": "TH", "nome_time": "TEAM HERETICS", "regiao": "EMEA"},
         "#2Q892QVU": {"nome": "TTM|Maru", "id_time": "TTM", "nome_time": "REPLY TOTEM", "regiao": "EMEA"},
         "#9PQQ8GQQ": {"nome": "NOVO|Filippo", "id_time": "NOVO", "nome_time": "NOVO ESPORTS", "regiao": "EMEA"},
-        "#2Y822YJYJC": {"nome": "BIG|Decaii🥥", "id_time": "BIG", "nome_time": "BIG", "regiao": "EMEA"},
+        "#PLV89CGP": {"nome": "BIG|Salty🥥", "id_time": "BIG", "nome_time": "BIG", "regiao": "EMEA"},
         "#8UR02QQL2": {"nome": "TLB|SanFire", "id_time": "TLB", "nome_time": "TALENTS LAB", "regiao": "EMEA"},
         "#82GG2RLQG": {"nome": "FUT|ZeyroX", "id_time": "FUTA", "nome_time": "FUT ACADEMY", "regiao": "EMEA"},
         "#Q808R2CV": {"nome": "KUMA|Nes", "id_time": "KUMA", "nome_time": "KUMA", "regiao": "EMEA"},
@@ -89,13 +88,18 @@ MAPEAMENTO_PLAYERS = {
         "#28PU0P9L0": {"nome": "FL|Achapi", "id_time": "FL", "nome_time": "FENNEL", "regiao": "EA"},
         "#28VP0G808": {"nome": "INS|Koga", "id_time": "INS", "nome_time": "INSOMNIA", "regiao": "EA"},
         "#89UUQLJCC": {"nome": "FZ|Toridesu", "id_time": "FZ", "nome_time": "FRENZY", "regiao": "EA"},
-        "#8G982C80L": {"nome": "WWL|Gon", "id_time": "WWL", "nome_time": "WWL", "regiao": "EA"},
+        "#8G982C80L": {"nome": "WWL|Gon", "id_time": "WWL", "nome_time": "WWL", "regiao": "EA"},   
 # CN
         "#2V9P902P99": {"nome": "AXR|Coldrink", "id_time": "AXR", "nome_time": "ACE XERO", "regiao": "CN"},
         "#2V9PP02U98": {"nome": "TOC|X P R", "id_time": "TOC", "nome_time": "TOC", "regiao": "CN"},
         "#2QR09U8UJQ": {"nome": "TL|Engine", "id_time": "TL", "nome_time": "TOXIC LOTUS", "regiao": "CN"},
         "#8CQURRJJY": {"nome": "RNTX|Sergant", "id_time": "RNTX", "nome_time": "REVENANT", "regiao": "CN"},
-        "#9GGU9C9Y": {"nome": "SLG|Trashânt 🐯", "id_time": "SLG", "nome_time": "SLG", "regiao": "CN"}
+        "#9GGU9C9Y": {"nome": "SLG|Trashânt 🐯", "id_time": "SLG", "nome_time": "SLG", "regiao": "CN"},
+
+
+# CN (China) — mantenha o mesmo modelo de cadastro usado nas outras regiões.
+# Exemplo (substitua os valores pelos dados reais; não deixe o exemplo ativo):
+# "#ID_DO_JOGADOR": {"nome": "NICK", "id_time": "IDTIME", "nome_time": "NOME DO TIME", "regiao": "CN"},
 }
 
 def obter_fuso_brasilia():

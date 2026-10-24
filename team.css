@@ -1,0 +1,44 @@
+/* team.css */
+
+/* Contentores de cada Categoria (Player / Coach) funcionando como os Modos */
+.modo-section {
+    margin-bottom: 20px;
+    background: #141414;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #222;
+}
+
+/* Cabeçalho igual ao do Brawl Ball e outros Modos */
+.modo-header {
+    background: #1e1e1e;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    border-bottom: 1px solid #2b2b2b;
+    text-transform: uppercase;
+}
+
+.modo-header span {
+    font-size: 0.8rem;
+    transition: transform 0.2s ease;
+    color: #e50914; /* Cor de destaque vermelha */
+}
+
+/* Área da tabela escondida por padrão, expande ao clicar */
+.mapa-content {
+    padding: 15px;
+    background: #0a0a0a;
+}
+
+/* Classes de Cores para o Win Rate herdadas do padrão do app.js */
+.wr-80 { color: #00ffcc !important; font-weight: bold; }
+.wr-60-70 { color: #00ff66 !important; font-weight: bold; }
+.wr-50 { color: #ffcc00 !important; }
+.wr-30 { color: #ff3333 !important; }
