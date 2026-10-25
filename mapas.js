@@ -339,7 +339,19 @@
       ).toUpperCase();
       if (!id || /^UNK/i.test(id) || /desconhecid|unknown|unknow/i.test(nome))
         return;
-      mapa.set(id, { id, nome: nome || obterNomeTimeAutomatico(id), regiao });
+      // Um mesmo ID pode aparecer em mais de um registro do roster.
+      // Não sobrescreva a região anterior: acumule todas as regiões explícitas.
+      const existente = mapa.get(id);
+      if (existente) {
+        existente.regioes.add(regiao);
+        if ((!existente.nome || existente.nome === id) && nome) existente.nome = nome;
+      } else {
+        mapa.set(id, {
+          id,
+          nome: nome || obterNomeTimeAutomatico(id),
+          regioes: new Set([regiao]),
+        });
+      }
     };
     const percorrer = (obj, regiaoInformada) => {
       if (!obj || typeof obj !== "object") return;
@@ -350,7 +362,7 @@
       if (obj.id_time || obj.id) registrar(obj, regiaoInformada);
       Object.keys(obj).forEach((chave) => {
         const valor = obj[chave];
-        const novaRegiao = /^(SA|NA|EA|EMEA|ALL)$/i.test(chave)
+        const novaRegiao = /^(SA|NA|EA|EMEA|CN|ALL)$/i.test(chave)
           ? chave.toUpperCase()
           : regiaoInformada;
         if (valor && typeof valor === "object") percorrer(valor, novaRegiao);
@@ -379,7 +391,7 @@
     const item = obterTimesCadastrados().get(id);
     if (!item) return false;
     const regiao = obterRegiaoAtualMapas();
-    return regiao === "ALL" || item.regiao === regiao;
+    return regiao === "ALL" || Boolean(item.regioes && item.regioes.has(regiao));
   }
 
   function construirEstatisticas(modo, mapa) {
