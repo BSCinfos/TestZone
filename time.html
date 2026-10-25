@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time — BSCInfos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="platform.css">
+    <script src="users.js"></script>
+    <script src="auth.js"></script>
+    <script src="platform.js" defer></script>
+</head>
+<body>
+    <main class="custom-team-page">
+        <a class="custom-team-back" href="index.html">← Voltar ao menu</a>
+        <div id="customTeamProfile" class="custom-team-error" role="status">Carregando dados do time…</div>
+    </main>
+    <script>
+    (function () {
+        "use strict";
+        const container = document.getElementById("customTeamProfile");
+        const params = new URLSearchParams(location.search);
+        const owner = (params.get("owner") || "").trim().toLowerCase();
+        const createdAt = params.get("createdAt");
+        const indexParam = params.get("index");
+        function showError(message) {
+            container.className = "custom-team-error";
+            container.textContent = message;
+        }
+        function escapeText(value) { return String(value == null ? "" : value); }
+        try {
+            if (!owner) throw new Error("O proprietário deste time não foi informado no endereço.");
+            const currentUser = String(typeof window.BSC_USER === "function" ? (window.BSC_USER() || "") : "").trim().toLowerCase();
+            if (!currentUser) throw new Error("Você precisa entrar na sua conta para acessar este time.");
+            if (currentUser !== owner && currentUser !== "admin") {
+                throw new Error("Acesso restrito: somente o proprietário do time e o login admin podem visualizar esta página.");
+            }
+            const key = "bscinfos_custom_teams_" + owner;
+            const teams = JSON.parse(localStorage.getItem(key) || "[]");
+            if (!Array.isArray(teams)) throw new Error("Os dados salvos deste time estão inválidos.");
+            let team = null;
+            if (createdAt) team = teams.find(item => item && item.createdAt === createdAt);
+            if (!team && indexParam !== null && indexParam !== "") team = teams[Number(indexParam)];
+            if (!team) throw new Error("Este time não foi encontrado neste navegador. Confira se você está usando o mesmo navegador onde ele foi criado.");
+            document.title = (team.name || "Time") + " — BSCInfos";
+            container.className = "custom-team-card";
+            const heading = document.createElement("div");
+            heading.className = "custom-team-heading";
+            const logo = document.createElement("img");
+            logo.className = "custom-team-logo";
+            logo.alt = "Logo de " + escapeText(team.name || "time");
+            logo.src = team.logo || "";
+            const titleBox = document.createElement("div");
+            const title = document.createElement("h1");
+            title.className = "custom-team-title";
+            title.textContent = team.name || "Time sem nome";
+            const abbreviation = document.createElement("div");
+            abbreviation.className = "custom-team-abbreviation";
+            abbreviation.textContent = team.abbreviation || "Sem sigla";
+            const subtitle = document.createElement("div");
+            subtitle.className = "custom-team-subtitle";
+            subtitle.textContent = "Perfil do time cadastrado no BSCInfos";
+            titleBox.append(title, abbreviation, subtitle);
+            heading.append(logo, titleBox);
+            const details = document.createElement("div");
+            details.className = "custom-team-details";
+            [["Nome do time", team.name || "—"], ["Sigla do time", team.abbreviation || "—"], ["ID do jogador", team.playerTag || "—"], ["Login proprietário", owner]].forEach(function (entry) {
+                const card = document.createElement("section");
+                card.className = "custom-team-detail";
+                const label = document.createElement("span");
+                label.className = "custom-team-detail-label";
+                label.textContent = entry[0];
+                const value = document.createElement("div");
+                value.className = "custom-team-detail-value";
+                value.textContent = entry[1];
+                card.append(label, value);
+                details.appendChild(card);
+            });
+            container.replaceChildren(heading, details);
+        } catch (error) {
+            showError(error && error.message ? error.message : "Não foi possível carregar este time.");
+        }
+    })();
+    </script>
+</body>
+</html>
