@@ -749,12 +749,12 @@
     "regiao": "EA",
     "jogadores": [
       {
-        "tag": "#20VC9LV2",
-        "nome": "OTTK|ブラジルの婆さん"
-      },
-      {
         "tag": "#82CJYJPG2",
         "nome": "RVL|Yutapin"
+      },
+      {
+        "tag": "#20VC9LV2",
+        "nome": "OTTK|ブラジルの婆さん"
       }
     ]
   },
