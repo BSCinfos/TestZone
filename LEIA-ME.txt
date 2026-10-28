@@ -1,0 +1,25 @@
+TESTZONE — RESTAURAÇÃO DE ESTILO NAS PÁGINAS REGIONAIS
+
+Arquivos incluídos para substituir na raiz do repositório:
+- geral.html
+- sa.html
+- na.html
+- emea.html
+- ea.html
+- cn.html
+- style.css
+- platform.css
+- app.js
+
+O que foi feito:
+- Atualizei os links para style.css e platform.css em todas as seis páginas para forçar a atualização do cache do navegador.
+- Incluí as folhas de estilo compartilhadas para manter os arquivos correspondentes juntos no pacote.
+- Incluí o app.js com os ajustes anteriores de GERAL/scrims.
+
+Como aplicar:
+1. Extraia os arquivos.
+2. Substitua os arquivos de mesmo nome na raiz do repositório GitHub.
+3. Faça commit e aguarde o GitHub Pages publicar.
+4. Abra cada região e pressione Ctrl+F5.
+
+Observação: os arquivos style.css e platform.css estão incluídos sem alterações de conteúdo; o ajuste de cache está nos HTMLs.
