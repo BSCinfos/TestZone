@@ -1073,8 +1073,71 @@ function renderizarDetalhesTime(time) {
         let top5 = Object.entries(bJ).sort((a,b) => b[1] - a[1]).slice(0,5);
         html += `<div style="background:var(--bg-cards); padding:20px; border-radius:12px; border:1px solid var(--borda-destaque);"><div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:5px;"><h4 style="color:var(--accent-purple); font-size:18px;">${jogador.nick}</h4><span style="font-size:10px; background:#000; padding:3px 6px; border-radius:4px; color:var(--texto-secundario);">${jogador.tag}</span></div><p style="color:var(--texto-secundario); font-size:12px; margin-bottom:20px; font-weight:bold;">Total de Picks: ${pT}</p><div style="display:flex; flex-direction:column; gap:8px;">${top5.length > 0 ? top5.map(([b, qtd], idx) => `<div style="display:flex; justify-content:space-between; align-items:center; background:var(--bg-paineis); padding:8px 12px; border-radius:6px; border:1px solid var(--borda-suave);"><div style="display:flex; align-items:center; gap:10px;"><span style="font-weight:900; color:var(--texto-secundario); font-size:11px;">#${idx+1}</span><img src="brawlers/${formatImg(b)}.png" style="width:24px; border-radius:4px;" onerror="fallbackImagem(this,'brawlers/default.png')"><span style="font-size:13px; font-weight:bold;">${b}</span></div><span style="font-size:12px; color:var(--texto-secundario); font-weight:bold;">${qtd}</span></div>`).join('') : '<span style="color:var(--texto-secundario); font-size:12px;">Sem picks no filtro.</span>'}</div></div>`;
     });
+    // Painel de desempenho do time: modos, mapas e partidas recentes.
+    // Cada id_partida distinto é contado uma única vez para evitar duplicar sets pelos picks dos jogadores.
+    const partidasUnicas = new Map();
+    partidasDoTime.forEach(r => {
+        const id = String(r.id_partida || '');
+        if (!id || partidasUnicas.has(id)) return;
+        const grupo = (typeof dadosFiltrados !== 'undefined' ? dadosFiltrados : []).filter(x => String(x.id_partida || '') === id);
+        const doTime = grupo.filter(x => String(x.id_time) === String(time.id_time));
+        if (!doTime.length) return;
+        const win = Number(doTime[0].win) === 1 || String(doTime[0].win).toLowerCase() === 'true';
+        const modo = String(doTime[0].modo || 'Desconhecido');
+        const mapa = String(doTime[0].mapa || 'Desconhecido');
+        const data = parseDateBR(doTime[0].data_adicao) || 0;
+        const adversarios = grupo.filter(x => String(x.id_time) !== String(time.id_time));
+        const nomeAdversario = (adversarios.find(x => x.nome_time) || {}).nome_time || 'Adversário não identificado';
+        const picksTime = [...new Set(doTime.map(x => String(x.pick || '').trim().toUpperCase()).filter(Boolean))].slice(0, 3);
+        const picksAdversario = [...new Set(adversarios.map(x => String(x.pick || '').trim().toUpperCase()).filter(Boolean))].slice(0, 3);
+        partidasUnicas.set(id, { id, win, modo, mapa, data, nomeAdversario, picksTime, picksAdversario });
+    });
+    const jogos = [...partidasUnicas.values()].sort((a,b) => b.data - a.data);
+    const chaveImagem = valor => {
+        try { return formatImg(String(valor || '').trim()); } catch (_) {
+            return String(valor || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+        }
+    };
+    const imgModo = modo => `<img src="element/modes/${chaveImagem(modo)}.png" alt="${modo}" title="${modo}" style="width:24px;height:24px;object-fit:contain;vertical-align:middle" onerror="this.style.display='none'">`;
+    const imgMapa = mapa => `<img src="element/maps/${chaveImagem(mapa)}.png" alt="${mapa}" title="${mapa}" style="width:34px;height:34px;object-fit:cover;border-radius:5px;vertical-align:middle" onerror="this.style.display='none'">`;
+    const imgBrawler = b => `<img src="element/brawlers/${chaveImagem(b)}.png" alt="${b}" title="${b}" style="width:29px;height:29px;object-fit:contain;border-radius:5px" onerror="this.onerror=null;this.src='brawlers/${chaveImagem(b)}.png';this.onerror=function(){this.style.display='none'}">`;
+    const modosStats = {};
+    const mapasStats = {};
+    jogos.forEach(j => {
+        if (!modosStats[j.modo]) modosStats[j.modo] = { played: 0, wins: 0, losses: 0 };
+        modosStats[j.modo].played++;
+        modosStats[j.modo][j.win ? 'wins' : 'losses']++;
+        if (!mapasStats[j.mapa]) mapasStats[j.mapa] = { played: 0, wins: 0, modo: j.modo };
+        mapasStats[j.mapa].played++;
+        if (j.win) mapasStats[j.mapa].wins++;
+    });
+    const modoCards = Object.entries(modosStats).sort((a,b) => b[1].played - a[1].played).map(([modo, st]) => {
+        const pct = st.played ? Math.round(st.wins / st.played * 100) : 0;
+        return `<article class="team-mode-stat"><div class="team-mode-title">${imgModo(modo)}<b>${modo}</b></div><div class="team-mode-chart" style="--win-pct:${pct}%"><div><strong>${st.played}</strong><small>sets</small></div></div><div class="team-mode-numbers"><span>Jogados <b>${st.played}</b></span><span style="color:#47df91">Ganhos <b>${st.wins}</b></span><span style="color:#ff5277">Perdidos <b>${st.losses}</b></span></div></article>`;
+    }).join('');
+    const mapaRows = (melhores) => Object.entries(mapasStats).map(([mapa, st]) => ({ mapa, ...st, pct: st.played ? st.wins / st.played * 100 : 0 }))
+        .filter(x => x.played > 0)
+        .sort((a,b) => melhores ? (b.pct-a.pct || b.played-a.played) : (a.pct-b.pct || b.played-a.played))
+        .slice(0,5).map((x,i) => `<div class="team-map-row"><span class="team-map-name">${imgMapa(x.mapa)}<span>${i+1}. ${x.mapa}<small>${x.modo}</small></span></span><span>${x.played}</span><span>${x.wins}</span><span><b>${x.pct.toFixed(1)}%</b><i><em style="width:${x.pct}%"></em></i></span></div>`).join('') || '<p class="team-empty">Sem dados de mapas para os filtros atuais.</p>';
+    const recentRows = jogos.slice(0,10).map(j => {
+        const dataTxt = j.data ? new Date(j.data).toLocaleString('pt-BR', {day:'2-digit',month:'2-digit',year:'2-digit',hour:'2-digit',minute:'2-digit'}) : 'Data indisponível';
+        const picks = arr => arr.length ? arr.map(imgBrawler).join('') : '<small>Sem picks</small>';
+        return `<div class="team-battle-row"><span class="team-battle-date">${dataTxt}</span><span class="team-battle-mode">${imgModo(j.modo)}<small>${j.modo}</small></span><span class="team-battle-map">${imgMapa(j.mapa)}<small>${j.mapa}</small></span><span class="team-battle-picks"><small>${time.nome_time}</small><span>${picks(j.picksTime)}</span></span><b class="team-battle-vs">VS</b><span class="team-battle-picks"><small>${j.nomeAdversario}</small><span>${picks(j.picksAdversario)}</span></span><b class="team-battle-result ${j.win ? 'is-win' : 'is-loss'}">${j.win ? 'VITÓRIA' : 'DERROTA'}</b></div>`;
+    }).join('') || '<p class="team-empty">Nenhuma partida recente encontrada para este time.</p>';
+
+    html += `<style>
+    .team-analytics{margin:26px 0 24px;color:var(--texto,#f5f5f7)}.team-tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--borda-destaque,#30313a);margin-bottom:14px}.team-tab{background:var(--bg-paineis,#17181e);color:#c9c9d6;border:1px solid var(--borda-destaque,#30313a);padding:11px 15px;border-radius:9px 9px 0 0;font-weight:800;cursor:pointer}.team-tab.active{background:#8500dc;color:#fff;border-color:#b72bff}.team-tab-panel{display:none}.team-tab-panel.active{display:block}.team-mode-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}.team-mode-stat,.team-map-box,.team-battles-box{background:var(--bg-cards,#15161c);border:1px solid var(--borda-destaque,#30313a);border-radius:10px;padding:14px}.team-mode-title{display:flex;align-items:center;gap:8px;text-transform:uppercase;font-size:12px}.team-mode-chart{width:94px;height:94px;border-radius:50%;margin:14px auto;background:conic-gradient(#47df91 0 var(--win-pct),#ff5277 var(--win-pct) 100%);display:grid;place-items:center}.team-mode-chart>div{width:67px;height:67px;border-radius:50%;background:var(--bg-cards,#15161c);display:flex;flex-direction:column;align-items:center;justify-content:center}.team-mode-chart strong{font-size:21px}.team-mode-chart small{font-size:10px;color:#aaa}.team-mode-numbers{display:grid;gap:7px;font-size:12px}.team-mode-numbers span{display:flex;justify-content:space-between}.team-map-columns,.team-map-row{display:grid;grid-template-columns:minmax(150px,2fr) 42px 52px minmax(90px,1fr);gap:8px;align-items:center}.team-map-columns{font-size:10px;color:#aaa;padding:5px 0 10px}.team-map-row{padding:9px 0;border-top:1px solid #282a33;font-size:12px}.team-map-name{display:flex;align-items:center;gap:8px;min-width:0}.team-map-name>span{overflow-wrap:anywhere}.team-map-name small{display:block;color:#9a9aaa;font-size:10px}.team-map-row i{display:block;height:4px;background:#292b35;border-radius:5px;margin-top:5px;overflow:hidden}.team-map-row em{display:block;height:100%;background:#47df91}.team-battles-box{overflow-x:auto}.team-battle-row{min-width:760px;display:grid;grid-template-columns:105px 92px 115px minmax(110px,1fr) 24px minmax(110px,1fr) 72px;gap:9px;align-items:center;padding:10px 0;border-bottom:1px solid #282a33;font-size:11px}.team-battle-date{color:#aaa}.team-battle-mode,.team-battle-map{display:flex;align-items:center;gap:6px}.team-battle-mode small,.team-battle-map small{overflow-wrap:anywhere}.team-battle-picks>small{display:block;color:#aaa;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:4px}.team-battle-picks>span{display:flex;gap:3px}.team-battle-vs{color:#aaa;text-align:center}.team-battle-result{font-size:10px;text-align:center;padding:5px 3px;border-radius:5px}.team-battle-result.is-win{color:#47df91;border:1px solid #16834e}.team-battle-result.is-loss{color:#ff5277;border:1px solid #a32d49}.team-empty{color:#999;font-size:12px;padding:12px 0}@media(max-width:700px){.team-mode-grid{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.team-tab{font-size:10px;padding:9px 8px}}
+    </style><section class="team-analytics"><nav class="team-tabs"><button class="team-tab active" onclick="window.bscTeamTab(this,'team-modes-${chaveImagem(time.id_time)}')">ESTATÍSTICAS POR MODO</button><button class="team-tab" onclick="window.bscTeamTab(this,'team-best-${chaveImagem(time.id_time)}')">MELHORES MAPAS</button><button class="team-tab" onclick="window.bscTeamTab(this,'team-worst-${chaveImagem(time.id_time)}')">PIORES MAPAS</button><button class="team-tab" onclick="window.bscTeamTab(this,'team-recent-${chaveImagem(time.id_time)}')">RECENT BATTLES</button></nav><div id="team-modes-${chaveImagem(time.id_time)}" class="team-tab-panel active"><div class="team-mode-grid">${modoCards || '<p class="team-empty">Sem partidas registradas por modo.</p>'}</div></div><div id="team-best-${chaveImagem(time.id_time)}" class="team-tab-panel"><div class="team-map-box"><h3>🏆 MELHORES MAPAS</h3><div class="team-map-columns"><span>MAPA / MODO</span><span>SETS</span><span>GANHOS</span><span>APROVEITAMENTO</span></div>${mapaRows(true)}</div></div><div id="team-worst-${chaveImagem(time.id_time)}" class="team-tab-panel"><div class="team-map-box"><h3>📉 PIORES MAPAS</h3><div class="team-map-columns"><span>MAPA / MODO</span><span>SETS</span><span>GANHOS</span><span>APROVEITAMENTO</span></div>${mapaRows(false)}</div></div><div id="team-recent-${chaveImagem(time.id_time)}" class="team-tab-panel"><div class="team-battles-box"><h3>RECENT BATTLES</h3>${recentRows}</div></div></section>`;
+
     if(painel) painel.innerHTML = html + `</div>`;
 }
+
+window.bscTeamTab = function(button, panelId) {
+    const root = button && button.closest('.team-analytics');
+    if (!root) return;
+    root.querySelectorAll('.team-tab').forEach(tab => tab.classList.toggle('active', tab === button));
+    root.querySelectorAll('.team-tab-panel').forEach(panel => panel.classList.toggle('active', panel.id === panelId));
+};
 
 window.registrarTimeCustom = function(idAntigo) {
     let inputId = document.getElementById('custom-id'), inputName = document.getElementById('custom-name'), selectTier = document.getElementById('custom-tier');
