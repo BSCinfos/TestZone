@@ -137,6 +137,53 @@ def buscar_battlelog(tag_url, headers_api):
         return None, None, f"Exceção via proxy -> {e}"
 
 
+
+
+def validar_resultado_batalha(battle, teams, tag_consultada):
+    """
+    Valida o resultado no ponto de vista do jogador consultado pela API.
+    O campo battle.result (victory/defeat) é relativo ao jogador consultado,
+    NÃO ao primeiro time retornado em battle.teams.
+
+    Retorna o índice do time vencedor (0 ou 1). Rejeita partidas ambíguas.
+    """
+    if not isinstance(teams, list) or len(teams) != 2:
+        return None, "times_invalidos"
+
+    tags_por_time = []
+    todas_tags = []
+    for time in teams:
+        if not isinstance(time, list) or len(time) != 3:
+            return None, "nao_3v3"
+        tags = []
+        for jogador in time:
+            if not isinstance(jogador, dict):
+                return None, "jogador_invalido"
+            tag = str(jogador.get("tag") or "").strip().upper()
+            if not tag or not tag.startswith("#"):
+                return None, "tag_ausente"
+            tags.append(tag)
+            todas_tags.append(tag)
+        tags_por_time.append(tags)
+
+    # Exige seis jogadores distintos e a presença única do jogador consultado.
+    if len(set(todas_tags)) != 6:
+        return None, "tags_duplicadas"
+    consultada = str(tag_consultada or "").strip().upper()
+    ocorrencias = [i for i, tags in enumerate(tags_por_time) if consultada in tags]
+    if len(ocorrencias) != 1:
+        return None, "jogador_consultado_fora_da_partida"
+
+    resultado = str((battle or {}).get("result") or "").strip().lower()
+    if resultado not in {"victory", "defeat"}:
+        # Empate, ausência ou qualquer valor desconhecido não vira derrota.
+        return None, f"resultado_nao_confirmado:{resultado or 'vazio'}"
+
+    lado_jogador = ocorrencias[0]
+    vencedor = lado_jogador if resultado == "victory" else 1 - lado_jogador
+    return vencedor, "confirmado"
+
+
 def atualizar_rosters_automaticos():
     """
     Gera rosters.json SEM qualquer separação por data.
@@ -307,6 +354,8 @@ def minerar_dados():
         except: pass
 
     novas_picks, novos_bans = [], []
+    resultados_verificados = {}
+    resultados_conflitantes = set()
     headers_api = {"Authorization": f"Bearer {API_KEY}"}
 
     # --- Contadores de diagnóstico ---
@@ -357,6 +406,16 @@ def minerar_dados():
                 teams = battle.get("teams", [])
                 if len(teams) != 2 or len(teams[0]) != 3 or len(teams[1]) != 3:
                     stats['items_nao_3v3'] += 1
+                    continue
+
+                vencedor_idx, status_resultado = validar_resultado_batalha(
+                    battle, teams, tag_busca
+                )
+                if vencedor_idx is None:
+                    stats.setdefault("resultados_rejeitados", {})
+                    stats["resultados_rejeitados"][status_resultado] = (
+                        stats["resultados_rejeitados"].get(status_resultado, 0) + 1
+                    )
                     continue
 
                 stats_jogadores[tag_busca]['validas_3v3'] += 1
@@ -414,7 +473,21 @@ def minerar_dados():
                 time_str = b_time.split(".")[0] if b_time else "00000000T000000"
                 pid = f"{time_str}_{mapa}_{'_'.join(tags_list)}_{'_'.join(brawlers_list)}"
 
-                res = battle.get('result')
+                observacao = {
+                    "vencedor_idx": vencedor_idx,
+                    "tags": [str(t).strip().upper() for t in tags_list],
+                    "resultado": str(battle.get("result") or "").strip().lower(),
+                }
+                anterior = resultados_verificados.get(pid)
+                if anterior and (
+                    anterior["vencedor_idx"] != observacao["vencedor_idx"]
+                    or anterior["tags"] != observacao["tags"]
+                ):
+                    resultados_conflitantes.add(pid)
+                else:
+                    resultados_verificados[pid] = observacao
+
+                # Resultado já foi validado considerando o lado do jogador consultado.
                 reg_final = "/".join(sorted({TAG_PARA_REGIAO.get(t, sigla_busca) for t in tags_list}))
 
                 t0_id, t0_nome = "OPONENTE_T0", "DESCONHECIDO T0"
@@ -433,7 +506,7 @@ def minerar_dados():
                     stats['items_novos'] += 1
                     stats_jogadores[tag_busca]['novas'] += 1
                     for i in range(6):
-                        venceu = 1 if (i < 3 and res == 'victory') or (i >= 3 and res == 'defeat') else 0
+                        venceu = 1 if (i // 3) == vencedor_idx else 0
                         id_t, nm_t = (t0_id, t0_nome) if i < 3 else (t1_id, t1_nome)
                         novas_picks.append([
                             pid, reg_final, ";".join(tags_list), ";".join(nicks_list),
@@ -474,6 +547,42 @@ def minerar_dados():
         df_p.to_csv(ARQUIVO_BRUTO, mode='a', header=not os.path.exists(ARQUIVO_BRUTO), index=False)
         print(f"Salvo: {len(df_p)//6} jogos no {ARQUIVO_BRUTO}")
 
+    # Corrige partidas já existentes quando a API fornece uma observação válida.
+    # Se jogadores consultados produzirem vencedores diferentes para o mesmo ID,
+    # a partida é preservada sem alteração e reportada para auditoria.
+    if resultados_verificados and os.path.exists(ARQUIVO_BRUTO):
+        try:
+            df_hist = pd.read_csv(ARQUIVO_BRUTO, dtype=str).fillna("")
+            alteracoes = 0
+            for pid, obs in resultados_verificados.items():
+                if pid in resultados_conflitantes:
+                    continue
+                mask = df_hist["id_partida"].astype(str) == str(pid)
+                if not mask.any():
+                    continue
+                tags = obs["tags"]
+                tag_para_lado = {tag: idx // 3 for idx, tag in enumerate(tags)}
+                idxs = df_hist.index[mask]
+                for idx in idxs:
+                    tag_linha = str(df_hist.at[idx, "player_tag"]).strip().upper()
+                    lado = tag_para_lado.get(tag_linha)
+                    if lado is None:
+                        continue
+                    novo_win = "1" if lado == obs["vencedor_idx"] else "0"
+                    if str(df_hist.at[idx, "win"]) != novo_win:
+                        df_hist.at[idx, "win"] = novo_win
+                        df_hist.at[idx, "win_rate"] = "100.0%" if novo_win == "1" else "0.0%"
+                        alteracoes += 1
+            if alteracoes:
+                tmp_hist = ARQUIVO_BRUTO + ".tmp"
+                df_hist.to_csv(tmp_hist, index=False)
+                os.replace(tmp_hist, ARQUIVO_BRUTO)
+            print(f"[RESULTADOS] Linhas históricas corrigidas com confirmação da API: {alteracoes}")
+            if resultados_conflitantes:
+                print(f"[RESULTADOS][ALERTA] {len(resultados_conflitantes)} partidas com observações conflitantes não foram alteradas.")
+        except Exception as e:
+            raise RuntimeError(f"Falha ao reconciliar resultados já registrados: {e}")
+
     if novos_bans:
         df_b = pd.DataFrame(novos_bans, columns=COLUNAS_BANS)
         df_b.to_csv(ARQUIVO_BANS, mode='a', header=not os.path.exists(ARQUIVO_BANS), index=False)
@@ -496,6 +605,10 @@ def minerar_dados():
     print(f"  Ja existentes no historico: {stats['items_ja_existentes']}")
     print(f"  Novas partidas: {stats['items_novos']}")
     print(f"  Erros ao processar item: {stats['erros_processamento']}")
+    rejeitados = stats.get("resultados_rejeitados", {})
+    print(f"  Resultados rejeitados por falta de confirmação: {sum(rejeitados.values())}")
+    for motivo, quantidade in sorted(rejeitados.items()):
+        print(f"    - {motivo}: {quantidade}")
 
     print("\n========== PARTIDAS POR JOGADOR ==========")
     for tag, dados in stats_jogadores.items():
