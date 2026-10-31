@@ -19,6 +19,9 @@ jobs:
     env:
       TZ: 'America/Sao_Paulo'
       BRAWL_STARS_API_KEY: ${{ secrets.BRAWL_STARS_API_KEY }}
+      RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      RAPIDAPI_HOST: ${{ vars.RAPIDAPI_HOST }}
+      RAPIDAPI_BUILD_URL: ${{ vars.RAPIDAPI_BUILD_URL }}
     permissions:
       contents: write
 
@@ -58,7 +61,7 @@ jobs:
       - name: Salvando as alterações no GitHub
         shell: bash
         run: |
-          git add historico_bruto.csv estatisticas_finais.csv rosters.json api/
+          git add historico_bruto.csv estatisticas_finais.csv rosters.json brawlapi_brawlers.json api/
 
           if ! git diff --cached --quiet; then
             git commit -m "🤖 Atualização Automática de Partidas e Rosters"
