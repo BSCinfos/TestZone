@@ -604,11 +604,20 @@
     "jogadores": []
   },
   "#28VP0G808": {
-    "nome": "Koga",
+    "nome": "INS|Koga",
     "id_time": "INS",
     "nome_time": "INSOMNIA",
     "regiao": "EA",
-    "jogadores": []
+    "jogadores": [
+      {
+        "tag": "#PJ80QPVL2",
+        "nome": "AXIS|Persia819"
+      },
+      {
+        "tag": "#80YVJGRY",
+        "nome": "INS|Wahochi"
+      }
+    ]
   },
   "#89UUQLJCC": {
     "nome": "Toridesu",
