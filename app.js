@@ -1462,6 +1462,15 @@ window.selecionarRoundMD3 = function(index, btnElement) {
     let corSetB = !venceuA ? 'var(--winrate-color, #2ecc71)' : '#fff';
 
     let playersA = firstSet.t0Full.map(p => p.player_name), playersB = firstSet.t1Full.map(p => p.player_name);
+    const buildIcones = (player, lado) => {
+        const icones = [
+            player && player.gadget_image ? {src: player.gadget_image, title: player.gadget || 'Acessório'} : null,
+            player && player.star_power_image ? {src: player.star_power_image, title: player.star_power || 'Poder de estrela'} : null
+        ].filter(Boolean);
+        if (!icones.length) return '';
+        const pos = lado === 'A' ? 'right:2px' : 'left:2px';
+        return `<span style="position:absolute;top:2px;${pos};display:flex;flex-direction:column;gap:3px;z-index:3;">${icones.map(x => `<img src="${x.src}" title="${x.title}" alt="${x.title}" style="width:23px;height:23px;object-fit:contain;filter:drop-shadow(0 1px 2px #000);background:rgba(0,0,0,.45);border-radius:5px;padding:2px;" onerror="this.style.display='none'">`).join('')}</span>`;
+    };
     let bansDoRound = dadosBans.filter(r => r.id_partida === firstSet.id);
     let bansTimeA   = bansDoRound.filter(r => r.id_time === window.scrimAtual.tAId), bansTimeB   = bansDoRound.filter(r => r.id_time === window.scrimAtual.tBId);
     let temBans     = bansTimeA.length > 0 || bansTimeB.length > 0;
@@ -1477,6 +1486,7 @@ container.innerHTML = `
                     return `<div style="display:flex; flex-direction:column; align-items:center; gap:5px; position:relative;">
                         <span style="position:absolute; top:-8px; left:-8px; background:var(--accent-purple); color:#fff; font-size:10px; font-weight:900; padding:2px 6px; border-radius:10px; z-index:1;">PICK ${index+1}</span>
                         <img src="brawlers/${formatImg(pickBrawler)}.png" style="width: 75px; height: 75px; border-radius: 8px; object-fit: cover; border: 2px solid ${venceuA ? 'var(--winrate-color, #2ecc71)' : 'var(--borda-suave, #555)'};" onerror="fallbackImagem(this,'brawlers/default.png')">
+                        ${buildIcones(firstSet.t0Full[index], 'A')}
                         <span style="font-size:12px; font-weight:900;">${p}</span>
                     </div>`;
                 }).join('')}
@@ -1501,6 +1511,7 @@ container.innerHTML = `
                     return `<div style="display:flex; flex-direction:column; align-items:center; gap:5px; position:relative;">
                         <span style="position:absolute; top:-8px; left:-8px; background:var(--accent-purple); color:#fff; font-size:10px; font-weight:900; padding:2px 6px; border-radius:10px; z-index:1;">PICK ${index+1}</span>
                         <img src="brawlers/${formatImg(pickBrawler)}.png" style="width: 75px; height: 75px; border-radius: 8px; object-fit: cover; border: 2px solid ${!venceuA ? 'var(--winrate-color, #2ecc71)' : 'var(--borda-suave, #555)'};" onerror="fallbackImagem(this,'brawlers/default.png')">
+                        ${buildIcones(firstSet.t1Full[index], 'B')}
                         <span style="font-size:12px; font-weight:900;">${p}</span>
                     </div>`;
                 }).join('')}
