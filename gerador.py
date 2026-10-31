@@ -22,7 +22,7 @@ ARQUIVO_BRUTO = "historico_bruto.csv"
 ARQUIVO_BANS = "bans_matcherino.csv"
 ARQUIVO_ROSTERS = "rosters.json"
 
-COLUNAS_PICKS = ["id_partida", "regiao", "id_players", "name_players", "pick", "win", "win_rate", "modo", "mapa", "data_adicao", "player_tag", "player_name", "id_time", "nome_time", "tipo"]
+COLUNAS_PICKS = ["id_partida", "regiao", "id_players", "name_players", "pick", "win", "win_rate", "modo", "mapa", "data_adicao", "player_tag", "player_name", "id_time", "nome_time", "tipo", "gadget", "star_power", "gadget_image", "star_power_image"]
 COLUNAS_BANS = ["id_partida", "regiao", "mapa", "modo", "id_time", "nome_time", "brawler_banido", "data_adicao", "tipo"]
 
 # Mapeamento de Tags para identificação automática de Região, Time e Nick
@@ -116,6 +116,121 @@ def nome_brawler(b):
     if isinstance(b, str): return b.upper()
     if isinstance(b, dict): return str(b.get('brawler') or b.get('brawlerName') or b.get('name') or 'UNKNOWN').upper()
     return 'UNKNOWN'
+
+
+# =============================================================================
+# BUILDS E CATÁLOGO DE IMAGENS (BrawlAPI + RapidAPI)
+# RAPIDAPI_BUILD_URL deve ser uma URL de endpoint com {tag} como marcador.
+# Ex.: configurar em GitHub Actions Variables conforme a rota documentada pelo provedor.
+# =============================================================================
+BRAWLAPI_BRAWLERS_URL = "https://api.brawlapi.com/v1/brawlers"
+ARQUIVO_CATALOGO_BUILDS = "brawlapi_brawlers.json"
+RAPIDAPI_KEY = os.getenv("RAPIDAPI_KEY", "").strip()
+RAPIDAPI_HOST = os.getenv("RAPIDAPI_HOST", "").strip()
+RAPIDAPI_BUILD_URL = os.getenv("RAPIDAPI_BUILD_URL", "").strip()
+_CACHE_CATALOGO_BUILDS = None
+_CACHE_BUILDS_JOGADORES = {}
+
+def carregar_catalogo_brawlapi():
+    """Baixa uma vez o catálogo de brawlers, gadgets e star powers com suas imagens."""
+    global _CACHE_CATALOGO_BUILDS
+    if _CACHE_CATALOGO_BUILDS is not None:
+        return _CACHE_CATALOGO_BUILDS
+    catalogo = {"gadgets": {}, "starPowers": {}}
+    try:
+        resposta = requests.get(BRAWLAPI_BRAWLERS_URL, timeout=25)
+        resposta.raise_for_status()
+        payload = resposta.json()
+        brawlers = payload.get("list", payload) if isinstance(payload, dict) else payload
+        if isinstance(brawlers, list):
+            for brawler in brawlers:
+                if not isinstance(brawler, dict):
+                    continue
+                for campo, destino in (("gadgets", "gadgets"), ("starPowers", "starPowers")):
+                    for item in brawler.get(campo, []) or []:
+                        if not isinstance(item, dict):
+                            continue
+                        nome = str(item.get("name") or "").strip()
+                        item_id = str(item.get("id") or "").strip()
+                        imagem = item.get("imageUrl") or item.get("image_url")
+                        if not imagem and item_id:
+                            tipo = "gadgets" if destino == "gadgets" else "star-powers"
+                            imagem = f"https://cdn.brawlify.com/{tipo}/borderless/{item_id}.png"
+                        registro = {"id": item_id, "name": nome, "image": imagem or ""}
+                        for chave in (item_id, nome.casefold()):
+                            if chave:
+                                catalogo[destino][chave] = registro
+        _CACHE_CATALOGO_BUILDS = catalogo
+        try:
+            with open(ARQUIVO_CATALOGO_BUILDS, "w", encoding="utf-8") as f:
+                json.dump(payload, f, ensure_ascii=False)
+        except Exception:
+            pass
+        print(f"[BRAWLAPI] Catálogo carregado: {len(catalogo['gadgets'])//2} gadgets e {len(catalogo['starPowers'])//2} poderes.")
+    except Exception as e:
+        print(f"[BRAWLAPI][AVISO] Não foi possível atualizar o catálogo: {e}")
+        _CACHE_CATALOGO_BUILDS = catalogo
+    return _CACHE_CATALOGO_BUILDS
+
+def _achar_campo_recursivo(obj, nomes):
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if str(k).casefold() in nomes and v not in (None, "", [], {}):
+                return v
+        for v in obj.values():
+            achado = _achar_campo_recursivo(v, nomes)
+            if achado not in (None, "", [], {}):
+                return achado
+    elif isinstance(obj, list):
+        for v in obj:
+            achado = _achar_campo_recursivo(v, nomes)
+            if achado not in (None, "", [], {}):
+                return achado
+    return None
+
+def buscar_build_rapidapi(tag):
+    """Busca build por jogador quando RAPIDAPI_BUILD_URL foi configurada.
+    A URL deve conter {tag}; sem endpoint configurado, não inventa dados.
+    """
+    if tag in _CACHE_BUILDS_JOGADORES:
+        return _CACHE_BUILDS_JOGADORES[tag]
+    resultado = {"gadget": "", "star_power": ""}
+    if not (RAPIDAPI_KEY and RAPIDAPI_HOST and RAPIDAPI_BUILD_URL and "{tag}" in RAPIDAPI_BUILD_URL):
+        _CACHE_BUILDS_JOGADORES[tag] = resultado
+        return resultado
+    try:
+        url = RAPIDAPI_BUILD_URL.replace("{tag}", requests.utils.quote(str(tag).replace("#", ""), safe=""))
+        resp = requests.get(url, headers={
+            "X-RapidAPI-Key": RAPIDAPI_KEY,
+            "X-RapidAPI-Host": RAPIDAPI_HOST
+        }, timeout=15)
+        resp.raise_for_status()
+        dados = resp.json()
+        gadget = _achar_campo_recursivo(dados, {"gadget", "gadgetname", "gadget_name", "selectedgadget"})
+        star = _achar_campo_recursivo(dados, {"starpower", "starpowername", "star_power", "star_power_name", "selectedstarpower"})
+        def valor(v):
+            if isinstance(v, dict):
+                return str(v.get("name") or v.get("id") or "").strip()
+            return str(v or "").strip()
+        resultado = {"gadget": valor(gadget), "star_power": valor(star)}
+    except Exception as e:
+        print(f"[RAPIDAPI][AVISO] Build indisponível para {tag}: {e}")
+    _CACHE_BUILDS_JOGADORES[tag] = resultado
+    return resultado
+
+def enriquecer_build_com_imagens(build):
+    catalogo = carregar_catalogo_brawlapi()
+    saida = dict(build or {})
+    for campo, campo_img, grupo in (
+        ("gadget", "gadget_image", "gadgets"),
+        ("star_power", "star_power_image", "starPowers")
+    ):
+        valor = str(saida.get(campo) or "").strip()
+        item = catalogo[grupo].get(valor) or catalogo[grupo].get(valor.casefold())
+        saida[campo] = valor
+        saida[campo_img] = item.get("image", "") if item else ""
+    return saida
+
 
 def buscar_battlelog(tag_url, headers_api):
     """
@@ -369,6 +484,8 @@ def minerar_dados():
     # Deve existir antes do loop para evitar NameError.
     stats_jogadores = {}
 
+    carregar_catalogo_brawlapi()
+
     for tag_busca, info_busca in list(MAPEAMENTO_PLAYERS.items()):
         sigla_busca = info_busca.get("regiao", "SA")
         tag_url = tag_busca.replace("#", "%23")
@@ -511,7 +628,11 @@ def minerar_dados():
                         novas_picks.append([
                             pid, reg_final, ";".join(tags_list), ";".join(nicks_list),
                             brawlers_list[i], venceu, f"{venceu*100}.0%", modo, mapa,
-                            momento, tags_list[i], nicks_list[i], id_t, nm_t, tipo_final
+                            momento, tags_list[i], nicks_list[i], id_t, nm_t, tipo_final,
+                            (lambda b: b["gadget"])(enriquecer_build_com_imagens(buscar_build_rapidapi(tags_list[i]))),
+                            (lambda b: b["star_power"])(enriquecer_build_com_imagens(buscar_build_rapidapi(tags_list[i]))),
+                            enriquecer_build_com_imagens(buscar_build_rapidapi(tags_list[i]))["gadget_image"],
+                            enriquecer_build_com_imagens(buscar_build_rapidapi(tags_list[i]))["star_power_image"]
                         ])
                     ids_registrados.add(pid)
                 else:
@@ -543,6 +664,20 @@ def minerar_dados():
                     print(f"  [ERRO processamento] {tag_busca}: {e}")
 
     if novas_picks:
+        # Migra o CSV antigo adicionando colunas novas sem perder o histórico.
+        if os.path.exists(ARQUIVO_BRUTO):
+            try:
+                df_existente = pd.read_csv(ARQUIVO_BRUTO, dtype=str).fillna("")
+                alterou_schema = False
+                for coluna in COLUNAS_PICKS:
+                    if coluna not in df_existente.columns:
+                        df_existente[coluna] = ""
+                        alterou_schema = True
+                if alterou_schema:
+                    df_existente = df_existente.reindex(columns=COLUNAS_PICKS, fill_value="")
+                    df_existente.to_csv(ARQUIVO_BRUTO, index=False)
+            except Exception as e:
+                raise RuntimeError(f"Não foi possível migrar o schema de {ARQUIVO_BRUTO}: {e}")
         df_p = pd.DataFrame(novas_picks, columns=COLUNAS_PICKS)
         df_p.to_csv(ARQUIVO_BRUTO, mode='a', header=not os.path.exists(ARQUIVO_BRUTO), index=False)
         print(f"Salvo: {len(df_p)//6} jogos no {ARQUIVO_BRUTO}")
