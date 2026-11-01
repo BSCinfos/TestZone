@@ -468,11 +468,20 @@
     ]
   },
   "#9PQQ8GQQ": {
-    "nome": "Filippo",
+    "nome": "NOVO | Filippo",
     "id_time": "NOVO",
     "nome_time": "NOVO ESPORTS",
     "regiao": "EMEA",
-    "jogadores": []
+    "jogadores": [
+      {
+        "tag": "#JJ92RGPL",
+        "nome": "NOVO | Jus"
+      },
+      {
+        "tag": "#90JCYPQU",
+        "nome": "NOVO | MeOw"
+      }
+    ]
   },
   "#PLV89CGP": {
     "nome": "BIG|Salty🥥",
