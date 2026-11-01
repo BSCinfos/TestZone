@@ -638,11 +638,20 @@
     ]
   },
   "#89UUQLJCC": {
-    "nome": "Toridesu",
+    "nome": "とりです",
     "id_time": "FZ",
     "nome_time": "FRENZY",
     "regiao": "EA",
-    "jogadores": []
+    "jogadores": [
+      {
+        "tag": "#8QY08JUVC",
+        "nome": "Tessar🐷"
+      },
+      {
+        "tag": "#2PLYVV8GL",
+        "nome": "sanikamax🩵🩷"
+      }
+    ]
   },
   "#8G982C80L": {
     "nome": "Gon",
