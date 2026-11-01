@@ -172,7 +172,7 @@
     ]
   },
   "#JCGGGQUP": {
-    "nome": "seven honored.",
+    "nome": "zSeventh時間の問題",
     "id_time": "NX",
     "nome_time": "NOXIUM E-SPORTS",
     "regiao": "SA",
@@ -208,7 +208,16 @@
     "id_time": "RFA",
     "nome_time": "ROSTER F/A",
     "regiao": "SA",
-    "jogadores": []
+    "jogadores": [
+      {
+        "tag": "#2UV2RVJYCC",
+        "nome": "sr"
+      },
+      {
+        "tag": "#80YUQ02UR8",
+        "nome": "Luy"
+      }
+    ]
   },
   "#2QPU2LL9PO": {
     "nome": "Matsu",
