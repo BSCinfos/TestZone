@@ -43,7 +43,7 @@ MAPEAMENTO_PLAYERS = {
         "#9QCJPL20": {"nome": "OS|Golden", "id_time": "OS", "nome_time": "OLIMPO SQUAD", "regiao": "SA"},
         "#PR9U2JL": {"nome": "SKC|Juan Carlos", "id_time": "SKC", "nome_time": "SKCALALAS SA", "regiao": "SA"},
         "#CPPV2PQG": {"nome": "GDT| MeliodasGod🐐", "id_time": "GDT", "nome_time": "GORDITOS", "regiao": "SA"},
-        "#P0UVQVUVG": {"nome": "igorr🏌️", "id_time": "ZRN", "nome_time": "ZYRON", "regiao": "SA"},
+        "#P0UVQVUVG": {"nome": "igorr🏌️", "id_time": "ZTH", "nome_time": "ZHETIAN", "regiao": "SA"},
         "#R2LR2QLG": {"nome": "RED|Mohtep", "id_time": "RED", "nome_time": "RED CANIDS", "regiao": "SA"},
         "#80VLPJCCC": {"nome": "CB|Tilo", "id_time": "CB", "nome_time": "CRECHE BRAWL", "regiao": "SA"},
         "#GJPVYUQG": {"nome": "QQQ|Deykonn", "id_time": "QQQ", "nome_time": "QUIERO QUE QUE", "regiao": "SA"},
