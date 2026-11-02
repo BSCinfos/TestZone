@@ -146,12 +146,12 @@
     "regiao": "SA",
     "jogadores": [
       {
-        "tag": "#9Q22C88V8",
-        "nome": "Bielz XCX"
-      },
-      {
         "tag": "#2UQCCG92VG",
         "nome": "Lipizin ↯"
+      },
+      {
+        "tag": "#9Q22C88V8",
+        "nome": "Bielz XCX"
       }
     ]
   },
