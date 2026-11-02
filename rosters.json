@@ -219,8 +219,8 @@
       }
     ]
   },
-  "#2QPU2LL9PO": {
-    "nome": "Matsu",
+  "#8RCCV9RLC": {
+    "nome": "Brawlerzin",
     "id_time": "RDC",
     "nome_time": "RADICAL",
     "regiao": "SA",
@@ -540,19 +540,42 @@
       }
     ]
   },
-  "#Q808R2CV": {
-    "nome": "CGN|Nes",
-    "id_time": "KUMA",
-    "nome_time": "KUMA",
+  "#2208QGGGL": {
+    "nome": "CGN|Dompe",
+    "id_time": "CNG",
+    "nome_time": "CNG",
     "regiao": "EMEA",
     "jogadores": [
       {
-        "tag": "#9LVUC2PY",
-        "nome": "SK | OPE"
+        "tag": "#Q808R2CV",
+        "nome": "CGN|Nes"
       },
       {
-        "tag": "#20C80QUY9",
-        "nome": "GuGu"
+        "tag": "#20L88L2J",
+        "nome": "Code: LeNain"
+      }
+    ]
+  },
+  "#2YYJYPCL": {
+    "nome": "Tomzy",
+    "id_time": "KBP",
+    "nome_time": "F/A KEBAP",
+    "regiao": "EMEA",
+    "jogadores": []
+  },
+  "#LLV82LQPU": {
+    "nome": "fayelo",
+    "id_time": "REV",
+    "nome_time": "REVERSO HIVE",
+    "regiao": "EMEA",
+    "jogadores": [
+      {
+        "tag": "#CJ9YRGGC",
+        "nome": "HK|Natrix"
+      },
+      {
+        "tag": "#2Y20JR8CQ",
+        "nome": "Max Verstappen"
       }
     ]
   },
