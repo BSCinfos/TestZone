@@ -76,7 +76,10 @@ MAPEAMENTO_PLAYERS = {
         "#PLV89CGP": {"nome": "BIG|Salty🥥", "id_time": "BIG", "nome_time": "BIG", "regiao": "EMEA"},
         "#8UR02QQL2": {"nome": "TLB|SanFire", "id_time": "TLB", "nome_time": "TALENTS LAB", "regiao": "EMEA"},
         "#82GG2RLQG": {"nome": "FUT|ZeyroX", "id_time": "FUTA", "nome_time": "FUT ACADEMY", "regiao": "EMEA"},
-        "#Q808R2CV": {"nome": "KUMA|Nes", "id_time": "KUMA", "nome_time": "KUMA", "regiao": "EMEA"},
+        "#2208QGGGL": {"nome": "CNG|Dompe", "id_time": "CNG", "nome_time": "CNG", "regiao": "EMEA"},
+        "#2YYJYPCL": {"nome": "KBP|Tomzy", "id_time": "KBP", "nome_time": "F/A KEBAP", "regiao": "EMEA"},
+        "#LLV82LQPU": {"nome": "REV|Fayelo", "id_time": "REV", "nome_time": "REVERSO HIVE", "regiao": "EMEA"},
+        
 # EA
         "#9ULYPV8": {"nome": "CR|Tensai", "id_time": "CR", "nome_time": "CRAZY RACCOON", "regiao": "EA"},
         "#8Y98Q8U": {"nome": "ZETA|Sitetampo", "id_time": "ZETA", "nome_time": "ZETA DIVISION", "regiao": "EA"},
