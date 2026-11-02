@@ -50,7 +50,7 @@ MAPEAMENTO_PLAYERS = {
         "#JCGGGQUP": {"nome": "NX|Sagaz", "id_time": "NX", "nome_time": "NOXIUM E-SPORTS", "regiao": "SA"},
         "#YY9RY0UGC": {"nome": "awk hate you", "id_time": "YX", "nome_time": "YRONIX", "regiao": "SA"},
         "#G2G8VC02C": {"nome": "Dvzz🐐", "id_time": "RFA", "nome_time": "ROSTER F/A", "regiao": "SA"},
-        "#2QPU2LL9PO": {"nome": "Matsu", "id_time": "RDC", "nome_time": "RADICAL", "regiao": "SA"},
+        "#8RCCV9RLC": {"nome": "Brawlerzin", "id_time": "RDC", "nome_time": "RADICAL", "regiao": "SA"},
         "#C0LCP8P2": {"nome": "Hiro ❥", "id_time": "FA", "nome_time": "F/A", "regiao": "SA"},
 # NA
         "#LVRRYPV": {"nome": "KDS|Bobby", "id_time": "KDS", "nome_time": "KDS", "regiao": "NA"},
