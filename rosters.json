@@ -52,12 +52,12 @@
     "regiao": "SA",
     "jogadores": [
       {
-        "tag": "#88GVVQQQJ",
-        "nome": "Rds XCX"
-      },
-      {
         "tag": "#U0JVLJGG",
         "nome": "Bubus"
+      },
+      {
+        "tag": "#88GVVQQQJ",
+        "nome": "Rds XCX"
       }
     ]
   },
