@@ -1,10 +1,19 @@
 {
   "#GYCYCLRJL": {
-    "nome": "Prozy",
+    "nome": "BH|Prozy",
     "id_time": "BH",
     "nome_time": "BH ESPORTS",
     "regiao": "SA",
-    "jogadores": []
+    "jogadores": [
+      {
+        "tag": "#YGQYGCR",
+        "nome": "Katia’s dog"
+      },
+      {
+        "tag": "#PLLRJC2V",
+        "nome": "BH|Wesley534"
+      }
+    ]
   },
   "#JQ8LLLY": {
     "nome": "LOUD|FireCrow",
@@ -147,7 +156,7 @@
     "jogadores": [
       {
         "tag": "#9Q22C88V8",
-        "nome": "Bielz XCX"
+        "nome": "Bielz"
       },
       {
         "tag": "#2UQCCG92VG",
@@ -537,8 +546,8 @@
         "nome": "Youtube: YeiYei"
       },
       {
-        "tag": "#2VQCL0LLCC",
-        "nome": "Agachi Pulosu🦁"
+        "tag": "#8LCJCQCQ8",
+        "nome": "Lord X"
       }
     ]
   },
@@ -579,7 +588,16 @@
     "id_time": "KBP",
     "nome_time": "F/A KEBAP",
     "regiao": "EMEA",
-    "jogadores": []
+    "jogadores": [
+      {
+        "tag": "#2CGLGP8QP",
+        "nome": "Abiiiiii23."
+      },
+      {
+        "tag": "#9C8Q8CJ9L",
+        "nome": "ᴠGᴜɪғᴇʀ🦦"
+      }
+    ]
   },
   "#LLV82LQPU": {
     "nome": "fayelo",
