@@ -34,7 +34,7 @@ COLUNAS_BANS = ["id_partida", "regiao", "mapa", "modo", "id_time", "nome_time", 
 # (que roda separadamente, minerando dados via API) precisa desse passo manual de copiar/colar.
 MAPEAMENTO_PLAYERS = {
 # SA  
-        "#GYCYCLRJL": {"nome": "BH|Prozy", "id_time": "BH", "nome_time": "BH ESPORTS", "regiao": "SA"},
+        "#PLLRJC2V": {"nome": "BH|Wesley534", "id_time": "BH", "nome_time": "BH ESPORTS", "regiao": "SA"},
         "#QJULVGU": {"nome": "LOUD|Edinho", "id_time": "LOUD", "nome_time": "LOUD", "regiao": "SA"},
         "#202GJJR28": {"nome": "OCX|Doritos", "id_time": "OCX", "nome_time": "OCX DIVISION", "regiao": "SA"},
         "#9JYG98GG": {"nome": "DZ|Bryan 乂", "id_time": "DZ", "nome_time": "DAYCARE ZERO", "regiao": "SA"},
