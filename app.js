@@ -592,107 +592,140 @@ function atualizarDropdownTimesScrims(timesNaScrimMap, valorAtual) {
 // ==========================================
 
 function estruturarMD3(dadosPeriodo) {
-    let rawMatches = {};
-    dadosPeriodo.forEach(r => { if(!rawMatches[r.id_partida]) rawMatches[r.id_partida] = []; rawMatches[r.id_partida].push(r); });
+    // Agrupa todas as seis linhas antes de qualquer filtro regional.
+    // O CSV contém linhas de ambos os times; filtrar por região antes daqui
+    // removia o adversário e fazia a partida parecer incompleta.
+    const porPartida = new Map();
+    (dadosPeriodo || []).forEach(linha => {
+        if (!linha || !linha.id_partida || !linha.player_tag || !linha.id_time) return;
+        if (!porPartida.has(linha.id_partida)) porPartida.set(linha.id_partida, []);
+        porPartida.get(linha.id_partida).push(linha);
+    });
 
-    let partidasEstruturadas = [];
-    Object.values(rawMatches).forEach(linhas => {
-        if(linhas.length < 6) return;
-        let t0 = linhas.slice(0,3), t1 = linhas.slice(3,6);
-        let t0Id = t0[0].id_time, t1Id = t1[0].id_time;
-        if (_REGIAO !== "ALL" && !isTimeDaRegiaoAtual(t0Id) && !isTimeDaRegiaoAtual(t1Id)) return;
+    const partidasEstruturadas = [];
+    porPartida.forEach((linhas, idPartida) => {
+        const porTime = new Map();
+        linhas.forEach(linha => {
+            if (!porTime.has(linha.id_time)) porTime.set(linha.id_time, []);
+            porTime.get(linha.id_time).push(linha);
+        });
+        const lados = Array.from(porTime.entries())
+            .map(([id, jogadores]) => ({ id, jogadores }))
+            .filter(lado => lado.jogadores.length === 3 && new Set(lado.jogadores.map(j => j.player_tag)).size === 3);
+        if (lados.length !== 2 || linhas.length !== 6) return;
 
-        // Ordem dos picks preservada EXATAMENTE como veio da biblioteca de dados (CSV),
-        // pois t0/t1 sao fatias sequenciais das linhas originais (0-3 e 3-6), sem reordenar.
+        // Determina qual time pertence à região selecionada, sem excluir
+        // previamente as três linhas do adversário.
+        if (_REGIAO !== 'ALL' && !lados.some(lado => isTimeDaRegiaoAtual(lado.id))) return;
+
+        // Mantém ordem original dos jogadores dentro de cada lado.
+        const [ladoA, ladoB] = lados;
+        const tA = ladoA.jogadores, tB = ladoB.jogadores;
+        const votosA = tA.filter(p => parseInt(p.win, 10) === 1).length;
+        const votosB = tB.filter(p => parseInt(p.win, 10) === 1).length;
+        // O CSV deve indicar o mesmo resultado para os três integrantes do time.
+        // Se houver divergência, não inventamos o vencedor: descartamos apenas
+        // essa partida inconsistente e preservamos as demais.
+        if (votosA !== 0 && votosA !== 3) return;
+        if (votosB !== 0 && votosB !== 3) return;
+        if (!((votosA === 3 && votosB === 0) || (votosA === 0 && votosB === 3))) return;
+
+        const referencia = tA[0];
         partidasEstruturadas.push({
-            id: linhas[0].id_partida, modo: linhas[0].modo, mapa: linhas[0].mapa,
-            tAId: t0Id, tBId: t1Id, tANome: t0[0].nome_time, tBNome: t1[0].nome_time,
-            picksA: t0.map(p => (p.pick||'').toUpperCase()), picksB: t1.map(p => (p.pick||'').toUpperCase()),
-            tagsA: t0.map(p => p.player_tag), tagsB: t1.map(p => p.player_tag),
-            t0Full: t0, t1Full: t1, vencedor: parseInt(t0[0].win) === 1 ? t0Id : t1Id, timestamp: parseDateBR(linhas[0].data_adicao),
-            dataFormatada: linhas[0].data_adicao, tipo: linhas[0].tipo || 'scrim', isMatcherino: linhas[0].id_partida && linhas[0].id_partida.startsWith('mtcr_'),
+            id: idPartida,
+            modo: referencia.modo,
+            mapa: referencia.mapa,
+            tAId: ladoA.id, tBId: ladoB.id,
+            tANome: tA[0].nome_time, tBNome: tB[0].nome_time,
+            picksA: tA.map(p => (p.pick || '').toUpperCase()),
+            picksB: tB.map(p => (p.pick || '').toUpperCase()),
+            tagsA: tA.map(p => p.player_tag), tagsB: tB.map(p => p.player_tag),
+            t0Full: tA, t1Full: tB,
+            vencedor: votosA === 3 ? ladoA.id : ladoB.id,
+            timestamp: parseDateBR(referencia.data_adicao),
+            dataFormatada: referencia.data_adicao,
+            tipo: referencia.tipo || 'scrim',
+            isMatcherino: String(idPartida).startsWith('mtcr_'),
             linhasOriginais: linhas
         });
     });
 
-    let scrims = [];
+    const scrims = [];
     partidasEstruturadas.sort((a,b) => a.timestamp - b.timestamp).forEach(partida => {
-        // Só conta como scrim do time quando os 3 titulares cadastrados do roster
-        // realmente estiverem jogando dos dois lados (evita agrupar partidas com
-        // jogadores substitutos/errados como se fossem do time oficial).
+        // Mantém a exigência de roster completo para não atribuir partidas
+        // de substitutos a um time cadastrado.
         if (!timeRosterCompleto(partida.tagsA, partida.tAId) || !timeRosterCompleto(partida.tagsB, partida.tBId)) return;
 
-        let chaveTimes = [partida.tAId, partida.tBId].sort().join(' VS ');
-        let scrimExistente = scrims.find(s => s.chave === chaveTimes && (partida.timestamp - s.ultimoUpdate) <= (2 * 60 * 60 * 1000));
-        if(scrimExistente) {
-            scrimExistente.sets.push(partida); scrimExistente.ultimoUpdate = partida.timestamp;
-            if(partida.isMatcherino) scrimExistente.temMatcherino = true;
+        const chaveTimes = [partida.tAId, partida.tBId].sort().join(' VS ');
+        const scrimExistente = scrims.find(s => s.chave === chaveTimes &&
+            partida.timestamp >= s.ultimoUpdate &&
+            (partida.timestamp - s.ultimoUpdate) <= (2 * 60 * 60 * 1000));
+        if (scrimExistente) {
+            scrimExistente.sets.push(partida);
+            scrimExistente.ultimoUpdate = partida.timestamp;
+            if (partida.isMatcherino) scrimExistente.temMatcherino = true;
         } else {
             scrims.push({
-                chave: chaveTimes, tAId: partida.tAId, tBId: partida.tBId, tANome: partida.tANome, tBNome: partida.tBNome,
-                inicio: partida.timestamp, ultimoUpdate: partida.timestamp, dataFormatada: partida.dataFormatada.split(' ')[0], sets: [partida], tipo: partida.tipo, temMatcherino: partida.isMatcherino || false
+                chave: chaveTimes, tAId: partida.tAId, tBId: partida.tBId,
+                tANome: partida.tANome, tBNome: partida.tBNome,
+                inicio: partida.timestamp, ultimoUpdate: partida.timestamp,
+                dataFormatada: (partida.dataFormatada || '').split(' ')[0],
+                sets: [partida], tipo: partida.tipo,
+                temMatcherino: partida.isMatcherino || false
             });
         }
     });
 
-    let dadosMD3Condensados = [];
+    const dadosMD3Condensados = [];
     scrims.forEach(scrim => {
-        let roundsMD3 = [];
-        let currentSets = [];
-        let winsA = 0, winsB = 0;
+        const roundsMD3 = [];
+        let currentSets = [], winsA = 0, winsB = 0;
         let scoreScrimA = 0, scoreScrimB = 0;
 
-        const fecharRound = (setsDoRound) => {
-            if (setsDoRound.length === 0) return;
-            let vencedorRound = winsA > winsB ? scrim.tAId : scrim.tBId;
-            if(winsA > winsB) scoreScrimA++; else if(winsB > winsA) scoreScrimB++;
-            
-            let firstSet = setsDoRound[0];
+        const fecharRound = setsDoRound => {
+            if (!setsDoRound.length || winsA === winsB) return;
+            const vencedorRound = winsA > winsB ? scrim.tAId : scrim.tBId;
+            if (winsA > winsB) scoreScrimA++; else scoreScrimB++;
+            const firstSet = setsDoRound[0];
             roundsMD3.push({
-                sets: setsDoRound,
-                vencedor: vencedorRound,
-                scoreA: winsA,
-                scoreB: winsB,
-                modo: firstSet.modo,
-                mapa: firstSet.mapa,
+                sets: setsDoRound, vencedor: vencedorRound,
+                scoreA: winsA, scoreB: winsB,
+                modo: firstSet.modo, mapa: firstSet.mapa,
                 dataFormatada: firstSet.dataFormatada,
                 tAId: scrim.tAId, tBId: scrim.tBId,
                 tANome: scrim.tANome, tBNome: scrim.tBNome,
-                firstSet: firstSet 
+                firstSet
             });
-
             firstSet.linhasOriginais.forEach(linha => {
-                let novaLinha = { ...linha };
-                novaLinha.win = (novaLinha.id_time === vencedorRound) ? "1" : "0";
-                dadosMD3Condensados.push(novaLinha);
+                dadosMD3Condensados.push({
+                    ...linha,
+                    win: linha.id_time === vencedorRound ? '1' : '0'
+                });
             });
         };
 
         scrim.sets.forEach(set => {
-            if(currentSets.length > 0 && currentSets[0].mapa !== set.mapa) {
-                fecharRound(currentSets);
-                currentSets = []; winsA = 0; winsB = 0;
+            if (currentSets.length && currentSets[0].mapa !== set.mapa) {
+                fecharRound(currentSets); currentSets = []; winsA = 0; winsB = 0;
             }
             currentSets.push(set);
             if (set.vencedor === scrim.tAId) winsA++;
             else if (set.vencedor === scrim.tBId) winsB++;
-
             if (winsA === 2 || winsB === 2) {
-                fecharRound(currentSets);
-                currentSets = []; winsA = 0; winsB = 0;
+                fecharRound(currentSets); currentSets = []; winsA = 0; winsB = 0;
             }
         });
-        if (currentSets.length > 0) fecharRound(currentSets);
-
+        if (currentSets.length) fecharRound(currentSets);
         scrim.roundsMD3 = roundsMD3;
         scrim.scoreA = scoreScrimA;
         scrim.scoreB = scoreScrimB;
     });
 
-    scrims = scrims.filter(s => s.roundsMD3.length > 0).reverse();
-    return { dadosCondensados: dadosMD3Condensados, scrimsMD3: scrims };
+    return {
+        dadosCondensados: dadosMD3Condensados,
+        scrimsMD3: scrims.filter(s => s.roundsMD3.length > 0).reverse()
+    };
 }
-
 
 function processarDadosGlobais() {
     atualizarRostersAtuais();
@@ -712,7 +745,7 @@ function processarDadosGlobais() {
             if(dia !== 'todos') mD = p[0] === dia;
         }
         if(tipo !== 'todos') mT = (row.tipo === tipo);
-        return mA && mM && mD && mT && isTimeDaRegiaoAtual(row.id_time);
+        return mA && mM && mD && mT;
     };
 
     let dadosRaw = dadosBrutos.filter(filterFn);
