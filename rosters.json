@@ -440,11 +440,20 @@
     ]
   },
   "#88Y8UGPG": {
-    "nome": "Rup",
+    "nome": "TLF | Rup",
     "id_time": "TLF",
     "nome_time": "TLF",
     "regiao": "EMEA",
-    "jogadores": []
+    "jogadores": [
+      {
+        "tag": "#29VRJU08C",
+        "nome": "SK | Yoko"
+      },
+      {
+        "tag": "#2208QGGGL",
+        "nome": "CGN|Dompe"
+      }
+    ]
   },
   "#90CUVVL2R": {
     "nome": "Biso🍥",
@@ -556,12 +565,12 @@
     "regiao": "EMEA",
     "jogadores": [
       {
-        "tag": "#Q808R2CV",
-        "nome": "CGN|Nes"
+        "tag": "#88Y8UGPG",
+        "nome": "TLF | Rup"
       },
       {
-        "tag": "#20L88L2J",
-        "nome": "Code: LeNain"
+        "tag": "#29VRJU08C",
+        "nome": "SK | Yoko"
       }
     ]
   },
@@ -678,12 +687,12 @@
     "regiao": "EA",
     "jogadores": [
       {
-        "tag": "#PJ80QPVL2",
-        "nome": "AXIS|不死鳥"
-      },
-      {
         "tag": "#80YVJGRY",
         "nome": "INS|Wahochi"
+      },
+      {
+        "tag": "#PJ80QPVL2",
+        "nome": "AXIS|不死鳥"
       }
     ]
   },
