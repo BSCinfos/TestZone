@@ -32,7 +32,7 @@
     ]
   },
   "#202GJJR28": {
-    "nome": "OCX | Doritos",
+    "nome": "BielNunezZ",
     "id_time": "OCX",
     "nome_time": "OCX DIVISION",
     "regiao": "SA",
@@ -42,8 +42,8 @@
         "nome": "FUT|Pekka"
       },
       {
-        "tag": "#GGUQCG0G",
-        "nome": "LOUD|KaioDog"
+        "tag": "#9Q22C88V8",
+        "nome": "Bielz"
       }
     ]
   },
@@ -77,12 +77,12 @@
     "regiao": "SA",
     "jogadores": [
       {
-        "tag": "#2UQCCG92VG",
-        "nome": "Lipizin ↯"
+        "tag": "#PLJ8VQY2C",
+        "nome": "Suki Mah"
       },
       {
-        "tag": "#JQ8LLLY",
-        "nome": "LOUD|FireCrow"
+        "tag": "#2UQCCG92VG",
+        "nome": "Lipizin ↯"
       }
     ]
   },
@@ -109,12 +109,12 @@
     "regiao": "SA",
     "jogadores": [
       {
-        "tag": "#PU2QQLUVY",
-        "nome": "Starr Kai ✰"
-      },
-      {
         "tag": "#GJPVYUQG",
         "nome": "Deykon"
+      },
+      {
+        "tag": "#PU2QQLUVY",
+        "nome": "Starr Kai ✰"
       }
     ]
   },
@@ -251,7 +251,16 @@
     "id_time": "FA",
     "nome_time": "F/A",
     "regiao": "SA",
-    "jogadores": []
+    "jogadores": [
+      {
+        "tag": "#YYYQQU2YU",
+        "nome": "TierBØT"
+      },
+      {
+        "tag": "#8GJ9RJLJC",
+        "nome": "Tom Holland"
+      }
+    ]
   },
   "#LVRRYPV": {
     "nome": "KDS|bobby",
