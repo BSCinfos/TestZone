@@ -576,12 +576,12 @@
     "regiao": "EMEA",
     "jogadores": [
       {
-        "tag": "#88Y8UGPG",
-        "nome": "TLF | Rup"
-      },
-      {
         "tag": "#29VRJU08C",
         "nome": "SK | Yoko"
+      },
+      {
+        "tag": "#88Y8UGPG",
+        "nome": "TLF | Rup"
       }
     ]
   },
@@ -801,12 +801,12 @@
     "regiao": "CN",
     "jogadores": [
       {
-        "tag": "#2CYGJL9G2U",
-        "nome": "Raw"
-      },
-      {
         "tag": "#PGUPVR0J",
         "nome": "Ash 🦁"
+      },
+      {
+        "tag": "#2CYGJL9G2U",
+        "nome": "Raw"
       }
     ]
   }
