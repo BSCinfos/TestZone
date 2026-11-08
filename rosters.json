@@ -682,11 +682,20 @@
     "jogadores": []
   },
   "#LJ0288PRG": {
-    "nome": "Terry",
+    "nome": "TERRY",
     "id_time": "AXIS",
     "nome_time": "AXIS",
     "regiao": "EA",
-    "jogadores": []
+    "jogadores": [
+      {
+        "tag": "#2VG9J0PPU9",
+        "nome": "🩵타타타비🩵"
+      },
+      {
+        "tag": "#2CVQY988L",
+        "nome": "Mikasa 🤍 Eren"
+      }
+    ]
   },
   "#82CJYJPG2": {
     "nome": "RVL|Yutapin",
